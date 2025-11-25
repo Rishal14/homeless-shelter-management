@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelter Occupancy Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Homeless Shelter Occupancy Prediction</h1>
+        </header>
+
+        <!-- Dashboard Stats -->
+        <section class="dashboard">
+            <div class="card">
+                <h3>Total Shelters</h3>
+                <p>{{ total_shelters }}</p>
+            </div>
+            <div class="card">
+                <h3>Avg Occupancy Rate</h3>
+                <p>{{ avg_occupancy }}%</p>
+            </div>
+            <div class="card">
+                <h3>Total Records</h3>
+                <p>{{ total_records }}</p>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <h2>Shelter Locations</h2>
+            <div id="map" style="height: 400px; width: 100%; border-radius: 8px; z-index: 1;"></div>
+        </section>
+
+        <!-- Shelters List -->
+        <section class="shelters-section">
+            <h2>Shelters</h2>
+            <ul class="shelter-list">
+                {% for shelter in shelters_list %}
+                <li><a href="{{ url_for('shelter_detail', shelter_name=shelter) }}">{{ shelter }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <!-- Chart -->
+        <section class="chart-section">
+            <h2>Occupancy Trend (Recent)</h2>
+            <canvas id="occupancyChart"></canvas>
+        </section>
+
+        <!-- Upload Section -->
+        <section class="upload-section">
+            <h2>Predict Occupancy</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".csv" required>
+                <button type="submit">Upload & Predict</button>
+            </form>
+        </section>
+
+        <!-- Prediction Results -->
+        {% if preview_data %}
+        <section class="results-section">
+            <h2>Prediction Results (Preview)</h2>
+
+            {% if accuracy_report %}
+            <div class="accuracy-card"
+                style="background: #e8f8f5; padding: 15px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #2ecc71;">
+                <h3 style="margin-top: 0; color: #27ae60;">Accuracy Report</h3>
+                <p><strong>Mean Absolute Error (MAE):</strong> {{ accuracy_report.mae }} beds</p>
+                <p><strong>Accuracy Score:</strong> {{ accuracy_report.accuracy_score }}%</p>
+                <small>Accuracy Score is calculated as 1 - (Error / Capacity)</small>
+            </div>
+            {% endif %}
+
+            <a href="{{ url_for('download_file') }}" class="download-btn">Download Full Predictions</a>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            {% for key in preview_data[0].keys() %}
+                            <th>{{ key }}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in preview_data %}
+                        <tr>
+                            {% for value in row.values() %}
+                            <td>{{ value }}</td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- Recent Records Table (Only show if not predicting) -->
+        {% if not preview_data and recent_records %}
+        <section class="recent-records-section">
+            <h2>Recent Records</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            {% for key in recent_records[0].keys() %}
+                            <th>{{ key }}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in recent_records %}
+                        <tr>
+                            {% for value in row.values() %}
+                            <td>{{ value }}</td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        {% endif %}
+    </div>
+
+    <script>
+        // Leaflet Map Implementation
+        const shelterLocations = {{ shelter_locations | tojson }};
+        if (shelterLocations && shelterLocations.length > 0) {
+            // Center map on India (approx) or the first shelter
+            const map = L.map('map').setView([20.5937, 78.9629], 5);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            shelterLocations.forEach(shelter => {
+                L.marker([shelter.lat, shelter.lon])
+                    .addTo(map)
+                    .bindPopup(`<b>${shelter.name}</b><br>${shelter.city}<br><a href="/shelter/${encodeURIComponent(shelter.name)}">View Details</a>`);
+            });
+        }
+
+        // Chart.js implementation
+        const chartData = {{ chart_data | tojson }};
+        if (chartData && chartData.length > 0) {
+            const ctx = document.getElementById('occupancyChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: chartData.map(d => d.date),
+                    datasets: [{
+                        label: 'Occupancy Rate (%)',
+                        data: chartData.map(d => d.occupancy_rate),
+                        borderColor: '#3498db',
+                        tension: 0.1,
+                        fill: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ shelter_name }} - Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>{{ shelter_name }}</h1>
+            <a href="/" class="back-link">← Back to Dashboard</a>
+        </header>
+
+        <!-- Shelter Stats -->
+        <section class="dashboard">
+            <div class="card">
+                <h3>Total Capacity</h3>
+                <p>{{ capacity }}</p>
+            </div>
+            <div class="card">
+                <h3>Avg Occupancy Rate</h3>
+                <p>{{ avg_occupancy }}%</p>
+            </div>
+            {% if weather %}
+            <div class="card" style="background: #eaf2f8;">
+                <h3>Current Weather ({{ city }})</h3>
+                <p>{{ weather.temperature }}°C</p>
+                <small>Wind: {{ weather.windspeed }} km/h</small>
+            </div>
+            {% endif %}
+
+            <!-- Live Prediction Card -->
+            <div class="card" style="background: #fdf2e9; border: 1px solid #e67e22;">
+                <h3>Live Prediction</h3>
+                <p id="prediction-result">--</p>
+                <button onclick="predictLive()"
+                    style="background: #d35400; color: white; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; width: 100%; margin-top: 5px;">Predict
+                    Now</button>
+            </div>
+
+            <!-- Occupancy Management Card -->
+            <div class="card" style="background: #e8daef; border: 1px solid #8e44ad;">
+                <h3>Occupancy Management</h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <button onclick="updateOccupancy('check_in')"
+                        style="background: #27ae60; color: white; border: none; padding: 10px; border-radius: 50%; width: 40px; height: 40px; font-size: 20px; cursor: pointer;">+</button>
+                    <div style="text-align: center;">
+                        <span style="font-size: 12px; color: #555;">Occupied</span><br>
+                        <strong id="occupied-count" style="font-size: 24px;">{{ recent_records[0]['occupied_beds'] if
+                            recent_records else 0 }}</strong>
+                    </div>
+                    <div style="text-align: center;">
+                        <span style="font-size: 12px; color: #555;">Available</span><br>
+                        <strong id="available-count" style="font-size: 24px;">{{ recent_records[0]['available_beds'] if
+                            recent_records else 0 }}</strong>
+                    </div>
+                    <button onclick="updateOccupancy('check_out')"
+                        style="background: #c0392b; color: white; border: none; padding: 10px; border-radius: 50%; width: 40px; height: 40px; font-size: 20px; cursor: pointer;">-</button>
+                </div>
+                <p id="update-status" style="font-size: 12px; text-align: center; color: #555;">Click + to Check In, -
+                    to Check Out</p>
+            </div>
+        </section>
+
+        <!-- Chart -->
+        <section class="chart-section">
+            <h2>Occupancy Trend</h2>
+            <canvas id="shelterChart"></canvas>
+        </section>
+
+        <!-- Recent Records Table -->
+        <section class="recent-records-section">
+            <h2>Recent Records</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            {% if recent_records %}
+                            {% for key in recent_records[0].keys() %}
+                            <th>{{ key }}</th>
+                            {% endfor %}
+                            {% endif %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in recent_records %}
+                        <tr>
+                            {% for value in row.values() %}
+                            <td>{{ value }}</td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        async function updateOccupancy(action) {
+            const statusElement = document.getElementById('update-status');
+            statusElement.innerText = "Updating...";
+
+            try {
+                const response = await fetch(`/api/${action}/{{ shelter_name }}`, { method: 'POST' });
+                const data = await response.json();
+
+                if (response.ok) {
+                    document.getElementById('occupied-count').innerText = data.occupied_beds;
+                    document.getElementById('available-count').innerText = data.available_beds;
+                    statusElement.innerText = "Updated successfully!";
+                    setTimeout(() => statusElement.innerText = "Click + to Check In, - to Check Out", 2000);
+                } else {
+                    statusElement.innerText = "Error: " + (data.error || "Unknown");
+                }
+            } catch (error) {
+                statusElement.innerText = "Error: " + error.message;
+            }
+        }
+
+        async function predictLive() {
+            const button = document.querySelector('button[onclick="predictLive()"]');
+            const resultElement = document.getElementById('prediction-result');
+
+            button.disabled = true;
+            button.innerText = "Predicting...";
+            resultElement.innerText = "Loading...";
+
+            try {
+                const response = await fetch(`/predict_live/{{ shelter_name }}`);
+                const data = await response.json();
+
+                if (response.ok) {
+                    resultElement.innerHTML = `<strong>${data.predicted_occupied_beds} beds</strong><br><small>${data.predicted_occupancy_rate}% Occupancy</small>`;
+                } else {
+                    resultElement.innerText = "Error: " + (data.error || "Unknown");
+                }
+            } catch (error) {
+                resultElement.innerText = "Error: " + error.message;
+            } finally {
+                button.disabled = false;
+                button.innerText = "Predict Now";
+            }
+        }
+
+        // Chart.js implementation
+        const chartData = {{ chart_data | tojson }};
+        if (chartData && chartData.length > 0) {
+            const ctx = document.getElementById('shelterChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: chartData.map(d => d.date),
+                    datasets: [{
+                        label: 'Occupancy Rate (%)',
+                        data: chartData.map(d => d.occupancy_rate),
+                        borderColor: '#e74c3c',
+                        tension: 0.1,
+                        fill: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

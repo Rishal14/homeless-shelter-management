@@ -1,0 +1,6 @@
+total_capacity,average_age,male_percentage,female_percentage,temperature,rainfall_mm,area_population,staff_count,children_count,senior_citizens_count,new_admissions,exits_today,emergency_cases,unemployment_rate,crime_rate,season,city,funding_level,day_of_week,date,shelter_name
+206,60,55,45,19.6,78.5,3606210,21,61,0,11,11,0,4.6,3.7,Monsoon,Bangalore,Medium,Sunday,29-06-2025,Umeed Ki Kiran
+97,38,53,47,28.5,74.1,2537111,11,46,55,27,19,9,10.1,13.7,Monsoon,Ahmedabad,High,Saturday,20-07-2024,Premalaya Home
+134,56,41,59,36.8,271.9,2059606,47,33,3,14,6,6,13.2,3.8,Autumn,Chennai,Low,Saturday,05-10-2024,Jeevan Jyoti Shelter
+162,36,53,47,33.3,74.9,1609757,54,16,28,7,7,1,16.1,1.4,Summer,Kolkata,High,Thursday,27-03-2025,Sahara Vikas Kendra
+121,48,53,47,35.2,81.6,4649409,5,53,56,6,8,1,14.2,1.3,Winter,Mumbai,High,Wednesday,17-01-2024,Umeed Ki Kiran

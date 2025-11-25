@@ -1,0 +1,1001 @@
+id,date,shelter_name,city,state,total_capacity,occupied_beds,available_beds,occupancy_rate,average_age,male_percentage,female_percentage,season,notes,day_of_week,month,is_holiday,temperature,rainfall_mm,area_population,staff_count,funding_level,food_availability_score,medical_facilities_available,children_count,senior_citizens_count,new_admissions,exits_today,emergency_cases,unemployment_rate,crime_rate,covid_cases_city,public_event_impact
+1,29-06-2025,Umeed Ki Kiran,Bangalore,KA,206,149,57,72.3,60,55,45,Monsoon,New admissions pending,Sunday,6,0,19.6,78.5,3606210,21,Medium,9,1,61,0,11,11,0,4.6,3.7,367,0
+2,20-07-2024,Premalaya Home,Ahmedabad,GJ,97,90,7,92.8,38,53,47,Monsoon,High demand,Saturday,7,1,28.5,74.1,2537111,11,High,4,0,46,55,27,19,9,10.1,13.7,324,1
+3,05-10-2024,Jeevan Jyoti Shelter,Chennai,TN,134,80,54,59.7,56,41,59,Autumn,Needs maintenance,Saturday,10,0,36.8,271.9,2059606,47,Low,8,0,33,3,14,6,6,13.2,3.8,355,1
+4,27-03-2025,Sahara Vikas Kendra,Kolkata,WB,162,102,60,63.0,36,53,47,Summer,Needs maintenance,Thursday,3,0,33.3,74.9,1609757,54,High,7,0,16,28,7,7,1,16.1,1.4,89,0
+5,17-01-2024,Umeed Ki Kiran,Mumbai,MH,121,107,14,88.4,48,53,47,Winter,Normal,Wednesday,1,0,35.2,81.6,4649409,5,High,7,0,53,56,6,8,1,14.2,1.3,41,0
+6,23-07-2025,Karuna Bhavan,Jaipur,RJ,225,176,49,78.2,66,51,49,Monsoon,Normal,Wednesday,7,0,31.5,227.8,3482207,39,High,8,0,75,0,13,13,7,17.1,9.7,364,1
+7,04-12-2023,Asha Deep Shelter,Delhi,DL,226,154,72,68.1,54,55,45,Winter,Needs maintenance,Monday,12,0,32.3,134.9,4517890,36,High,1,0,39,42,22,4,9,3.8,10.3,158,0
+8,04-01-2024,Karuna Bhavan,Delhi,DL,176,143,33,81.2,24,55,45,Winter,Excellent condition,Thursday,1,0,36.2,233.0,1931297,40,High,5,0,18,49,18,18,9,3.2,5.4,201,0
+9,26-12-2023,Apna Ghar Ashram,Ahmedabad,GJ,182,128,54,70.3,27,45,55,Winter,Excellent condition,Tuesday,12,0,21.2,19.6,873759,17,Low,2,0,66,45,13,15,9,12.9,5.5,365,1
+10,22-02-2025,Apna Ghar Ashram,Pune,MH,86,72,14,83.7,52,49,51,Winter,Needs maintenance,Saturday,2,0,27.2,146.3,3080855,10,Medium,2,1,52,21,21,11,4,7.3,5.8,281,1
+11,19-09-2024,Karuna Bhavan,Chennai,TN,135,128,7,94.8,66,59,41,Monsoon,Needs maintenance,Thursday,9,0,20.5,10.1,4579275,18,Medium,1,1,63,10,12,3,9,6.8,10.5,469,1
+12,22-06-2024,Manav Seva Sangam,Bangalore,KA,87,80,7,92.0,31,43,57,Monsoon,Excellent condition,Saturday,6,1,39.7,18.8,181184,41,Medium,5,0,46,9,28,7,1,8.0,1.8,331,1
+13,14-10-2024,Jeevan Jyoti Shelter,Kolkata,WB,124,94,30,75.8,67,43,57,Autumn,No issues reported,Monday,10,0,38.6,271.9,1185627,52,Medium,2,0,5,58,20,6,4,7.0,14.0,287,1
+14,22-05-2024,Daya Sagar,Surat,GJ,89,56,33,62.9,31,40,60,Summer,Needs maintenance,Wednesday,5,0,16.0,41.8,2297805,19,Low,4,0,15,16,0,14,7,10.7,4.1,90,0
+15,19-04-2025,Umeed Ki Kiran,Kolkata,WB,107,62,45,57.9,22,51,49,Summer,Needs maintenance,Saturday,4,0,32.6,159.7,295300,51,Low,3,1,71,35,26,5,5,9.6,15.0,480,1
+16,14-09-2024,Apna Ghar Ashram,Jaipur,RJ,140,136,4,97.1,40,53,47,Monsoon,No issues reported,Saturday,9,0,38.1,123.3,634010,8,Low,3,1,17,55,18,4,2,10.7,3.4,124,1
+17,06-04-2024,Jeevan Jyoti Shelter,Chennai,TN,270,208,62,77.0,18,47,53,Summer,No issues reported,Saturday,4,0,19.5,104.2,142036,44,High,2,0,51,46,28,13,7,13.1,11.8,125,1
+18,03-09-2025,Umeed Ki Kiran,Surat,GJ,57,54,3,94.7,65,40,60,Monsoon,High demand,Wednesday,9,0,29.2,270.0,903392,20,High,6,0,47,25,27,12,8,8.8,4.1,51,0
+19,07-04-2025,Sahara Vikas Kendra,Surat,GJ,270,212,58,78.5,45,48,52,Summer,New admissions pending,Monday,4,0,37.9,6.5,331696,32,High,2,1,42,47,0,9,4,6.8,2.1,403,1
+20,16-08-2025,Sahara Vikas Kendra,Chennai,TN,90,80,10,88.9,42,41,59,Monsoon,Normal,Saturday,8,0,15.8,199.1,3712340,20,Medium,8,1,38,20,3,17,1,5.5,13.2,102,1
+21,24-11-2024,Umeed Ki Kiran,Kolkata,WB,97,82,15,84.5,27,57,43,Autumn,Excellent condition,Sunday,11,0,32.4,289.0,1240456,8,High,8,0,48,12,9,3,1,8.2,13.0,360,0
+22,28-09-2024,Sahara Vikas Kendra,Mumbai,MH,168,125,43,74.4,42,52,48,Monsoon,New admissions pending,Saturday,9,0,22.4,168.1,4479723,49,Medium,5,0,11,8,2,7,6,14.1,6.6,423,1
+23,29-05-2025,Jeevan Jyoti Shelter,Delhi,DL,72,52,20,72.2,39,40,60,Summer,Excellent condition,Thursday,5,0,38.1,281.0,1040029,30,High,7,0,9,10,26,10,0,14.4,10.8,186,1
+24,03-03-2024,Jeevan Jyoti Shelter,Bangalore,KA,214,166,48,77.6,24,51,49,Summer,New admissions pending,Sunday,3,0,39.3,15.7,204692,32,Medium,4,0,70,10,19,16,9,13.0,8.8,204,1
+25,28-10-2024,Sahara Vikas Kendra,Surat,GJ,282,214,68,75.9,44,52,48,Autumn,Excellent condition,Monday,10,0,38.6,125.6,4507335,36,High,1,1,54,5,8,17,1,6.5,12.9,13,0
+26,13-01-2025,Premalaya Home,Jaipur,RJ,190,162,28,85.3,66,47,53,Winter,No issues reported,Monday,1,0,26.9,78.0,2441098,49,High,2,1,0,0,2,10,9,11.8,5.4,427,0
+27,28-03-2025,Karuna Bhavan,Delhi,DL,199,121,78,60.8,31,48,52,Summer,Needs maintenance,Friday,3,0,36.6,219.2,1707888,6,Low,4,0,48,53,27,15,3,11.6,8.3,103,1
+28,18-02-2025,Sahara Vikas Kendra,Ahmedabad,GJ,170,116,54,68.2,39,59,41,Winter,No issues reported,Tuesday,2,0,36.1,294.4,2635917,35,High,1,0,35,5,5,11,0,10.3,7.8,116,1
+29,10-11-2024,Navjeevan Griha,Delhi,DL,292,221,71,75.7,46,58,42,Autumn,Excellent condition,Sunday,11,0,23.0,77.0,4887231,7,High,8,0,20,12,5,12,3,11.2,6.0,469,1
+30,30-12-2023,Karuna Bhavan,Pune,MH,211,191,20,90.5,27,47,53,Winter,No issues reported,Saturday,12,0,35.7,196.3,1874964,58,Low,9,1,36,21,22,15,9,10.4,13.5,465,0
+31,16-06-2025,Karuna Bhavan,Pune,MH,68,65,3,95.6,28,50,50,Monsoon,Normal,Monday,6,0,15.9,59.4,1438509,12,Medium,4,0,23,55,24,0,4,11.5,3.3,303,0
+32,30-07-2024,Daya Sagar,Ahmedabad,GJ,276,197,79,71.4,20,57,43,Monsoon,No issues reported,Tuesday,7,0,29.9,169.6,3804542,28,Low,3,0,54,30,11,15,8,13.7,3.1,92,0
+33,22-11-2023,Jeevan Jyoti Shelter,Bangalore,KA,258,183,75,70.9,20,54,46,Autumn,Needs maintenance,Wednesday,11,0,20.8,139.2,2548214,19,Low,2,0,24,21,22,14,0,4.6,9.1,426,0
+34,07-10-2024,Premalaya Home,Hyderabad,TS,53,46,7,86.8,53,52,48,Autumn,High demand,Monday,10,1,18.0,291.6,4728083,47,Medium,5,1,6,36,29,5,4,14.2,10.2,143,0
+35,03-04-2024,Premalaya Home,Mumbai,MH,109,55,54,50.5,39,45,55,Summer,High demand,Wednesday,4,1,16.9,182.6,4814812,35,High,3,0,70,46,0,11,1,5.0,3.7,109,0
+36,09-06-2024,Sahara Vikas Kendra,Mumbai,MH,274,254,20,92.7,20,48,52,Monsoon,High demand,Sunday,6,0,32.4,104.9,4623574,13,Medium,7,1,70,26,15,7,8,4.0,6.5,162,1
+37,24-05-2025,Sahara Vikas Kendra,Delhi,DL,251,157,94,62.5,57,58,42,Summer,Needs maintenance,Saturday,5,0,23.5,34.2,4158502,43,High,6,0,23,49,23,6,5,17.6,14.3,52,0
+38,05-03-2025,Manav Seva Sangam,Ahmedabad,GJ,56,40,16,71.4,38,50,50,Summer,No issues reported,Wednesday,3,0,33.1,45.4,1618146,49,High,1,0,10,51,4,1,1,17.4,4.5,417,1
+39,03-03-2024,Daya Sagar,Hyderabad,TS,254,177,77,69.7,66,41,59,Summer,New admissions pending,Sunday,3,0,16.6,67.6,533455,6,Medium,8,0,72,13,8,11,2,3.9,10.4,2,0
+40,09-04-2025,Jeevan Jyoti Shelter,Ahmedabad,GJ,119,75,44,63.0,37,47,53,Summer,Excellent condition,Wednesday,4,0,22.9,75.3,4086405,12,Low,2,1,11,46,9,13,7,9.6,11.4,67,1
+41,17-09-2024,Premalaya Home,Surat,GJ,108,79,29,73.1,40,44,56,Monsoon,No issues reported,Tuesday,9,0,28.5,255.2,597219,11,Medium,5,0,34,57,12,15,0,5.8,7.3,245,0
+42,01-11-2024,Sahara Vikas Kendra,Chennai,TN,56,44,12,78.6,42,43,57,Autumn,Excellent condition,Friday,11,0,34.8,168.4,2236268,48,High,9,0,62,4,14,10,2,10.3,14.1,388,1
+43,26-04-2024,Daya Sagar,Kolkata,WB,267,153,114,57.3,54,48,52,Summer,New admissions pending,Friday,4,0,23.0,157.0,4495975,55,Medium,8,1,67,57,11,19,9,15.5,11.3,137,1
+44,05-02-2025,Karuna Bhavan,Pune,MH,115,102,13,88.7,50,42,58,Winter,High demand,Wednesday,2,1,30.6,34.4,4037793,43,Medium,2,1,56,35,4,8,0,17.3,7.4,307,1
+45,28-03-2025,Navjeevan Griha,Mumbai,MH,196,137,59,69.9,22,59,41,Summer,New admissions pending,Friday,3,0,37.1,258.0,1674777,46,High,9,1,12,31,4,9,7,12.5,9.0,412,0
+46,20-01-2025,Navjeevan Griha,Pune,MH,79,69,10,87.3,54,55,45,Winter,New admissions pending,Monday,1,0,30.4,216.8,2921656,20,Low,5,0,22,33,27,16,0,8.3,10.7,351,0
+47,25-05-2024,Sahara Vikas Kendra,Jaipur,RJ,162,108,54,66.7,26,42,58,Summer,New admissions pending,Saturday,5,0,20.8,20.3,4758569,39,Medium,6,1,38,6,27,11,4,12.0,9.3,286,0
+48,29-11-2023,Jeevan Jyoti Shelter,Delhi,DL,60,36,24,60.0,66,52,48,Autumn,Excellent condition,Wednesday,11,0,15.6,212.4,3905933,34,High,3,0,79,41,29,5,3,7.7,13.3,65,1
+49,26-09-2023,Asha Deep Shelter,Kolkata,WB,187,186,1,99.5,24,54,46,Monsoon,Needs maintenance,Tuesday,9,0,36.8,163.1,4872684,14,High,3,1,11,47,17,18,6,16.6,6.0,459,1
+50,06-09-2025,Navjeevan Griha,Pune,MH,101,80,21,79.2,56,45,55,Monsoon,High demand,Saturday,9,0,15.5,24.5,2376729,42,Medium,8,1,33,9,11,10,4,16.1,5.2,346,1
+51,15-01-2025,Manav Seva Sangam,Chennai,TN,226,186,40,82.3,56,43,57,Winter,Normal,Wednesday,1,1,36.9,137.5,3957129,22,Low,2,1,70,49,26,8,7,11.4,4.0,324,0
+52,12-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,42,8,84.0,37,55,45,Monsoon,Normal,Friday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+53,12-03-2024,Asha Deep Shelter,Delhi,DL,175,105,70,60.0,52,52,48,Summer,Normal,Tuesday,3,1,38.5,49.7,1947883,9,Low,5,0,30,29,25,15,4,7.4,1.6,154,1
+54,30-05-2025,Apna Ghar Ashram,Mumbai,MH,57,39,18,68.4,69,58,42,Summer,Excellent condition,Friday,5,0,35.0,283.7,3519992,57,Low,6,0,61,20,24,19,3,3.5,13.2,86,0
+55,30-12-2023,Manav Seva Sangam,Surat,GJ,219,204,15,93.2,44,59,41,Winter,Normal,Saturday,12,0,39.9,255.0,1605537,33,Low,2,0,12,59,6,15,2,15.2,10.5,32,0
+56,11-06-2025,Manav Seva Sangam,Jaipur,RJ,198,168,30,84.8,58,49,51,Monsoon,Needs maintenance,Wednesday,6,1,23.8,200.7,702755,43,Low,5,0,30,12,16,5,4,9.8,10.2,67,0
+57,20-03-2025,Karuna Bhavan,Chennai,TN,119,69,50,58.0,33,57,43,Summer,Excellent condition,Thursday,3,0,34.2,138.7,3716344,38,Medium,7,0,1,0,18,4,9,7.9,9.6,186,0
+58,06-10-2023,Umeed Ki Kiran,Delhi,DL,267,236,31,88.4,27,43,57,Autumn,Excellent condition,Friday,10,0,25.0,123.5,3576362,47,High,8,0,14,0,27,3,2,10.1,12.9,191,1
+59,25-08-2025,Karuna Bhavan,Kolkata,WB,70,69,1,98.6,68,48,52,Monsoon,Normal,Monday,8,0,27.0,195.3,793088,49,High,7,0,56,46,17,1,7,15.3,7.7,212,0
+60,06-06-2024,Jeevan Jyoti Shelter,Mumbai,MH,156,150,6,96.2,27,57,43,Monsoon,New admissions pending,Thursday,6,0,30.7,163.6,4894747,27,High,8,0,74,32,0,5,2,4.9,13.2,87,0
+61,17-04-2025,Premalaya Home,Bangalore,KA,259,196,63,75.7,67,48,52,Summer,Needs maintenance,Thursday,4,0,36.8,18.7,2645834,9,High,9,1,33,37,24,8,0,15.9,6.0,427,1
+62,25-10-2024,Premalaya Home,Mumbai,MH,88,53,35,60.2,68,48,52,Autumn,New admissions pending,Friday,10,0,39.6,153.8,109778,34,High,5,1,67,24,23,16,8,16.5,14.0,350,1
+63,02-08-2024,Karuna Bhavan,Pune,MH,173,146,27,84.4,33,41,59,Monsoon,No issues reported,Friday,8,0,34.2,241.9,1144409,10,High,5,0,74,25,4,13,8,17.2,10.8,107,0
+64,03-02-2024,Daya Sagar,Jaipur,RJ,111,104,7,93.7,58,44,56,Winter,Normal,Saturday,2,0,25.4,137.8,2703528,50,Medium,4,0,28,12,26,6,5,9.0,4.6,239,0
+65,18-04-2024,Karuna Bhavan,Delhi,DL,216,170,46,78.7,53,43,57,Summer,Normal,Thursday,4,0,25.5,15.6,4154399,48,Low,9,0,65,58,27,18,9,6.3,8.9,215,0
+66,01-09-2025,Jeevan Jyoti Shelter,Bangalore,KA,111,107,4,96.4,68,53,47,Monsoon,New admissions pending,Monday,9,0,33.4,235.9,1563083,8,High,5,0,15,27,1,0,0,8.6,8.5,176,0
+67,30-08-2024,Jeevan Jyoti Shelter,Jaipur,RJ,221,206,15,93.2,18,58,42,Monsoon,Normal,Friday,8,0,21.0,60.4,3392103,33,Medium,2,1,38,32,0,19,7,8.0,2.9,52,1
+68,18-06-2025,Karuna Bhavan,Hyderabad,TS,261,193,68,73.9,51,50,50,Monsoon,Excellent condition,Wednesday,6,0,17.8,77.6,2223513,27,High,8,1,76,36,6,14,1,5.6,9.3,329,1
+69,16-07-2025,Umeed Ki Kiran,Bangalore,KA,207,148,59,71.5,26,46,54,Monsoon,High demand,Wednesday,7,0,23.9,49.4,1448949,10,High,7,0,36,40,28,17,8,12.1,5.4,48,1
+70,26-02-2024,Navjeevan Griha,Hyderabad,TS,124,104,20,83.9,23,50,50,Winter,Excellent condition,Monday,2,1,22.2,99.1,572154,36,Low,8,1,20,29,10,2,7,10.1,1.7,368,0
+71,23-01-2024,Jeevan Jyoti Shelter,Chennai,TN,292,226,66,77.4,30,60,40,Winter,Needs maintenance,Tuesday,1,0,22.4,227.0,3518582,46,Low,3,1,43,56,10,17,2,16.0,14.3,113,0
+72,29-06-2025,Navjeevan Griha,Kolkata,WB,259,252,7,97.3,18,52,48,Monsoon,Needs maintenance,Sunday,6,0,20.8,155.8,1061930,22,Low,4,0,18,48,17,1,4,3.5,10.0,449,1
+73,24-01-2024,Sahara Vikas Kendra,Jaipur,RJ,256,201,55,78.5,29,57,43,Winter,Normal,Wednesday,1,0,16.1,61.5,1129525,19,High,5,0,70,47,16,9,8,12.7,13.3,94,0
+74,02-10-2023,Navjeevan Griha,Ahmedabad,GJ,188,132,56,70.2,64,60,40,Autumn,High demand,Monday,10,0,15.4,263.3,1835818,44,High,6,0,7,7,1,10,0,14.4,10.5,446,1
+75,27-01-2025,Sahara Vikas Kendra,Surat,GJ,102,82,20,80.4,32,43,57,Winter,No issues reported,Monday,1,0,39.7,263.9,3001720,36,High,1,0,76,48,6,2,8,14.4,6.0,24,1
+76,19-12-2024,Premalaya Home,Chennai,TN,102,94,8,92.2,56,40,60,Winter,Needs maintenance,Thursday,12,0,25.7,261.2,1210117,13,Low,4,1,65,46,6,6,3,16.3,8.2,131,1
+77,19-12-2023,Premalaya Home,Mumbai,MH,294,266,28,90.5,39,45,55,Winter,Excellent condition,Tuesday,12,0,24.6,71.6,2132963,41,Medium,5,0,40,55,9,7,3,13.9,10.5,178,1
+78,13-08-2024,Daya Sagar,Delhi,DL,187,142,45,75.9,56,48,52,Monsoon,Excellent condition,Tuesday,8,0,32.0,135.4,4306146,14,High,7,1,74,0,21,18,3,16.9,14.4,394,1
+79,18-08-2025,Asha Deep Shelter,Jaipur,RJ,59,46,13,78.0,66,50,50,Monsoon,Normal,Monday,8,0,20.5,295.5,2635171,24,High,5,0,69,11,20,17,9,8.0,4.6,144,1
+80,15-05-2024,Navjeevan Griha,Surat,GJ,142,77,65,54.2,39,60,40,Summer,Normal,Wednesday,5,0,38.7,231.6,1331506,10,High,1,1,60,4,2,12,8,10.5,13.2,363,1
+81,26-08-2024,Daya Sagar,Surat,GJ,273,203,70,74.4,20,41,59,Monsoon,New admissions pending,Monday,8,0,34.7,8.2,339134,52,Medium,7,0,25,23,29,12,5,3.2,13.9,449,0
+82,20-03-2024,Daya Sagar,Kolkata,WB,279,155,124,55.6,47,52,48,Summer,New admissions pending,Wednesday,3,0,17.2,19.6,2818705,7,High,8,0,70,5,11,18,7,3.1,10.4,197,1
+83,27-03-2025,Premalaya Home,Bangalore,KA,132,95,37,72.0,34,50,50,Summer,No issues reported,Thursday,3,0,25.4,139.2,4374660,46,Medium,7,1,69,24,2,11,3,6.6,14.0,456,1
+84,08-06-2025,Manav Seva Sangam,Bangalore,KA,258,218,40,84.5,27,49,51,Monsoon,Normal,Sunday,6,0,37.0,272.8,2916069,15,High,4,1,28,0,10,16,2,4.5,6.6,324,0
+85,25-01-2025,Navjeevan Griha,Pune,MH,106,74,32,69.8,23,47,53,Winter,Needs maintenance,Saturday,1,0,38.6,161.6,787090,47,Medium,8,1,65,24,28,11,0,6.9,14.3,83,1
+86,30-08-2025,Asha Deep Shelter,Ahmedabad,GJ,220,197,23,89.5,68,55,45,Monsoon,Normal,Saturday,8,0,26.7,149.3,964565,21,High,5,0,18,0,11,12,9,5.7,10.8,156,0
+87,11-09-2024,Karuna Bhavan,Surat,GJ,110,94,16,85.5,54,47,53,Monsoon,New admissions pending,Wednesday,9,0,30.3,31.6,3885598,36,Low,9,1,67,31,24,11,6,3.4,1.6,84,1
+88,17-12-2024,Umeed Ki Kiran,Hyderabad,TS,152,108,44,71.1,32,42,58,Winter,Needs maintenance,Tuesday,12,0,19.2,197.0,1102425,8,Low,5,1,57,41,3,18,3,16.6,13.7,456,0
+89,25-12-2023,Asha Deep Shelter,Mumbai,MH,89,66,23,74.2,63,40,60,Winter,Excellent condition,Monday,12,0,39.8,246.6,827567,8,Low,1,1,69,41,24,13,7,3.1,7.8,475,0
+90,01-02-2024,Apna Ghar Ashram,Jaipur,RJ,178,149,29,83.7,37,40,60,Winter,No issues reported,Thursday,2,0,20.8,114.1,2766207,21,Low,9,1,56,2,15,6,2,14.0,7.4,252,0
+91,31-01-2025,Daya Sagar,Delhi,DL,194,141,53,72.7,28,57,43,Winter,Needs maintenance,Friday,1,0,38.6,232.7,1799736,45,High,5,1,36,48,19,12,0,5.3,8.9,374,1
+92,26-01-2025,Jeevan Jyoti Shelter,Pune,MH,180,163,17,90.6,62,60,40,Winter,No issues reported,Sunday,1,0,31.2,289.3,1620234,23,Low,6,1,60,18,17,5,4,16.7,3.1,71,0
+93,13-07-2025,Premalaya Home,Bangalore,KA,294,252,42,85.7,52,48,52,Monsoon,Normal,Sunday,7,0,30.2,61.1,101707,9,Medium,4,1,29,59,3,18,1,16.4,7.6,222,1
+94,10-09-2025,Umeed Ki Kiran,Bangalore,KA,148,144,4,97.3,59,53,47,Monsoon,Excellent condition,Wednesday,9,0,27.8,157.0,330833,36,Low,6,1,70,42,21,18,2,12.8,12.6,275,1
+95,01-05-2025,Sahara Vikas Kendra,Pune,MH,209,122,87,58.4,51,41,59,Summer,High demand,Thursday,5,0,20.8,86.1,3749100,26,Low,8,1,72,28,5,3,5,13.1,1.2,282,1
+96,07-11-2023,Navjeevan Griha,Ahmedabad,GJ,104,89,15,85.6,42,60,40,Autumn,No issues reported,Tuesday,11,0,19.4,237.9,1138963,10,Low,3,0,24,49,20,18,2,3.1,4.8,263,1
+97,09-08-2025,Manav Seva Sangam,Ahmedabad,GJ,257,254,3,98.8,63,56,44,Monsoon,Needs maintenance,Saturday,8,0,20.5,173.3,1927145,39,High,5,0,64,1,14,8,2,17.8,1.0,245,1
+98,16-09-2024,Jeevan Jyoti Shelter,Chennai,TN,76,59,17,77.6,53,44,56,Monsoon,No issues reported,Monday,9,0,19.7,190.4,2333785,26,Low,2,1,5,8,0,15,5,16.2,6.8,340,1
+99,14-11-2024,Manav Seva Sangam,Mumbai,MH,93,75,18,80.6,29,44,56,Autumn,No issues reported,Thursday,11,0,34.5,239.4,4044420,5,Medium,2,0,17,55,2,3,4,16.4,11.2,60,1
+100,21-12-2023,Sahara Vikas Kendra,Mumbai,MH,90,74,16,82.2,62,52,48,Winter,High demand,Thursday,12,0,23.8,118.8,884874,24,Low,7,0,9,16,4,5,9,12.9,12.2,411,0
+101,25-09-2024,Asha Deep Shelter,Mumbai,MH,129,104,25,80.6,28,58,42,Monsoon,No issues reported,Wednesday,9,0,16.4,274.5,939493,26,Low,6,1,10,59,21,7,8,8.2,14.2,470,1
+102,16-11-2024,Sahara Vikas Kendra,Jaipur,RJ,233,197,36,84.5,18,40,60,Autumn,Needs maintenance,Saturday,11,0,39.2,159.9,828799,52,Low,4,1,64,45,29,15,0,16.4,9.5,453,1
+103,01-02-2025,Sahara Vikas Kendra,Ahmedabad,GJ,111,89,22,80.2,22,53,47,Winter,New admissions pending,Saturday,2,0,37.1,47.4,3583716,59,Medium,5,1,76,35,16,4,2,7.4,4.6,258,0
+104,20-07-2024,Karuna Bhavan,Chennai,TN,248,194,54,78.2,43,53,47,Monsoon,New admissions pending,Saturday,7,0,38.2,208.8,3557447,15,Low,1,1,64,16,29,9,2,11.4,13.9,452,1
+105,13-09-2025,Premalaya Home,Delhi,DL,96,88,8,91.7,65,54,46,Monsoon,New admissions pending,Saturday,9,1,39.9,238.0,929459,17,Medium,7,1,51,48,13,12,5,4.5,11.9,456,0
+106,25-04-2025,Manav Seva Sangam,Ahmedabad,GJ,90,50,40,55.6,24,50,50,Summer,New admissions pending,Friday,4,0,19.3,95.0,2231533,46,Medium,8,1,66,11,8,13,7,16.8,9.0,6,0
+107,20-09-2023,Apna Ghar Ashram,Kolkata,WB,87,65,22,74.7,42,45,55,Monsoon,New admissions pending,Wednesday,9,0,24.9,257.2,1872744,7,Low,9,0,77,59,29,6,2,5.1,10.7,187,1
+108,01-06-2025,Karuna Bhavan,Jaipur,RJ,292,270,22,92.5,54,44,56,Monsoon,Excellent condition,Sunday,6,0,34.0,271.8,2341136,13,Medium,8,1,30,19,2,19,2,6.4,13.9,3,1
+109,29-02-2024,Karuna Bhavan,Jaipur,RJ,140,91,49,65.0,57,44,56,Winter,Excellent condition,Thursday,2,0,32.4,83.1,3691644,16,High,5,0,16,49,25,5,5,11.4,11.0,230,0
+110,19-04-2025,Jeevan Jyoti Shelter,Jaipur,RJ,110,72,38,65.5,58,42,58,Summer,Normal,Saturday,4,0,18.8,295.1,3893139,27,Low,3,1,54,2,12,6,7,14.5,6.2,132,1
+111,25-04-2025,Sahara Vikas Kendra,Jaipur,RJ,122,65,57,53.3,45,43,57,Summer,Needs maintenance,Friday,4,0,35.4,42.2,3143510,18,Low,9,1,35,42,2,4,5,12.3,11.0,394,0
+112,08-05-2024,Sahara Vikas Kendra,Surat,GJ,136,77,59,56.6,30,50,50,Summer,Excellent condition,Wednesday,5,0,20.6,60.6,4982400,37,Medium,6,0,25,56,10,17,9,6.5,1.6,124,0
+113,31-05-2025,Asha Deep Shelter,Bangalore,KA,220,172,48,78.2,46,58,42,Summer,Needs maintenance,Saturday,5,1,20.6,55.3,4235224,22,Medium,5,1,52,49,1,11,2,3.0,6.4,14,1
+114,02-06-2024,Sahara Vikas Kendra,Hyderabad,TS,295,291,4,98.6,68,54,46,Monsoon,Normal,Sunday,6,0,28.4,268.2,4497395,53,Low,3,1,16,3,23,5,3,14.4,6.7,447,0
+115,20-11-2024,Apna Ghar Ashram,Bangalore,KA,270,172,98,63.7,61,49,51,Autumn,New admissions pending,Wednesday,11,0,29.8,196.3,902050,45,High,6,0,24,16,14,0,0,17.8,3.3,481,1
+116,13-02-2024,Premalaya Home,Kolkata,WB,153,127,26,83.0,53,56,44,Winter,No issues reported,Tuesday,2,0,29.5,45.6,2411216,13,Medium,3,1,1,49,12,3,7,15.1,1.3,12,1
+117,22-01-2025,Asha Deep Shelter,Bangalore,KA,78,59,19,75.6,42,42,58,Winter,Normal,Wednesday,1,0,17.3,132.1,2617587,27,Medium,6,0,4,36,18,18,3,9.9,2.9,117,0
+118,11-09-2024,Asha Deep Shelter,Surat,GJ,106,79,27,74.5,27,46,54,Monsoon,Needs maintenance,Wednesday,9,0,36.9,184.6,4845464,14,High,4,1,3,45,21,11,5,16.6,10.2,239,0
+119,21-01-2024,Karuna Bhavan,Delhi,DL,81,55,26,67.9,43,47,53,Winter,No issues reported,Sunday,1,0,21.6,25.0,314237,23,High,2,1,35,41,15,14,2,9.1,12.2,262,1
+120,30-06-2025,Navjeevan Griha,Chennai,TN,296,261,35,88.2,33,53,47,Monsoon,New admissions pending,Monday,6,0,18.2,264.7,4519353,51,Low,8,0,5,14,17,2,5,10.9,14.8,359,1
+121,04-09-2025,Sahara Vikas Kendra,Chennai,TN,205,194,11,94.6,27,56,44,Monsoon,New admissions pending,Thursday,9,0,37.2,241.1,4890351,9,High,4,1,20,32,6,19,8,10.2,5.8,5,1
+122,05-05-2025,Navjeevan Griha,Jaipur,RJ,227,129,98,56.8,62,42,58,Summer,New admissions pending,Monday,5,0,38.9,151.6,2564719,51,Low,9,0,76,15,12,7,8,9.7,9.4,439,0
+123,30-08-2024,Sahara Vikas Kendra,Kolkata,WB,246,182,64,74.0,48,43,57,Monsoon,Excellent condition,Friday,8,0,36.6,290.1,1958911,56,High,7,0,25,10,3,10,9,14.6,14.1,319,1
+124,14-06-2025,Daya Sagar,Jaipur,RJ,113,97,16,85.8,20,47,53,Monsoon,No issues reported,Saturday,6,0,35.2,125.3,4052981,27,Medium,2,0,54,54,8,15,2,10.9,3.3,230,0
+125,15-07-2025,Manav Seva Sangam,Ahmedabad,GJ,94,84,10,89.4,19,42,58,Monsoon,High demand,Tuesday,7,0,31.4,295.2,1469920,34,Low,4,1,38,19,29,8,2,7.8,11.0,433,0
+126,09-08-2025,Asha Deep Shelter,Ahmedabad,GJ,97,88,9,90.7,37,41,59,Monsoon,High demand,Saturday,8,0,28.8,200.4,2229441,29,Low,5,1,32,37,9,2,3,6.9,11.6,29,0
+127,04-07-2025,Daya Sagar,Chennai,TN,218,205,13,94.0,18,40,60,Monsoon,Needs maintenance,Friday,7,0,17.2,190.4,2787946,32,Low,3,0,13,23,8,4,6,3.6,2.2,21,1
+128,02-08-2024,Jeevan Jyoti Shelter,Kolkata,WB,174,147,27,84.5,28,55,45,Monsoon,Normal,Friday,8,0,25.2,49.8,3798529,38,High,9,1,55,53,6,19,2,11.7,13.1,408,0
+129,14-07-2024,Jeevan Jyoti Shelter,Kolkata,WB,249,193,56,77.5,56,49,51,Monsoon,High demand,Sunday,7,0,24.3,264.6,3608818,49,Medium,5,1,20,15,14,13,9,6.4,12.4,155,1
+130,12-05-2024,Karuna Bhavan,Jaipur,RJ,122,76,46,62.3,26,42,58,Summer,Normal,Sunday,5,0,21.5,128.2,1499466,52,Low,2,1,45,29,27,14,7,5.2,1.5,117,0
+131,06-09-2025,Daya Sagar,Delhi,DL,272,243,29,89.3,43,41,59,Monsoon,No issues reported,Saturday,9,0,33.1,48.7,1411236,51,Low,3,0,15,33,7,5,7,12.8,2.3,339,1
+132,14-03-2025,Navjeevan Griha,Delhi,DL,187,96,91,51.3,51,52,48,Summer,No issues reported,Friday,3,0,27.4,3.8,2138062,29,Low,9,1,15,0,18,3,5,13.2,1.7,422,1
+133,09-03-2025,Manav Seva Sangam,Mumbai,MH,112,75,37,67.0,38,48,52,Summer,High demand,Sunday,3,0,17.0,167.9,2406632,14,Low,7,0,28,23,10,7,3,14.3,5.7,450,0
+134,29-09-2024,Asha Deep Shelter,Delhi,DL,108,96,12,88.9,57,50,50,Monsoon,Excellent condition,Sunday,9,0,20.5,158.2,1884907,18,Medium,2,1,7,23,4,18,4,10.6,8.1,388,1
+135,23-04-2024,Daya Sagar,Mumbai,MH,102,70,32,68.6,35,44,56,Summer,Needs maintenance,Tuesday,4,1,32.1,215.8,3911774,46,High,9,1,2,8,1,4,1,16.4,8.5,192,0
+136,11-12-2023,Asha Deep Shelter,Kolkata,WB,271,216,55,79.7,41,46,54,Winter,No issues reported,Monday,12,0,16.9,267.1,3683795,50,Medium,4,0,18,21,9,12,5,17.0,4.7,398,0
+137,14-01-2025,Karuna Bhavan,Ahmedabad,GJ,89,64,25,71.9,41,41,59,Winter,Needs maintenance,Tuesday,1,0,36.3,23.8,3527084,34,Low,9,1,65,11,15,15,2,15.1,13.8,345,0
+138,17-05-2024,Premalaya Home,Chennai,TN,84,44,40,52.4,49,51,49,Summer,Excellent condition,Friday,5,0,27.4,219.4,4377802,59,Medium,2,0,78,16,22,0,5,12.5,6.2,194,0
+139,15-06-2024,Sahara Vikas Kendra,Kolkata,WB,123,115,8,93.5,20,41,59,Monsoon,High demand,Saturday,6,0,27.0,56.2,3449752,45,Low,4,1,73,24,12,12,4,7.6,1.6,167,0
+140,15-07-2025,Daya Sagar,Ahmedabad,GJ,292,240,52,82.2,34,43,57,Monsoon,Needs maintenance,Tuesday,7,1,29.8,257.5,3850986,29,High,5,0,21,27,7,10,1,17.7,5.2,376,0
+141,04-05-2025,Jeevan Jyoti Shelter,Hyderabad,TS,254,172,82,67.7,51,60,40,Summer,Excellent condition,Sunday,5,1,35.6,245.7,773858,18,High,2,1,45,14,8,7,4,7.1,8.4,488,0
+142,29-11-2024,Apna Ghar Ashram,Jaipur,RJ,210,181,29,86.2,26,55,45,Autumn,New admissions pending,Friday,11,0,23.7,162.2,2868907,39,High,1,1,12,29,10,7,4,6.0,6.7,238,1
+143,08-02-2024,Premalaya Home,Chennai,TN,98,90,8,91.8,24,58,42,Winter,High demand,Thursday,2,0,32.0,213.1,94816,56,Low,7,1,32,50,10,13,8,9.6,4.8,361,0
+144,20-04-2025,Sahara Vikas Kendra,Ahmedabad,GJ,90,53,37,58.9,44,56,44,Summer,High demand,Sunday,4,0,29.1,94.3,54138,52,Medium,1,0,4,26,22,12,7,3.9,2.8,481,0
+145,26-09-2023,Asha Deep Shelter,Hyderabad,TS,250,215,35,86.0,23,53,47,Monsoon,High demand,Tuesday,9,0,21.7,141.4,4213960,38,High,8,0,76,21,25,2,6,17.7,12.5,243,1
+146,05-04-2024,Jeevan Jyoti Shelter,Chennai,TN,162,94,68,58.0,39,58,42,Summer,Needs maintenance,Friday,4,0,37.0,246.5,3286904,14,Low,3,0,26,9,15,3,2,11.8,14.9,68,1
+147,18-10-2024,Manav Seva Sangam,Surat,GJ,59,38,21,64.4,55,58,42,Autumn,Needs maintenance,Friday,10,0,34.9,137.8,3914044,39,Low,6,1,77,57,9,19,9,11.4,5.6,94,0
+148,10-10-2023,Asha Deep Shelter,Delhi,DL,288,234,54,81.2,60,48,52,Autumn,Needs maintenance,Tuesday,10,0,31.5,107.3,271552,15,Medium,7,0,23,30,28,14,3,12.8,6.3,498,0
+149,31-03-2024,Jeevan Jyoti Shelter,Pune,MH,137,90,47,65.7,44,50,50,Summer,Excellent condition,Sunday,3,0,36.3,148.3,93764,15,High,1,0,66,26,23,14,5,10.5,9.7,76,0
+150,18-01-2025,Jeevan Jyoti Shelter,Mumbai,MH,258,186,72,72.1,59,50,50,Winter,High demand,Saturday,1,0,36.7,248.5,2270182,25,Low,6,0,62,11,11,12,2,3.5,11.1,170,1
+151,22-12-2024,Karuna Bhavan,Pune,MH,76,68,8,89.5,61,60,40,Winter,Excellent condition,Sunday,12,1,32.7,100.6,1947951,25,Medium,7,0,47,45,24,8,8,12.2,6.5,0,0
+152,21-11-2023,Daya Sagar,Delhi,DL,80,56,24,70.0,24,58,42,Autumn,Needs maintenance,Tuesday,11,0,35.9,52.1,366462,26,High,6,0,62,30,5,9,7,13.7,13.7,405,1
+153,23-03-2025,Asha Deep Shelter,Surat,GJ,118,81,37,68.6,30,51,49,Summer,No issues reported,Sunday,3,0,32.4,213.6,939855,49,Medium,4,0,77,31,27,11,5,9.3,8.8,61,0
+154,13-09-2025,Umeed Ki Kiran,Bangalore,KA,289,230,59,79.6,26,45,55,Monsoon,Needs maintenance,Saturday,9,0,32.0,247.8,1464718,11,Medium,1,0,11,31,11,13,3,14.4,7.3,206,0
+155,21-06-2024,Sahara Vikas Kendra,Bangalore,KA,166,165,1,99.4,47,57,43,Monsoon,High demand,Friday,6,1,30.5,30.2,2207280,59,Low,9,0,27,40,9,0,6,6.4,10.1,153,1
+156,23-11-2024,Manav Seva Sangam,Jaipur,RJ,121,75,46,62.0,62,47,53,Autumn,New admissions pending,Saturday,11,0,33.8,72.0,858301,21,Low,4,0,43,58,17,13,2,6.3,14.3,273,0
+157,17-04-2025,Asha Deep Shelter,Jaipur,RJ,219,164,55,74.9,23,53,47,Summer,Excellent condition,Thursday,4,0,19.0,42.6,4230266,6,Low,7,0,42,44,17,13,9,5.4,12.1,47,0
+158,31-03-2024,Navjeevan Griha,Delhi,DL,74,41,33,55.4,20,48,52,Summer,Excellent condition,Sunday,3,0,37.0,104.4,4396657,16,Medium,7,1,16,34,3,7,7,8.6,1.6,136,0
+159,23-02-2024,Manav Seva Sangam,Bangalore,KA,154,141,13,91.6,21,43,57,Winter,New admissions pending,Friday,2,0,36.8,135.1,162935,46,Low,2,1,39,52,8,15,0,15.7,5.7,0,1
+160,10-05-2025,Apna Ghar Ashram,Chennai,TN,153,108,45,70.6,50,41,59,Summer,New admissions pending,Saturday,5,0,15.7,224.6,4101889,22,Medium,1,0,48,45,6,13,2,15.4,7.6,234,0
+161,30-05-2025,Manav Seva Sangam,Jaipur,RJ,191,126,65,66.0,24,60,40,Summer,Needs maintenance,Friday,5,0,35.6,195.3,1388306,58,Medium,8,1,56,20,17,0,4,8.7,5.4,392,0
+162,24-03-2024,Manav Seva Sangam,Jaipur,RJ,132,83,49,62.9,38,48,52,Summer,New admissions pending,Sunday,3,0,18.2,186.3,2200205,15,Low,8,1,63,9,7,15,4,11.8,10.8,255,1
+163,31-05-2025,Karuna Bhavan,Jaipur,RJ,245,193,52,78.8,26,57,43,Summer,Needs maintenance,Saturday,5,0,23.4,105.7,4330650,20,High,7,0,74,15,10,17,9,13.8,12.6,406,1
+164,22-12-2023,Apna Ghar Ashram,Kolkata,WB,264,239,25,90.5,53,47,53,Winter,Needs maintenance,Friday,12,0,33.6,252.4,4573535,53,High,8,0,56,6,6,6,1,6.6,11.2,106,0
+165,13-02-2024,Daya Sagar,Mumbai,MH,159,112,47,70.4,32,60,40,Winter,Normal,Tuesday,2,0,19.0,141.4,4650145,55,High,3,0,73,3,8,14,9,5.5,14.9,172,0
+166,31-05-2025,Asha Deep Shelter,Delhi,DL,243,122,121,50.2,65,59,41,Summer,High demand,Saturday,5,0,35.4,293.7,4802989,22,Medium,2,1,73,26,7,16,7,17.6,4.8,129,1
+167,12-02-2025,Umeed Ki Kiran,Bangalore,KA,51,48,3,94.1,48,41,59,Winter,New admissions pending,Wednesday,2,0,35.8,190.2,1419391,39,Medium,7,0,69,51,2,18,4,12.3,13.2,397,0
+168,09-11-2023,Manav Seva Sangam,Chennai,TN,86,69,17,80.2,25,49,51,Autumn,New admissions pending,Thursday,11,0,27.7,37.9,4360518,57,Medium,8,1,75,54,16,12,6,17.7,11.7,293,0
+169,23-09-2024,Asha Deep Shelter,Chennai,TN,217,197,20,90.8,24,53,47,Monsoon,No issues reported,Monday,9,0,15.2,202.9,2632153,30,Low,1,0,42,24,1,8,6,8.1,6.1,39,1
+170,04-10-2023,Daya Sagar,Mumbai,MH,83,59,24,71.1,59,60,40,Autumn,Needs maintenance,Wednesday,10,0,22.2,97.5,903329,20,Medium,9,1,22,30,14,14,4,13.5,11.3,446,0
+171,03-10-2023,Jeevan Jyoti Shelter,Chennai,TN,67,45,22,67.2,48,60,40,Autumn,Needs maintenance,Tuesday,10,0,30.4,205.9,1780085,10,Low,4,1,26,10,13,2,7,6.3,2.5,337,0
+172,07-05-2024,Premalaya Home,Ahmedabad,GJ,114,79,35,69.3,63,43,57,Summer,Excellent condition,Tuesday,5,0,39.5,20.9,2076110,48,Low,4,0,57,47,28,0,8,6.9,12.1,15,1
+173,21-06-2025,Premalaya Home,Chennai,TN,111,102,9,91.9,37,56,44,Monsoon,New admissions pending,Saturday,6,0,30.8,52.5,3134562,47,High,3,0,36,19,17,15,3,10.7,8.5,126,0
+174,12-05-2025,Jeevan Jyoti Shelter,Kolkata,WB,75,58,17,77.3,66,60,40,Summer,Normal,Monday,5,0,21.5,256.7,4645130,51,High,6,1,5,35,15,7,3,7.8,5.1,372,0
+175,19-07-2024,Daya Sagar,Mumbai,MH,159,130,29,81.8,26,55,45,Monsoon,New admissions pending,Friday,7,0,30.9,68.2,486542,51,High,1,1,64,53,19,12,7,5.5,10.2,348,0
+176,07-07-2024,Asha Deep Shelter,Jaipur,RJ,117,93,24,79.5,26,54,46,Monsoon,New admissions pending,Sunday,7,0,28.5,251.1,4616701,52,Low,6,0,5,53,21,7,0,6.9,10.0,491,1
+177,10-06-2024,Karuna Bhavan,Delhi,DL,274,215,59,78.5,34,40,60,Monsoon,Normal,Monday,6,0,34.5,83.8,4189394,46,Low,2,0,49,54,3,16,3,3.5,3.9,202,0
+178,15-12-2023,Umeed Ki Kiran,Surat,GJ,67,60,7,89.6,48,52,48,Winter,Needs maintenance,Friday,12,0,17.7,192.9,3030672,16,Low,9,1,21,16,24,13,5,13.6,1.4,133,1
+179,25-12-2024,Karuna Bhavan,Ahmedabad,GJ,63,54,9,85.7,64,51,49,Winter,High demand,Wednesday,12,1,34.0,208.2,2112087,17,Medium,2,0,24,44,19,6,3,10.4,7.1,258,1
+180,16-04-2024,Karuna Bhavan,Hyderabad,TS,120,68,52,56.7,38,41,59,Summer,No issues reported,Tuesday,4,0,28.5,153.8,476674,8,Low,7,1,78,10,5,14,5,4.4,9.0,13,0
+181,24-04-2024,Jeevan Jyoti Shelter,Hyderabad,TS,56,31,25,55.4,20,46,54,Summer,High demand,Wednesday,4,0,39.1,91.6,132409,43,High,1,0,71,29,5,15,4,5.6,13.3,65,1
+182,29-07-2025,Sahara Vikas Kendra,Surat,GJ,118,112,6,94.9,52,60,40,Monsoon,Excellent condition,Tuesday,7,0,23.5,63.8,3678104,58,High,7,0,50,34,25,18,8,4.5,14.0,479,0
+183,18-05-2024,Jeevan Jyoti Shelter,Hyderabad,TS,58,36,22,62.1,20,46,54,Summer,High demand,Saturday,5,1,30.8,10.0,4943180,6,Low,5,0,47,40,10,5,9,12.2,8.4,350,0
+184,18-08-2024,Daya Sagar,Chennai,TN,273,220,53,80.6,26,59,41,Monsoon,Needs maintenance,Sunday,8,0,38.3,91.2,2045141,30,Low,8,1,69,37,25,0,8,4.4,11.6,458,0
+185,27-11-2023,Jeevan Jyoti Shelter,Jaipur,RJ,72,49,23,68.1,34,48,52,Autumn,High demand,Monday,11,0,17.6,195.9,3875258,31,High,4,0,64,21,16,11,3,14.3,7.2,341,1
+186,09-09-2024,Manav Seva Sangam,Surat,GJ,74,69,5,93.2,45,49,51,Monsoon,High demand,Monday,9,0,38.4,281.5,3549701,31,Low,7,1,59,52,23,17,3,3.3,11.4,194,0
+187,30-05-2024,Navjeevan Griha,Ahmedabad,GJ,118,84,34,71.2,62,46,54,Summer,Normal,Thursday,5,0,32.2,261.4,1977716,19,High,6,0,45,42,27,15,7,6.7,3.9,113,0
+188,25-01-2025,Jeevan Jyoti Shelter,Delhi,DL,129,84,45,65.1,44,58,42,Winter,No issues reported,Saturday,1,0,16.7,229.8,1971672,12,Medium,5,1,35,47,2,11,9,16.4,6.2,158,0
+189,18-03-2024,Daya Sagar,Delhi,DL,272,179,93,65.8,37,58,42,Summer,Needs maintenance,Monday,3,0,22.5,236.5,1242503,11,High,4,1,57,50,12,19,3,13.8,9.9,160,1
+190,13-04-2025,Navjeevan Griha,Jaipur,RJ,62,34,28,54.8,69,43,57,Summer,Excellent condition,Sunday,4,0,32.7,199.5,1183754,51,Medium,7,0,75,26,21,12,1,4.1,1.3,253,1
+191,01-07-2025,Premalaya Home,Chennai,TN,272,223,49,82.0,49,52,48,Monsoon,Needs maintenance,Tuesday,7,0,16.7,78.1,2953609,59,Low,5,1,37,36,2,7,1,15.3,11.1,471,0
+192,01-12-2023,Sahara Vikas Kendra,Pune,MH,289,232,57,80.3,51,52,48,Winter,Excellent condition,Friday,12,0,29.6,272.2,1496250,50,Low,5,1,10,45,15,0,0,10.4,12.7,384,0
+193,17-09-2024,Asha Deep Shelter,Surat,GJ,65,49,16,75.4,24,42,58,Monsoon,Normal,Tuesday,9,1,23.6,201.2,1693707,44,Medium,1,1,11,48,14,6,4,15.7,6.6,427,0
+194,20-05-2025,Apna Ghar Ashram,Surat,GJ,150,110,40,73.3,35,43,57,Summer,Excellent condition,Tuesday,5,0,30.5,168.1,4943091,16,Low,2,1,41,34,10,14,5,12.0,7.3,14,0
+195,01-03-2025,Navjeevan Griha,Chennai,TN,175,121,54,69.1,31,60,40,Summer,Needs maintenance,Saturday,3,0,16.1,33.3,3850315,17,Medium,5,0,38,3,17,12,8,13.2,12.9,36,1
+196,20-10-2023,Navjeevan Griha,Chennai,TN,145,110,35,75.9,31,57,43,Autumn,Excellent condition,Friday,10,0,36.8,134.1,3201396,47,Low,3,0,70,15,14,12,4,17.9,11.9,154,1
+197,05-05-2024,Daya Sagar,Jaipur,RJ,276,171,105,62.0,20,49,51,Summer,Excellent condition,Sunday,5,0,39.3,138.1,3418270,21,High,2,0,10,15,4,8,5,6.5,5.0,485,1
+198,30-07-2025,Umeed Ki Kiran,Kolkata,WB,85,60,25,70.6,20,59,41,Monsoon,New admissions pending,Wednesday,7,0,39.2,259.4,2302641,21,Low,4,1,35,20,15,14,5,12.4,5.5,431,1
+199,25-10-2024,Navjeevan Griha,Pune,MH,218,130,88,59.6,19,46,54,Autumn,Excellent condition,Friday,10,0,33.7,164.0,394126,40,High,4,1,51,25,29,3,2,9.9,10.5,26,1
+200,24-05-2025,Navjeevan Griha,Bangalore,KA,208,114,94,54.8,65,46,54,Summer,No issues reported,Saturday,5,0,18.3,114.1,2455514,25,High,4,0,30,56,15,12,3,3.6,8.9,491,1
+201,29-04-2024,Daya Sagar,Jaipur,RJ,254,201,53,79.1,32,45,55,Summer,Needs maintenance,Monday,4,0,34.0,293.0,1892360,12,Medium,4,0,32,35,16,11,0,3.2,3.3,11,1
+202,01-09-2025,Karuna Bhavan,Mumbai,MH,143,120,23,83.9,41,55,45,Monsoon,Needs maintenance,Monday,9,0,15.6,33.2,1187411,9,Low,3,1,12,18,8,4,3,4.8,5.3,66,0
+203,16-02-2025,Asha Deep Shelter,Ahmedabad,GJ,182,140,42,76.9,54,43,57,Winter,No issues reported,Sunday,2,0,15.6,126.8,1720357,30,Medium,7,0,17,57,26,6,0,12.7,13.6,29,0
+204,23-11-2023,Asha Deep Shelter,Hyderabad,TS,114,89,25,78.1,45,60,40,Autumn,No issues reported,Thursday,11,0,23.1,12.6,2962511,20,Low,9,0,40,16,22,7,4,11.5,10.6,95,0
+205,07-09-2025,Karuna Bhavan,Kolkata,WB,143,115,28,80.4,50,56,44,Monsoon,High demand,Sunday,9,0,27.2,222.0,3380922,40,High,5,1,57,44,2,4,7,11.3,14.8,214,0
+206,29-03-2024,Jeevan Jyoti Shelter,Surat,GJ,246,193,53,78.5,59,57,43,Summer,Needs maintenance,Friday,3,0,34.3,275.4,3749509,32,High,4,0,55,25,19,8,7,3.5,11.7,193,0
+207,16-02-2025,Umeed Ki Kiran,Ahmedabad,GJ,104,88,16,84.6,66,55,45,Winter,No issues reported,Sunday,2,0,32.1,84.0,4205479,58,Low,2,1,23,21,12,13,4,10.0,14.2,134,0
+208,07-09-2024,Karuna Bhavan,Delhi,DL,278,259,19,93.2,31,44,56,Monsoon,Needs maintenance,Saturday,9,0,26.1,257.5,4538155,33,Low,2,0,72,54,21,11,9,16.9,4.0,289,1
+209,02-01-2024,Navjeevan Griha,Bangalore,KA,240,207,33,86.2,67,44,56,Winter,Excellent condition,Tuesday,1,0,21.8,87.7,3352198,51,Medium,5,1,30,57,2,3,1,9.0,11.8,31,0
+210,28-07-2025,Apna Ghar Ashram,Ahmedabad,GJ,252,226,26,89.7,47,60,40,Monsoon,Needs maintenance,Monday,7,0,39.9,273.2,347986,16,Low,7,1,54,55,27,19,5,12.4,1.3,372,1
+211,28-04-2025,Umeed Ki Kiran,Hyderabad,TS,204,140,64,68.6,38,60,40,Summer,Excellent condition,Monday,4,0,25.7,226.2,3816001,41,Low,9,1,9,27,6,7,0,14.7,10.4,38,0
+212,06-02-2025,Apna Ghar Ashram,Jaipur,RJ,121,81,40,66.9,42,57,43,Winter,High demand,Thursday,2,0,26.3,241.5,2515912,34,Low,7,1,59,0,28,16,6,14.8,7.6,351,1
+213,28-07-2025,Karuna Bhavan,Jaipur,RJ,162,115,47,71.0,61,60,40,Monsoon,New admissions pending,Monday,7,0,19.1,5.4,2072784,27,Medium,5,1,1,43,5,7,3,10.8,5.9,426,1
+214,30-01-2024,Umeed Ki Kiran,Delhi,DL,207,152,55,73.4,30,40,60,Winter,High demand,Tuesday,1,0,34.9,288.8,903605,20,Low,6,0,14,35,8,0,4,15.9,13.1,426,0
+215,07-06-2025,Umeed Ki Kiran,Pune,MH,224,157,67,70.1,26,53,47,Monsoon,Excellent condition,Saturday,6,0,32.3,218.0,2422948,18,High,3,0,2,42,11,19,5,8.9,13.0,205,0
+216,24-07-2025,Karuna Bhavan,Jaipur,RJ,259,248,11,95.8,49,46,54,Monsoon,Needs maintenance,Thursday,7,0,20.5,91.4,1365823,14,Medium,5,0,42,36,14,1,0,16.3,1.3,386,0
+217,07-06-2025,Sahara Vikas Kendra,Chennai,TN,104,82,22,78.8,18,47,53,Monsoon,Excellent condition,Saturday,6,0,17.1,248.8,3483372,11,Medium,8,1,30,1,20,3,8,6.6,9.5,429,0
+218,25-11-2023,Umeed Ki Kiran,Mumbai,MH,123,74,49,60.2,49,59,41,Autumn,Needs maintenance,Saturday,11,0,32.0,84.5,820692,49,High,1,0,69,16,19,0,9,7.2,6.1,415,0
+219,29-06-2024,Premalaya Home,Chennai,TN,226,204,22,90.3,68,47,53,Monsoon,High demand,Saturday,6,0,31.4,261.8,478745,56,High,1,1,66,39,2,6,3,3.8,6.8,42,1
+220,12-01-2024,Navjeevan Griha,Delhi,DL,213,169,44,79.3,47,48,52,Winter,High demand,Friday,1,0,21.8,33.8,4882091,41,High,7,1,55,37,9,0,7,14.9,12.6,483,0
+221,09-06-2025,Asha Deep Shelter,Kolkata,WB,94,87,7,92.6,49,41,59,Monsoon,Needs maintenance,Monday,6,0,38.8,211.1,723812,33,Low,5,0,62,20,0,8,4,9.3,5.3,336,1
+222,20-11-2023,Navjeevan Griha,Jaipur,RJ,56,42,14,75.0,40,43,57,Autumn,No issues reported,Monday,11,0,18.8,162.2,2982977,7,High,5,1,74,8,18,2,7,6.4,14.2,495,1
+223,14-04-2025,Daya Sagar,Chennai,TN,53,40,13,75.5,54,54,46,Summer,New admissions pending,Monday,4,0,25.8,29.0,3620118,19,Low,1,0,14,12,18,11,0,6.5,3.5,258,1
+224,06-09-2024,Daya Sagar,Chennai,TN,74,55,19,74.3,22,51,49,Monsoon,Needs maintenance,Friday,9,0,38.6,72.6,1408126,40,Medium,9,1,9,10,22,18,7,16.5,10.3,248,0
+225,06-07-2024,Karuna Bhavan,Bangalore,KA,288,215,73,74.7,33,56,44,Monsoon,Needs maintenance,Saturday,7,0,25.5,3.7,3867042,51,Medium,1,1,37,15,22,14,3,15.5,10.4,73,0
+226,05-06-2025,Premalaya Home,Pune,MH,76,57,19,75.0,68,46,54,Monsoon,No issues reported,Thursday,6,0,31.0,140.6,4589170,50,High,5,0,46,15,12,15,1,11.3,4.5,372,0
+227,09-11-2024,Jeevan Jyoti Shelter,Pune,MH,229,194,35,84.7,54,58,42,Autumn,New admissions pending,Saturday,11,1,24.9,90.4,586644,56,Low,9,1,56,58,11,9,5,12.2,5.5,318,0
+228,27-01-2025,Daya Sagar,Ahmedabad,GJ,285,228,57,80.0,53,51,49,Winter,High demand,Monday,1,0,21.9,179.5,702416,23,High,4,0,49,1,0,5,1,10.1,12.7,366,0
+229,22-10-2023,Sahara Vikas Kendra,Ahmedabad,GJ,75,47,28,62.7,59,54,46,Autumn,New admissions pending,Sunday,10,0,39.6,89.2,3197915,17,High,8,1,70,41,18,16,4,8.9,11.7,295,0
+230,10-02-2024,Manav Seva Sangam,Surat,GJ,146,95,51,65.1,42,59,41,Winter,Needs maintenance,Saturday,2,0,25.2,90.0,2823737,46,Low,6,0,14,43,28,16,1,16.7,5.6,273,1
+231,04-03-2024,Premalaya Home,Chennai,TN,142,101,41,71.1,29,45,55,Summer,Excellent condition,Monday,3,0,37.4,223.0,1757542,25,High,3,1,17,7,23,18,2,4.9,8.5,322,0
+232,05-09-2025,Manav Seva Sangam,Chennai,TN,141,102,39,72.3,34,40,60,Monsoon,Needs maintenance,Friday,9,0,20.7,14.4,4241896,41,Medium,4,0,1,42,15,17,5,9.3,1.9,358,1
+233,28-08-2025,Jeevan Jyoti Shelter,Mumbai,MH,133,114,19,85.7,33,56,44,Monsoon,Needs maintenance,Thursday,8,0,20.3,270.9,1524620,31,High,2,0,42,41,24,10,0,8.2,3.9,189,1
+234,15-08-2025,Karuna Bhavan,Mumbai,MH,298,209,89,70.1,29,42,58,Monsoon,High demand,Friday,8,0,15.8,255.7,1224846,59,Low,1,1,25,12,22,6,5,10.5,7.8,137,0
+235,03-01-2024,Jeevan Jyoti Shelter,Kolkata,WB,213,141,72,66.2,27,52,48,Winter,Excellent condition,Wednesday,1,0,31.3,200.3,2042569,56,Low,8,0,70,56,22,9,2,9.9,2.2,435,0
+236,20-03-2025,Umeed Ki Kiran,Mumbai,MH,71,43,28,60.6,23,51,49,Summer,Normal,Thursday,3,0,24.2,178.0,1899395,33,Medium,1,1,37,16,27,6,6,10.8,12.8,456,0
+237,03-04-2024,Umeed Ki Kiran,Pune,MH,238,182,56,76.5,27,58,42,Summer,Needs maintenance,Wednesday,4,0,36.6,267.7,1039336,24,Low,1,1,41,38,14,4,1,5.1,11.1,301,0
+238,10-05-2025,Apna Ghar Ashram,Mumbai,MH,131,91,40,69.5,28,46,54,Summer,Normal,Saturday,5,0,26.8,55.6,3188102,29,Low,4,0,4,23,15,11,5,10.7,14.2,310,0
+239,04-11-2023,Apna Ghar Ashram,Mumbai,MH,81,63,18,77.8,67,44,56,Autumn,High demand,Saturday,11,0,39.2,23.7,2500979,10,Medium,6,0,10,2,10,15,7,6.6,10.7,429,0
+240,01-08-2025,Sahara Vikas Kendra,Hyderabad,TS,127,104,23,81.9,23,58,42,Monsoon,Needs maintenance,Friday,8,0,19.6,71.9,3955513,40,High,9,0,64,29,23,17,0,5.8,14.2,330,1
+241,13-08-2025,Daya Sagar,Chennai,TN,252,240,12,95.2,18,58,42,Monsoon,New admissions pending,Wednesday,8,1,36.7,238.4,2082816,6,Medium,1,0,33,51,5,2,8,4.0,8.8,443,1
+242,24-01-2024,Daya Sagar,Bangalore,KA,161,117,44,72.7,26,49,51,Winter,Normal,Wednesday,1,1,34.4,10.4,111753,26,High,7,0,0,12,10,19,4,14.4,9.4,352,1
+243,30-03-2024,Navjeevan Griha,Chennai,TN,288,223,65,77.4,65,53,47,Summer,New admissions pending,Saturday,3,1,34.3,174.8,1121984,36,Medium,5,1,1,18,2,14,4,9.4,14.7,483,1
+244,21-08-2025,Umeed Ki Kiran,Hyderabad,TS,166,162,4,97.6,46,52,48,Monsoon,Excellent condition,Thursday,8,0,36.1,298.6,4368420,20,High,8,0,19,6,14,4,4,12.4,10.0,281,1
+245,14-09-2025,Navjeevan Griha,Surat,GJ,219,162,57,74.0,64,59,41,Monsoon,High demand,Sunday,9,0,34.0,256.7,705496,22,Medium,7,1,60,8,0,12,5,13.9,1.4,410,1
+246,26-12-2024,Premalaya Home,Kolkata,WB,63,41,22,65.1,29,55,45,Winter,Needs maintenance,Thursday,12,1,30.7,156.4,2785090,9,High,4,0,20,18,6,18,1,13.2,11.1,165,0
+247,17-07-2024,Manav Seva Sangam,Delhi,DL,124,123,1,99.2,60,53,47,Monsoon,High demand,Wednesday,7,0,18.3,19.1,3255228,58,Medium,4,0,67,44,0,11,5,10.1,13.7,277,0
+248,08-01-2024,Sahara Vikas Kendra,Mumbai,MH,188,159,29,84.6,37,55,45,Winter,Needs maintenance,Monday,1,1,15.8,249.4,2213349,40,High,6,0,11,53,16,4,3,8.8,12.1,25,0
+249,07-07-2025,Sahara Vikas Kendra,Surat,GJ,104,88,16,84.6,37,44,56,Monsoon,High demand,Monday,7,1,38.0,179.7,543992,34,Medium,6,1,21,39,8,5,7,8.6,9.2,469,1
+250,12-01-2024,Apna Ghar Ashram,Pune,MH,69,64,5,92.8,67,57,43,Winter,New admissions pending,Friday,1,0,30.4,34.5,126240,49,Low,9,0,19,21,28,6,8,12.6,10.4,452,1
+251,31-08-2024,Asha Deep Shelter,Kolkata,WB,209,171,38,81.8,33,54,46,Monsoon,No issues reported,Saturday,8,0,34.9,28.2,4479899,23,High,5,1,0,17,25,9,8,10.4,14.9,418,1
+252,11-12-2023,Umeed Ki Kiran,Hyderabad,TS,167,127,40,76.0,23,46,54,Winter,New admissions pending,Monday,12,0,27.0,272.9,3941151,27,Medium,8,1,29,22,22,15,7,15.7,2.3,449,0
+253,10-08-2025,Manav Seva Sangam,Pune,MH,292,281,11,96.2,32,47,53,Monsoon,Normal,Sunday,8,0,17.9,200.8,1377042,38,High,5,1,23,1,12,7,2,16.1,10.3,482,0
+254,04-08-2024,Jeevan Jyoti Shelter,Delhi,DL,154,109,45,70.8,31,40,60,Monsoon,New admissions pending,Sunday,8,0,18.1,248.8,1998061,17,High,2,0,13,49,10,8,9,5.6,5.0,72,0
+255,29-04-2025,Manav Seva Sangam,Ahmedabad,GJ,253,147,106,58.1,66,45,55,Summer,Needs maintenance,Tuesday,4,0,32.1,263.7,4435224,47,Medium,6,1,35,49,28,3,3,5.0,10.0,114,1
+256,10-05-2025,Sahara Vikas Kendra,Ahmedabad,GJ,144,98,46,68.1,43,45,55,Summer,Excellent condition,Saturday,5,0,25.8,171.5,948332,58,High,9,0,68,10,19,7,0,12.5,9.5,50,1
+257,02-01-2025,Navjeevan Griha,Bangalore,KA,104,68,36,65.4,65,49,51,Winter,High demand,Thursday,1,1,20.0,155.2,929854,33,Medium,3,1,74,30,5,6,8,7.5,3.1,368,1
+258,29-01-2024,Navjeevan Griha,Mumbai,MH,204,149,55,73.0,27,44,56,Winter,Needs maintenance,Monday,1,0,27.3,129.1,4075942,40,Low,1,0,23,32,0,14,4,3.3,3.9,401,0
+259,11-08-2025,Navjeevan Griha,Mumbai,MH,57,52,5,91.2,39,47,53,Monsoon,Needs maintenance,Monday,8,0,16.6,95.1,2584957,26,High,1,1,59,13,6,2,5,16.3,9.7,170,1
+260,14-01-2024,Apna Ghar Ashram,Chennai,TN,118,80,38,67.8,44,46,54,Winter,Needs maintenance,Sunday,1,0,29.5,130.4,213187,56,Low,3,0,54,15,11,16,2,6.4,2.8,267,0
+261,11-08-2025,Sahara Vikas Kendra,Mumbai,MH,245,229,16,93.5,23,53,47,Monsoon,New admissions pending,Monday,8,0,21.7,232.2,4699454,56,High,5,0,76,10,21,10,9,16.9,4.7,2,0
+262,13-11-2024,Premalaya Home,Mumbai,MH,149,105,44,70.5,49,58,42,Autumn,Normal,Wednesday,11,1,34.9,180.6,4753855,51,High,3,0,79,32,19,8,7,13.8,12.7,209,0
+263,17-11-2024,Umeed Ki Kiran,Surat,GJ,244,171,73,70.1,20,55,45,Autumn,New admissions pending,Sunday,11,0,22.8,267.8,1612518,40,High,9,1,23,6,22,4,6,14.4,5.6,375,0
+264,17-05-2024,Apna Ghar Ashram,Kolkata,WB,227,118,109,52.0,58,46,54,Summer,No issues reported,Friday,5,0,26.4,133.0,1732678,13,Medium,8,1,76,30,18,9,0,6.0,7.8,485,0
+265,23-05-2025,Manav Seva Sangam,Mumbai,MH,144,79,65,54.9,54,46,54,Summer,New admissions pending,Friday,5,0,15.3,182.1,217527,43,Low,3,0,23,47,16,14,9,6.5,14.2,390,0
+266,10-04-2025,Karuna Bhavan,Jaipur,RJ,247,157,90,63.6,30,41,59,Summer,Needs maintenance,Thursday,4,0,16.8,189.4,2794804,55,High,9,1,53,45,3,13,4,10.8,4.2,480,0
+267,17-03-2025,Umeed Ki Kiran,Bangalore,KA,110,83,27,75.5,30,50,50,Summer,No issues reported,Monday,3,0,24.8,177.5,1637819,23,Medium,6,1,25,46,2,3,9,5.6,6.5,389,1
+268,20-02-2024,Premalaya Home,Ahmedabad,GJ,142,111,31,78.2,55,47,53,Winter,No issues reported,Tuesday,2,0,27.0,210.8,1570373,42,High,7,1,65,13,0,19,8,7.6,9.5,337,0
+269,28-12-2024,Umeed Ki Kiran,Pune,MH,165,116,49,70.3,26,41,59,Winter,New admissions pending,Saturday,12,0,30.0,71.2,644557,10,Medium,4,1,79,27,17,1,5,7.8,11.6,300,1
+270,28-01-2025,Sahara Vikas Kendra,Kolkata,WB,181,136,45,75.1,50,44,56,Winter,Excellent condition,Tuesday,1,0,22.3,153.7,1040121,56,High,4,1,37,52,26,11,7,5.4,13.6,382,0
+271,06-11-2024,Karuna Bhavan,Ahmedabad,GJ,158,129,29,81.6,43,47,53,Autumn,High demand,Wednesday,11,0,32.4,31.3,3499330,51,Low,2,1,64,42,20,0,9,6.1,13.8,341,0
+272,04-06-2025,Premalaya Home,Delhi,DL,225,174,51,77.3,55,54,46,Monsoon,No issues reported,Wednesday,6,0,36.5,115.4,1775049,19,Low,5,1,74,15,14,19,0,14.8,11.9,114,0
+273,09-12-2023,Umeed Ki Kiran,Bangalore,KA,204,138,66,67.6,44,53,47,Winter,Excellent condition,Saturday,12,0,34.5,146.3,3295705,24,High,8,0,50,18,7,4,9,5.5,4.2,166,1
+274,12-04-2025,Umeed Ki Kiran,Mumbai,MH,286,185,101,64.7,20,53,47,Summer,No issues reported,Saturday,4,1,16.0,195.7,533442,13,Medium,7,0,34,16,0,5,6,3.4,1.3,434,0
+275,13-09-2024,Daya Sagar,Pune,MH,144,143,1,99.3,45,56,44,Monsoon,Normal,Friday,9,0,27.0,285.2,4159545,36,High,7,1,42,58,19,10,2,12.4,6.4,264,0
+276,22-03-2025,Umeed Ki Kiran,Ahmedabad,GJ,273,137,136,50.2,69,53,47,Summer,Excellent condition,Saturday,3,0,17.6,180.2,1470827,8,Medium,6,0,28,25,13,7,8,17.6,3.0,226,1
+277,26-05-2024,Daya Sagar,Ahmedabad,GJ,282,183,99,64.9,22,50,50,Summer,No issues reported,Sunday,5,0,21.1,223.1,2006874,54,High,3,0,36,5,3,6,5,8.0,10.9,150,1
+278,02-07-2025,Sahara Vikas Kendra,Kolkata,WB,142,138,4,97.2,47,44,56,Monsoon,No issues reported,Wednesday,7,0,39.7,151.9,3981814,22,Medium,5,0,57,42,4,3,4,4.8,10.3,267,1
+279,24-07-2024,Karuna Bhavan,Chennai,TN,260,249,11,95.8,41,45,55,Monsoon,New admissions pending,Wednesday,7,0,18.6,190.2,4738118,9,Low,1,1,53,48,22,5,7,11.6,1.6,115,1
+280,06-03-2025,Premalaya Home,Pune,MH,213,122,91,57.3,67,60,40,Summer,High demand,Thursday,3,0,27.5,21.3,1801797,24,High,7,1,38,8,12,15,7,16.6,12.7,87,0
+281,13-03-2025,Sahara Vikas Kendra,Chennai,TN,66,34,32,51.5,36,48,52,Summer,Needs maintenance,Thursday,3,0,30.5,76.3,147406,27,Low,9,1,41,49,27,19,2,14.8,4.5,317,0
+282,15-03-2024,Asha Deep Shelter,Pune,MH,182,124,58,68.1,60,43,57,Summer,New admissions pending,Friday,3,0,32.6,108.6,3502814,15,Low,1,1,27,16,23,14,1,12.3,7.1,241,1
+283,04-01-2025,Sahara Vikas Kendra,Kolkata,WB,226,155,71,68.6,52,58,42,Winter,High demand,Saturday,1,0,29.0,141.7,3822827,41,High,2,1,28,30,14,13,1,7.7,10.4,359,0
+284,21-08-2024,Jeevan Jyoti Shelter,Pune,MH,253,218,35,86.2,50,40,60,Monsoon,Normal,Wednesday,8,0,15.2,13.7,4628887,26,High,3,0,42,11,5,11,4,11.1,7.0,328,1
+285,25-08-2024,Jeevan Jyoti Shelter,Delhi,DL,199,182,17,91.5,68,46,54,Monsoon,No issues reported,Sunday,8,0,23.2,42.0,1071436,8,Medium,3,1,2,22,0,11,9,4.4,7.2,332,1
+286,08-12-2024,Daya Sagar,Ahmedabad,GJ,156,136,20,87.2,29,45,55,Winter,Excellent condition,Sunday,12,0,27.9,83.0,2941912,33,Medium,8,0,9,53,22,15,6,13.2,1.9,39,1
+287,14-03-2025,Daya Sagar,Jaipur,RJ,66,34,32,51.5,40,41,59,Summer,Normal,Friday,3,0,17.2,291.5,1659184,48,Low,7,1,58,53,18,14,7,13.9,6.6,181,0
+288,03-03-2024,Karuna Bhavan,Chennai,TN,78,53,25,67.9,36,54,46,Summer,Needs maintenance,Sunday,3,0,23.8,99.4,4848793,38,Medium,6,0,13,4,12,12,9,17.5,11.7,489,1
+289,20-01-2025,Manav Seva Sangam,Chennai,TN,265,229,36,86.4,44,44,56,Winter,Needs maintenance,Monday,1,0,15.8,144.6,4234238,17,Medium,4,1,75,42,28,10,7,6.9,13.8,208,0
+290,04-10-2023,Apna Ghar Ashram,Mumbai,MH,52,33,19,63.5,31,47,53,Autumn,Excellent condition,Wednesday,10,0,17.0,58.8,2378476,46,High,9,1,46,35,28,16,7,3.3,6.8,390,0
+291,10-08-2024,Daya Sagar,Delhi,DL,233,194,39,83.3,51,46,54,Monsoon,Excellent condition,Saturday,8,0,24.9,183.2,534273,13,Medium,1,1,41,58,5,14,9,11.2,6.9,272,0
+292,12-05-2025,Navjeevan Griha,Bangalore,KA,289,151,138,52.2,36,41,59,Summer,High demand,Monday,5,0,18.3,84.2,2453233,46,Low,2,1,31,35,14,13,2,13.6,10.8,118,1
+293,16-09-2023,Manav Seva Sangam,Jaipur,RJ,106,77,29,72.6,48,52,48,Monsoon,Needs maintenance,Saturday,9,0,29.2,62.1,2872236,35,Medium,4,1,31,2,15,9,1,14.9,14.2,381,0
+294,05-05-2024,Daya Sagar,Bangalore,KA,68,47,21,69.1,31,50,50,Summer,Needs maintenance,Sunday,5,0,32.2,155.0,738332,11,Low,3,1,41,57,23,11,3,5.9,4.7,433,1
+295,18-11-2024,Karuna Bhavan,Chennai,TN,184,126,58,68.5,19,41,59,Autumn,Normal,Monday,11,0,35.0,1.7,776448,8,High,1,0,31,23,22,15,0,6.9,7.2,23,0
+296,18-09-2023,Manav Seva Sangam,Surat,GJ,164,124,40,75.6,19,54,46,Monsoon,High demand,Monday,9,0,20.0,2.3,120463,23,Low,5,1,25,54,15,14,2,10.7,12.1,257,0
+297,23-09-2024,Daya Sagar,Jaipur,RJ,152,138,14,90.8,67,42,58,Monsoon,High demand,Monday,9,0,19.2,65.7,1183183,46,Medium,7,0,0,56,9,9,8,8.0,9.5,482,0
+298,29-12-2024,Karuna Bhavan,Hyderabad,TS,195,138,57,70.8,20,43,57,Winter,High demand,Sunday,12,0,17.6,11.0,2916457,34,High,2,1,55,16,21,3,6,15.9,2.5,91,1
+299,10-09-2024,Apna Ghar Ashram,Delhi,DL,124,114,10,91.9,52,58,42,Monsoon,New admissions pending,Tuesday,9,0,30.9,32.4,2480992,35,Medium,5,0,1,38,8,8,6,10.1,9.8,466,1
+300,12-10-2024,Umeed Ki Kiran,Kolkata,WB,106,80,26,75.5,46,47,53,Autumn,Excellent condition,Saturday,10,0,32.7,101.7,4364380,39,High,6,0,29,25,8,19,0,15.0,3.6,160,1
+301,16-02-2025,Daya Sagar,Delhi,DL,249,171,78,68.7,69,52,48,Winter,Needs maintenance,Sunday,2,0,15.8,240.8,4899433,25,High,7,0,70,3,16,8,6,11.7,8.1,148,1
+302,14-04-2024,Apna Ghar Ashram,Delhi,DL,146,96,50,65.8,18,55,45,Summer,Normal,Sunday,4,0,38.4,171.6,4961408,35,Medium,1,0,51,54,16,19,9,14.6,8.4,116,0
+303,01-10-2023,Daya Sagar,Hyderabad,TS,66,39,27,59.1,46,54,46,Autumn,No issues reported,Sunday,10,0,16.3,153.8,1210294,23,Medium,7,0,8,44,16,10,6,8.0,13.3,457,0
+304,10-05-2025,Navjeevan Griha,Delhi,DL,208,150,58,72.1,31,60,40,Summer,Needs maintenance,Saturday,5,0,28.5,88.0,4768784,35,High,4,0,21,11,23,10,3,15.5,7.5,52,1
+305,25-10-2024,Apna Ghar Ashram,Jaipur,RJ,289,251,38,86.9,47,48,52,Autumn,Needs maintenance,Friday,10,0,32.7,279.5,2394688,57,High,8,1,33,0,11,6,6,7.1,4.9,301,1
+306,02-05-2024,Sahara Vikas Kendra,Pune,MH,75,42,33,56.0,20,56,44,Summer,Excellent condition,Thursday,5,1,36.8,119.1,86413,36,Medium,4,0,48,20,12,9,7,11.2,4.2,44,1
+307,12-01-2024,Daya Sagar,Delhi,DL,102,66,36,64.7,57,55,45,Winter,Needs maintenance,Friday,1,0,32.9,26.1,2998632,6,Low,6,1,0,18,29,3,2,6.2,13.2,264,1
+308,28-03-2024,Premalaya Home,Jaipur,RJ,111,76,35,68.5,44,50,50,Summer,No issues reported,Thursday,3,0,35.0,185.1,614430,56,Medium,9,1,72,20,11,4,9,10.1,3.4,485,0
+309,08-09-2025,Asha Deep Shelter,Mumbai,MH,282,201,81,71.3,54,51,49,Monsoon,New admissions pending,Monday,9,0,23.5,34.2,3718508,14,High,5,0,52,51,13,4,1,7.8,7.0,261,1
+310,02-07-2024,Apna Ghar Ashram,Pune,MH,182,170,12,93.4,64,57,43,Monsoon,No issues reported,Tuesday,7,0,35.4,103.6,4910319,6,Medium,4,0,39,17,9,10,6,7.0,3.6,306,1
+311,25-06-2025,Daya Sagar,Mumbai,MH,226,217,9,96.0,20,51,49,Monsoon,Excellent condition,Wednesday,6,0,17.0,152.2,3074015,6,Low,8,1,44,42,22,8,4,17.5,11.8,233,0
+312,03-04-2025,Apna Ghar Ashram,Bangalore,KA,93,72,21,77.4,21,42,58,Summer,High demand,Thursday,4,0,37.4,262.3,965480,28,Medium,9,0,67,51,18,15,4,5.4,7.6,374,1
+313,14-09-2025,Karuna Bhavan,Pune,MH,65,50,15,76.9,44,49,51,Monsoon,High demand,Sunday,9,0,28.7,148.1,3691141,21,High,4,0,8,2,28,8,4,14.8,5.9,34,0
+314,01-03-2025,Daya Sagar,Ahmedabad,GJ,247,177,70,71.7,36,49,51,Summer,No issues reported,Saturday,3,1,35.4,210.7,3431915,36,Medium,3,0,21,48,1,3,6,17.8,6.1,337,1
+315,13-05-2025,Asha Deep Shelter,Ahmedabad,GJ,144,93,51,64.6,67,59,41,Summer,High demand,Tuesday,5,0,26.3,297.8,92056,20,High,8,0,17,43,3,1,8,3.3,12.9,436,0
+316,19-10-2023,Jeevan Jyoti Shelter,Ahmedabad,GJ,186,151,35,81.2,21,50,50,Autumn,Needs maintenance,Thursday,10,0,31.1,39.4,2198983,20,High,5,0,75,31,18,13,7,13.5,8.8,402,1
+317,02-10-2023,Sahara Vikas Kendra,Pune,MH,228,174,54,76.3,37,57,43,Autumn,No issues reported,Monday,10,0,28.2,82.4,2992775,50,Medium,2,0,42,9,6,2,5,6.8,11.1,196,1
+318,29-09-2023,Karuna Bhavan,Hyderabad,TS,230,225,5,97.8,39,45,55,Monsoon,No issues reported,Friday,9,0,33.3,118.4,823952,43,High,9,0,38,39,25,17,6,3.6,13.6,24,1
+319,14-02-2025,Apna Ghar Ashram,Bangalore,KA,287,199,88,69.3,47,48,52,Winter,High demand,Friday,2,0,17.0,126.5,958380,57,High,3,1,72,14,14,5,8,9.0,13.6,394,1
+320,26-03-2025,Umeed Ki Kiran,Bangalore,KA,188,109,79,58.0,51,58,42,Summer,High demand,Wednesday,3,0,16.5,123.3,4670792,35,Low,2,0,5,4,14,10,5,17.0,5.6,201,1
+321,07-07-2025,Sahara Vikas Kendra,Pune,MH,128,121,7,94.5,50,47,53,Monsoon,New admissions pending,Monday,7,0,21.2,272.3,4876709,47,Low,1,1,47,3,23,17,0,3.2,14.3,272,0
+322,25-06-2024,Manav Seva Sangam,Bangalore,KA,184,161,23,87.5,22,59,41,Monsoon,New admissions pending,Tuesday,6,0,19.0,214.2,1387768,28,Low,8,1,6,57,5,11,3,11.8,1.3,35,1
+323,14-04-2025,Sahara Vikas Kendra,Bangalore,KA,82,48,34,58.5,54,51,49,Summer,New admissions pending,Monday,4,0,36.8,182.4,3140930,5,Low,3,1,79,27,2,4,7,10.5,6.3,473,0
+324,04-10-2024,Navjeevan Griha,Jaipur,RJ,193,152,41,78.8,30,56,44,Autumn,No issues reported,Friday,10,0,20.5,92.8,1910971,15,High,7,1,68,52,5,8,6,16.1,13.5,222,0
+325,03-07-2025,Sahara Vikas Kendra,Kolkata,WB,74,52,22,70.3,21,58,42,Monsoon,No issues reported,Thursday,7,1,39.4,247.1,1564101,59,Medium,1,0,15,51,15,19,2,4.3,4.8,351,0
+326,23-11-2024,Umeed Ki Kiran,Hyderabad,TS,252,194,58,77.0,35,46,54,Autumn,New admissions pending,Saturday,11,0,23.4,286.5,2380344,25,High,1,1,0,50,1,17,9,13.2,4.8,276,0
+327,13-08-2025,Jeevan Jyoti Shelter,Mumbai,MH,289,206,83,71.3,55,60,40,Monsoon,High demand,Wednesday,8,0,19.6,246.4,1456150,8,High,9,1,36,52,27,18,2,13.2,5.2,17,1
+328,14-03-2025,Umeed Ki Kiran,Hyderabad,TS,290,224,66,77.2,27,45,55,Summer,Excellent condition,Friday,3,0,34.7,0.5,575005,11,High,8,1,36,3,6,2,2,13.0,9.6,187,1
+329,04-05-2025,Daya Sagar,Mumbai,MH,95,63,32,66.3,33,45,55,Summer,Needs maintenance,Sunday,5,0,31.5,190.9,3469548,30,Medium,3,1,63,14,29,8,0,17.1,7.1,401,1
+330,30-09-2024,Asha Deep Shelter,Pune,MH,262,187,75,71.4,67,59,41,Monsoon,Excellent condition,Monday,9,0,27.5,15.3,1279458,51,Low,6,1,61,16,10,3,9,15.3,11.2,256,1
+331,25-07-2025,Jeevan Jyoti Shelter,Surat,GJ,86,77,9,89.5,67,60,40,Monsoon,Excellent condition,Friday,7,0,28.9,77.3,1217272,54,High,3,0,71,43,25,16,0,3.6,13.5,141,0
+332,19-05-2025,Jeevan Jyoti Shelter,Pune,MH,189,145,44,76.7,20,46,54,Summer,Excellent condition,Monday,5,0,33.0,17.9,4805997,16,High,4,0,60,2,29,16,5,10.1,10.4,135,0
+333,23-12-2023,Asha Deep Shelter,Pune,MH,50,46,4,92.0,68,52,48,Winter,No issues reported,Saturday,12,0,20.7,181.1,3500087,35,Low,1,1,32,9,6,1,0,9.0,3.9,449,0
+334,23-02-2025,Karuna Bhavan,Ahmedabad,GJ,206,135,71,65.5,69,50,50,Winter,No issues reported,Sunday,2,0,39.9,206.0,1543551,21,High,5,0,65,46,3,8,4,7.7,14.1,306,1
+335,16-05-2025,Premalaya Home,Ahmedabad,GJ,169,124,45,73.4,31,45,55,Summer,Needs maintenance,Friday,5,0,39.4,34.3,4023313,37,Medium,1,0,29,41,28,8,3,9.8,4.7,78,1
+336,12-04-2025,Premalaya Home,Surat,GJ,186,111,75,59.7,27,46,54,Summer,High demand,Saturday,4,0,31.3,115.2,2486831,15,High,1,1,19,55,23,4,4,8.8,3.1,443,1
+337,05-08-2024,Navjeevan Griha,Ahmedabad,GJ,77,74,3,96.1,54,60,40,Monsoon,Needs maintenance,Monday,8,0,20.0,136.9,4215255,32,High,7,1,59,22,19,14,6,9.5,2.3,417,1
+338,02-10-2024,Sahara Vikas Kendra,Bangalore,KA,254,179,75,70.5,18,44,56,Autumn,New admissions pending,Wednesday,10,0,32.0,110.7,1756517,36,Low,6,1,73,17,6,14,5,17.7,8.9,291,0
+339,27-02-2024,Jeevan Jyoti Shelter,Mumbai,MH,250,204,46,81.6,39,49,51,Winter,High demand,Tuesday,2,0,16.8,36.3,3247445,5,High,2,0,23,0,3,2,8,4.3,2.6,61,1
+340,17-10-2023,Jeevan Jyoti Shelter,Kolkata,WB,217,172,45,79.3,52,42,58,Autumn,High demand,Tuesday,10,0,15.8,125.7,3198491,51,High,2,1,3,34,28,18,5,16.8,2.9,128,1
+341,03-04-2024,Jeevan Jyoti Shelter,Hyderabad,TS,152,100,52,65.8,46,60,40,Summer,No issues reported,Wednesday,4,0,21.4,225.4,405054,32,Medium,7,0,36,52,11,2,8,10.2,5.2,498,0
+342,20-02-2024,Umeed Ki Kiran,Pune,MH,63,54,9,85.7,42,57,43,Winter,Needs maintenance,Tuesday,2,0,26.6,21.3,3251208,57,Low,1,0,3,57,4,5,3,12.4,4.9,340,0
+343,15-06-2024,Navjeevan Griha,Kolkata,WB,109,104,5,95.4,28,56,44,Monsoon,Excellent condition,Saturday,6,0,36.7,24.1,3889847,46,Low,2,0,76,30,22,3,0,15.5,9.5,297,1
+344,23-01-2025,Jeevan Jyoti Shelter,Hyderabad,TS,182,131,51,72.0,20,59,41,Winter,High demand,Thursday,1,0,33.2,106.4,1216670,11,Medium,8,1,76,58,28,12,0,8.4,12.4,256,1
+345,04-12-2023,Jeevan Jyoti Shelter,Ahmedabad,GJ,72,47,25,65.3,29,52,48,Winter,No issues reported,Monday,12,0,33.6,282.5,730667,6,High,6,0,17,43,29,12,9,9.5,11.7,479,0
+346,08-11-2024,Jeevan Jyoti Shelter,Chennai,TN,148,122,26,82.4,65,41,59,Autumn,Excellent condition,Friday,11,0,25.6,200.6,2898883,46,Low,2,1,65,0,29,10,6,9.1,4.7,211,1
+347,21-12-2024,Jeevan Jyoti Shelter,Mumbai,MH,51,36,15,70.6,62,42,58,Winter,New admissions pending,Saturday,12,0,23.6,203.6,2064017,28,Low,7,1,47,2,28,4,2,8.6,4.4,53,0
+348,17-08-2025,Sahara Vikas Kendra,Surat,GJ,112,97,15,86.6,25,46,54,Monsoon,Needs maintenance,Sunday,8,0,24.3,108.6,4689276,8,High,4,1,32,2,25,0,1,16.9,14.5,174,0
+349,13-02-2024,Sahara Vikas Kendra,Surat,GJ,246,178,68,72.4,41,40,60,Winter,No issues reported,Tuesday,2,0,39.7,178.1,4072261,48,High,2,1,57,36,18,8,5,15.4,1.1,99,1
+350,30-01-2024,Navjeevan Griha,Bangalore,KA,214,144,70,67.3,66,47,53,Winter,New admissions pending,Tuesday,1,0,16.0,3.0,4687203,23,Low,6,1,72,18,25,16,5,4.6,13.3,38,0
+351,01-09-2024,Sahara Vikas Kendra,Mumbai,MH,72,68,4,94.4,58,49,51,Monsoon,High demand,Sunday,9,0,36.7,190.8,4725519,30,High,9,0,27,28,4,0,6,4.6,3.8,413,1
+352,20-01-2025,Apna Ghar Ashram,Surat,GJ,155,111,44,71.6,42,52,48,Winter,High demand,Monday,1,0,29.5,274.0,4944940,15,Low,9,0,34,24,26,2,4,9.4,14.3,262,1
+353,04-02-2025,Manav Seva Sangam,Surat,GJ,124,88,36,71.0,38,56,44,Winter,New admissions pending,Tuesday,2,0,26.0,183.8,2049482,44,High,8,0,9,32,29,14,7,4.5,5.8,149,1
+354,31-05-2024,Manav Seva Sangam,Hyderabad,TS,238,163,75,68.5,37,57,43,Summer,Excellent condition,Friday,5,0,33.1,262.1,3699244,54,High,3,0,64,35,18,9,6,12.3,7.2,120,1
+355,11-01-2024,Jeevan Jyoti Shelter,Bangalore,KA,191,161,30,84.3,60,54,46,Winter,Needs maintenance,Thursday,1,0,27.2,217.2,4664466,47,Medium,3,0,41,28,20,7,1,5.2,10.9,177,0
+356,08-01-2024,Navjeevan Griha,Mumbai,MH,147,134,13,91.2,35,57,43,Winter,Excellent condition,Monday,1,0,36.8,36.2,3963397,15,High,2,1,8,57,29,11,0,10.8,9.2,300,1
+357,12-04-2025,Navjeevan Griha,Chennai,TN,179,127,52,70.9,62,56,44,Summer,New admissions pending,Saturday,4,0,37.5,270.7,3138589,49,Medium,5,1,59,25,2,14,8,3.1,5.5,329,1
+358,30-07-2024,Manav Seva Sangam,Hyderabad,TS,239,198,41,82.8,49,40,60,Monsoon,Excellent condition,Tuesday,7,0,25.5,19.9,4289399,7,High,4,0,14,3,26,8,4,7.7,8.8,119,0
+359,14-11-2023,Apna Ghar Ashram,Pune,MH,124,79,45,63.7,39,57,43,Autumn,No issues reported,Tuesday,11,1,21.9,160.2,1571722,16,Low,7,0,56,48,25,9,4,13.2,11.2,71,1
+360,23-05-2024,Premalaya Home,Bangalore,KA,56,42,14,75.0,19,48,52,Summer,Needs maintenance,Thursday,5,0,29.8,42.6,1912205,7,Low,4,0,68,13,10,19,9,10.3,1.6,218,1
+361,06-02-2025,Jeevan Jyoti Shelter,Bangalore,KA,224,191,33,85.3,21,49,51,Winter,High demand,Thursday,2,0,37.8,3.5,1515915,46,High,9,1,21,49,6,8,3,17.7,1.2,393,1
+362,08-07-2025,Navjeevan Griha,Delhi,DL,270,268,2,99.3,27,40,60,Monsoon,New admissions pending,Tuesday,7,0,20.3,126.6,400067,31,High,2,1,63,26,28,14,1,16.1,7.4,397,1
+363,18-07-2024,Jeevan Jyoti Shelter,Jaipur,RJ,297,292,5,98.3,27,46,54,Monsoon,Needs maintenance,Thursday,7,0,30.6,88.5,1756826,53,Low,6,1,40,32,16,0,4,8.4,2.8,301,0
+364,19-08-2024,Premalaya Home,Hyderabad,TS,117,116,1,99.1,39,46,54,Monsoon,High demand,Monday,8,0,30.8,145.8,2109385,58,High,7,0,70,21,24,1,1,3.7,10.3,122,0
+365,01-10-2024,Premalaya Home,Mumbai,MH,129,78,51,60.5,49,55,45,Autumn,High demand,Tuesday,10,1,33.3,173.2,1491246,6,Medium,4,0,55,47,8,18,6,15.7,4.0,243,1
+366,25-06-2024,Navjeevan Griha,Chennai,TN,294,225,69,76.5,26,47,53,Monsoon,Needs maintenance,Tuesday,6,0,18.3,13.1,2417322,53,Medium,6,0,22,2,20,13,8,16.7,7.1,373,0
+367,06-01-2025,Asha Deep Shelter,Chennai,TN,203,188,15,92.6,38,59,41,Winter,Excellent condition,Monday,1,1,32.9,36.9,1425645,20,Medium,7,0,24,22,8,7,8,15.3,3.8,74,0
+368,01-01-2025,Manav Seva Sangam,Kolkata,WB,191,162,29,84.8,65,52,48,Winter,No issues reported,Wednesday,1,1,37.7,167.6,3788858,6,Medium,4,1,5,20,9,5,5,4.9,8.7,5,0
+369,24-05-2025,Sahara Vikas Kendra,Mumbai,MH,86,68,18,79.1,19,45,55,Summer,Normal,Saturday,5,0,19.5,103.0,2320463,58,Medium,8,0,33,40,12,11,0,18.0,2.6,20,0
+370,07-06-2024,Apna Ghar Ashram,Chennai,TN,128,110,18,85.9,51,43,57,Monsoon,New admissions pending,Friday,6,0,20.9,218.8,884440,34,High,9,0,62,22,14,14,5,6.9,1.3,189,1
+371,01-12-2023,Karuna Bhavan,Kolkata,WB,226,188,38,83.2,47,52,48,Winter,High demand,Friday,12,0,39.3,195.7,4900334,24,High,1,0,8,3,21,13,4,13.9,1.7,224,0
+372,28-10-2024,Navjeevan Griha,Mumbai,MH,243,209,34,86.0,63,43,57,Autumn,Normal,Monday,10,0,19.5,253.7,749895,42,Medium,7,1,59,20,4,0,3,16.6,14.4,402,1
+373,04-01-2024,Jeevan Jyoti Shelter,Hyderabad,TS,250,169,81,67.6,20,59,41,Winter,Excellent condition,Thursday,1,0,36.4,207.7,295144,32,High,9,1,48,36,28,10,5,6.5,3.0,102,1
+374,07-07-2025,Karuna Bhavan,Mumbai,MH,78,60,18,76.9,53,43,57,Monsoon,High demand,Monday,7,0,27.3,129.0,4074227,29,High,5,0,50,42,2,2,5,16.6,10.9,343,0
+375,16-04-2025,Umeed Ki Kiran,Chennai,TN,209,165,44,78.9,26,56,44,Summer,No issues reported,Wednesday,4,0,21.2,201.9,3872727,36,Medium,2,1,59,30,26,18,5,7.6,2.0,465,1
+376,08-05-2024,Umeed Ki Kiran,Pune,MH,258,131,127,50.8,19,48,52,Summer,No issues reported,Wednesday,5,0,36.8,82.6,1294360,14,High,6,1,69,20,26,17,1,17.6,2.5,98,0
+377,28-07-2024,Navjeevan Griha,Pune,MH,269,213,56,79.2,28,46,54,Monsoon,New admissions pending,Sunday,7,0,26.1,91.9,3099316,46,High,7,1,36,25,7,19,6,7.2,8.1,499,1
+378,25-06-2024,Karuna Bhavan,Mumbai,MH,62,61,1,98.4,35,54,46,Monsoon,Needs maintenance,Tuesday,6,0,27.9,236.7,2599565,44,High,2,1,30,40,19,1,3,17.3,7.5,317,1
+379,26-10-2024,Daya Sagar,Ahmedabad,GJ,283,199,84,70.3,60,51,49,Autumn,High demand,Saturday,10,0,24.0,133.9,1199734,37,Medium,2,1,40,57,9,6,8,3.8,14.3,362,0
+380,09-03-2024,Navjeevan Griha,Surat,GJ,224,124,100,55.4,37,42,58,Summer,No issues reported,Saturday,3,0,29.8,239.5,1896585,17,High,1,0,61,34,12,7,9,13.6,14.2,484,1
+381,29-11-2024,Asha Deep Shelter,Surat,GJ,169,138,31,81.7,66,59,41,Autumn,High demand,Friday,11,0,19.1,246.7,3010883,45,Low,4,0,57,37,28,18,1,11.0,11.9,82,0
+382,28-01-2024,Jeevan Jyoti Shelter,Delhi,DL,270,227,43,84.1,56,55,45,Winter,New admissions pending,Sunday,1,0,24.8,257.3,4157618,58,Low,7,0,13,23,2,14,4,10.2,9.4,180,1
+383,15-11-2023,Karuna Bhavan,Bangalore,KA,124,88,36,71.0,66,56,44,Autumn,High demand,Wednesday,11,0,39.2,275.0,956450,46,Medium,9,1,35,10,28,9,3,6.4,7.4,151,1
+384,25-07-2024,Asha Deep Shelter,Pune,MH,54,38,16,70.4,33,43,57,Monsoon,No issues reported,Thursday,7,0,21.5,129.3,1532795,51,Low,3,1,35,40,21,0,8,13.6,6.0,55,0
+385,14-05-2024,Apna Ghar Ashram,Kolkata,WB,240,163,77,67.9,68,40,60,Summer,Needs maintenance,Tuesday,5,0,31.4,95.7,332140,41,Medium,7,1,78,28,7,5,3,5.9,14.3,189,0
+386,28-04-2025,Premalaya Home,Mumbai,MH,176,98,78,55.7,21,59,41,Summer,Needs maintenance,Monday,4,0,23.1,174.7,1658795,58,Low,7,1,7,46,28,12,7,11.3,9.4,417,0
+387,01-03-2025,Apna Ghar Ashram,Ahmedabad,GJ,99,71,28,71.7,45,58,42,Summer,Excellent condition,Saturday,3,0,34.3,111.4,608981,20,Low,7,0,25,54,8,13,7,6.8,9.1,21,1
+388,18-05-2024,Asha Deep Shelter,Bangalore,KA,270,150,120,55.6,20,41,59,Summer,New admissions pending,Saturday,5,0,18.3,180.3,2093321,49,Low,2,0,35,59,29,2,5,17.3,4.2,67,0
+389,20-07-2025,Umeed Ki Kiran,Kolkata,WB,164,131,33,79.9,64,52,48,Monsoon,High demand,Sunday,7,0,39.2,211.7,158944,26,Medium,6,0,47,2,21,10,5,3.4,1.7,184,0
+390,31-10-2023,Navjeevan Griha,Mumbai,MH,108,94,14,87.0,46,53,47,Autumn,Excellent condition,Tuesday,10,0,26.3,206.5,1847519,24,Medium,2,0,27,0,20,2,7,6.0,14.2,9,0
+391,21-07-2024,Navjeevan Griha,Kolkata,WB,111,102,9,91.9,24,55,45,Monsoon,Normal,Sunday,7,1,20.9,112.4,3927590,54,High,6,0,67,51,11,18,9,6.6,5.4,65,0
+392,24-01-2024,Umeed Ki Kiran,Jaipur,RJ,204,184,20,90.2,43,43,57,Winter,Excellent condition,Wednesday,1,0,16.8,50.1,3765929,47,Medium,3,0,61,53,10,9,8,9.2,7.2,263,1
+393,14-08-2024,Navjeevan Griha,Hyderabad,TS,78,76,2,97.4,46,56,44,Monsoon,Needs maintenance,Wednesday,8,0,19.2,129.2,2008691,31,Low,2,1,79,18,1,14,4,6.5,2.6,224,1
+394,27-02-2024,Umeed Ki Kiran,Jaipur,RJ,173,155,18,89.6,60,49,51,Winter,High demand,Tuesday,2,0,28.0,42.8,4441401,45,Low,6,1,75,45,17,10,0,10.4,12.7,122,1
+395,17-08-2025,Premalaya Home,Kolkata,WB,268,262,6,97.8,53,48,52,Monsoon,Needs maintenance,Sunday,8,0,23.4,267.0,2978100,20,Medium,2,0,79,48,8,14,0,16.1,1.4,37,1
+396,10-08-2024,Daya Sagar,Delhi,DL,60,55,5,91.7,20,42,58,Monsoon,Needs maintenance,Saturday,8,1,35.7,103.8,2759236,38,Medium,5,1,50,21,1,12,1,13.7,12.7,490,1
+397,09-02-2025,Apna Ghar Ashram,Kolkata,WB,221,154,67,69.7,40,51,49,Winter,New admissions pending,Sunday,2,0,25.8,46.3,2003341,36,Medium,2,0,41,13,1,4,9,11.7,3.0,122,1
+398,08-07-2025,Apna Ghar Ashram,Surat,GJ,273,214,59,78.4,42,57,43,Monsoon,Excellent condition,Tuesday,7,0,21.2,7.6,1023737,30,High,3,0,28,48,2,3,9,4.3,13.4,317,0
+399,01-08-2024,Sahara Vikas Kendra,Chennai,TN,211,198,13,93.8,58,49,51,Monsoon,No issues reported,Thursday,8,0,30.4,193.7,1183387,29,Low,3,1,9,56,15,12,4,13.4,11.2,155,1
+400,09-01-2025,Umeed Ki Kiran,Chennai,TN,117,90,27,76.9,43,43,57,Winter,High demand,Thursday,1,0,32.7,191.1,3952908,6,High,6,0,38,58,18,8,3,5.5,3.3,393,0
+401,14-05-2025,Premalaya Home,Surat,GJ,214,170,44,79.4,48,48,52,Summer,No issues reported,Wednesday,5,0,19.2,102.2,4698455,16,High,6,0,0,13,3,16,0,14.8,8.9,300,0
+402,01-07-2025,Manav Seva Sangam,Hyderabad,TS,104,87,17,83.7,60,49,51,Monsoon,No issues reported,Tuesday,7,1,19.2,21.5,2688439,44,Low,3,0,38,43,22,1,3,6.8,5.4,320,0
+403,03-03-2025,Navjeevan Griha,Kolkata,WB,107,75,32,70.1,65,45,55,Summer,Excellent condition,Monday,3,0,15.9,122.9,745532,13,Low,3,1,20,15,24,4,3,9.3,3.5,481,0
+404,13-01-2025,Premalaya Home,Delhi,DL,254,167,87,65.7,40,52,48,Winter,New admissions pending,Monday,1,0,33.4,93.4,345866,16,Medium,1,1,64,32,17,15,9,8.3,13.0,66,1
+405,08-04-2025,Asha Deep Shelter,Mumbai,MH,207,140,67,67.6,24,46,54,Summer,New admissions pending,Tuesday,4,0,31.6,203.1,847057,30,Medium,7,1,14,12,19,6,3,15.9,6.6,392,1
+406,07-07-2025,Navjeevan Griha,Surat,GJ,63,57,6,90.5,38,50,50,Monsoon,New admissions pending,Monday,7,0,26.9,181.7,4442541,13,High,8,1,3,37,24,0,0,4.9,6.6,132,1
+407,11-04-2025,Karuna Bhavan,Jaipur,RJ,64,47,17,73.4,22,51,49,Summer,No issues reported,Friday,4,0,36.1,109.4,1855518,14,Medium,2,0,59,48,29,11,8,11.5,3.4,361,0
+408,05-01-2024,Daya Sagar,Pune,MH,173,143,30,82.7,67,48,52,Winter,No issues reported,Friday,1,0,35.1,65.4,3485088,36,Medium,4,1,60,11,17,10,2,5.1,6.4,393,1
+409,14-08-2024,Umeed Ki Kiran,Mumbai,MH,236,228,8,96.6,67,47,53,Monsoon,High demand,Wednesday,8,1,29.6,296.4,2986537,38,Low,7,1,19,54,9,11,3,13.6,13.2,139,1
+410,22-10-2024,Navjeevan Griha,Jaipur,RJ,201,180,21,89.6,51,45,55,Autumn,Excellent condition,Tuesday,10,0,36.7,136.2,3673425,52,Low,8,1,9,50,10,18,4,16.6,6.1,81,1
+411,08-11-2024,Umeed Ki Kiran,Ahmedabad,GJ,228,185,43,81.1,28,40,60,Autumn,No issues reported,Friday,11,0,20.1,206.5,3649537,24,Medium,1,0,33,37,28,11,6,9.5,14.3,57,1
+412,08-09-2024,Sahara Vikas Kendra,Pune,MH,260,187,73,71.9,30,49,51,Monsoon,New admissions pending,Sunday,9,1,17.8,42.2,2196674,43,Low,4,1,47,38,16,11,5,10.3,14.2,148,1
+413,22-12-2024,Jeevan Jyoti Shelter,Jaipur,RJ,154,106,48,68.8,56,51,49,Winter,No issues reported,Sunday,12,1,21.7,145.7,2032847,6,Medium,6,1,32,32,25,13,4,16.9,3.0,404,1
+414,31-01-2024,Navjeevan Griha,Surat,GJ,107,88,19,82.2,48,54,46,Winter,Excellent condition,Wednesday,1,0,16.4,8.3,2259853,5,Low,3,0,60,32,23,1,7,10.8,3.5,448,0
+415,28-09-2023,Sahara Vikas Kendra,Surat,GJ,299,241,58,80.6,53,40,60,Monsoon,No issues reported,Thursday,9,0,28.3,151.6,4141685,55,Low,5,0,9,28,24,1,0,10.3,13.1,130,0
+416,19-01-2024,Jeevan Jyoti Shelter,Bangalore,KA,238,157,81,66.0,59,58,42,Winter,New admissions pending,Friday,1,0,38.4,289.2,257352,40,Low,9,0,53,4,22,3,6,11.7,6.5,68,1
+417,24-08-2025,Asha Deep Shelter,Pune,MH,72,60,12,83.3,22,40,60,Monsoon,Normal,Sunday,8,0,16.0,115.3,1725502,28,Low,3,0,64,5,23,19,5,13.3,1.1,344,0
+418,17-09-2024,Umeed Ki Kiran,Bangalore,KA,74,52,22,70.3,54,42,58,Monsoon,Normal,Tuesday,9,0,18.1,11.7,234514,58,Medium,5,1,76,30,19,15,4,4.6,4.8,249,0
+419,25-07-2024,Sahara Vikas Kendra,Bangalore,KA,278,225,53,80.9,22,54,46,Monsoon,No issues reported,Thursday,7,0,26.3,9.3,848658,31,High,8,0,0,15,15,9,6,15.3,9.4,319,1
+420,03-07-2024,Asha Deep Shelter,Chennai,TN,73,72,1,98.6,45,45,55,Monsoon,Needs maintenance,Wednesday,7,0,38.3,116.4,1907596,6,Low,6,1,4,30,19,12,2,9.5,12.2,176,0
+421,24-10-2023,Karuna Bhavan,Jaipur,RJ,70,56,14,80.0,68,55,45,Autumn,No issues reported,Tuesday,10,0,22.9,48.0,1308624,35,Medium,4,1,79,24,12,1,0,4.1,2.9,71,1
+422,21-11-2024,Apna Ghar Ashram,Jaipur,RJ,240,196,44,81.7,50,43,57,Autumn,No issues reported,Thursday,11,0,27.7,7.0,1012452,18,Medium,8,1,14,47,1,2,8,14.8,2.5,16,0
+423,22-07-2024,Navjeevan Griha,Bangalore,KA,161,158,3,98.1,52,50,50,Monsoon,Needs maintenance,Monday,7,0,16.0,226.9,4833725,6,Low,3,1,27,45,23,18,1,8.7,13.9,328,1
+424,04-03-2025,Navjeevan Griha,Ahmedabad,GJ,279,222,57,79.6,25,48,52,Summer,No issues reported,Tuesday,3,0,18.7,137.6,1820394,33,High,3,1,22,32,26,5,9,4.5,11.5,159,0
+425,26-01-2024,Karuna Bhavan,Delhi,DL,286,226,60,79.0,23,58,42,Winter,Normal,Friday,1,0,39.7,86.8,4186725,19,Low,4,0,16,12,1,18,2,12.5,9.3,69,0
+426,22-05-2024,Premalaya Home,Surat,GJ,175,96,79,54.9,38,56,44,Summer,Normal,Wednesday,5,0,39.1,270.0,2800025,16,Medium,9,1,12,51,24,19,7,16.2,11.8,112,0
+427,10-06-2025,Karuna Bhavan,Surat,GJ,281,251,30,89.3,41,44,56,Monsoon,New admissions pending,Tuesday,6,0,15.1,34.8,2139934,41,High,5,1,13,9,13,18,9,16.3,7.0,231,0
+428,17-05-2025,Asha Deep Shelter,Bangalore,KA,177,119,58,67.2,40,56,44,Summer,Needs maintenance,Saturday,5,0,38.8,286.8,2976979,32,Medium,8,1,10,23,3,7,8,17.4,11.6,20,1
+429,06-04-2024,Sahara Vikas Kendra,Kolkata,WB,162,118,44,72.8,22,42,58,Summer,No issues reported,Saturday,4,0,31.0,94.2,2564399,24,Low,6,0,27,9,16,13,2,16.0,6.2,134,0
+430,08-06-2024,Asha Deep Shelter,Delhi,DL,220,200,20,90.9,33,56,44,Monsoon,Excellent condition,Saturday,6,0,36.7,266.5,4713062,43,High,3,1,41,40,12,9,5,3.0,4.4,262,1
+431,29-07-2025,Manav Seva Sangam,Chennai,TN,124,94,30,75.8,49,48,52,Monsoon,No issues reported,Tuesday,7,0,26.4,180.9,3845830,28,Medium,8,1,60,30,3,2,6,8.7,11.2,110,1
+432,09-04-2025,Navjeevan Griha,Surat,GJ,206,137,69,66.5,32,40,60,Summer,No issues reported,Wednesday,4,0,27.9,248.0,1005205,25,Medium,9,0,63,12,2,5,0,15.3,6.9,486,0
+433,17-08-2024,Sahara Vikas Kendra,Pune,MH,180,131,49,72.8,50,51,49,Monsoon,Normal,Saturday,8,0,27.2,295.2,2173091,14,Medium,8,1,30,2,11,14,6,8.5,14.7,245,0
+434,21-09-2023,Premalaya Home,Pune,MH,264,213,51,80.7,50,55,45,Monsoon,Excellent condition,Thursday,9,0,31.7,86.5,1016649,50,Low,4,1,72,58,21,17,3,12.0,5.9,282,1
+435,12-06-2024,Jeevan Jyoti Shelter,Surat,GJ,179,152,27,84.9,44,45,55,Monsoon,High demand,Wednesday,6,0,18.5,288.3,984048,18,High,6,0,9,49,22,13,4,12.1,13.9,7,0
+436,28-04-2025,Asha Deep Shelter,Chennai,TN,228,150,78,65.8,43,45,55,Summer,Needs maintenance,Monday,4,0,15.7,116.8,3080555,41,Low,1,1,7,51,7,18,7,8.5,14.1,456,1
+437,21-02-2025,Manav Seva Sangam,Jaipur,RJ,71,53,18,74.6,23,52,48,Winter,High demand,Friday,2,0,22.7,115.7,1914071,22,Low,4,1,20,33,1,9,3,16.6,4.4,283,0
+438,21-01-2025,Premalaya Home,Jaipur,RJ,290,253,37,87.2,61,41,59,Winter,New admissions pending,Tuesday,1,0,32.6,102.1,4772340,28,Low,8,1,76,48,5,14,3,10.5,12.2,206,1
+439,05-04-2025,Karuna Bhavan,Surat,GJ,91,66,25,72.5,64,53,47,Summer,Needs maintenance,Saturday,4,0,20.0,162.4,1477989,18,High,1,1,58,27,21,3,7,10.0,7.1,193,0
+440,22-12-2024,Asha Deep Shelter,Jaipur,RJ,131,97,34,74.0,27,44,56,Winter,Needs maintenance,Sunday,12,0,31.8,46.2,2082709,38,Low,3,1,49,18,9,1,4,18.0,13.8,454,0
+441,27-06-2025,Premalaya Home,Surat,GJ,238,229,9,96.2,33,46,54,Monsoon,High demand,Friday,6,0,39.2,166.1,1250532,16,Low,1,0,68,22,11,2,5,10.4,7.3,46,1
+442,07-12-2024,Asha Deep Shelter,Surat,GJ,211,153,58,72.5,64,51,49,Winter,New admissions pending,Saturday,12,1,17.3,162.5,514462,26,Low,9,0,69,44,20,6,4,5.7,11.4,465,1
+443,29-08-2024,Navjeevan Griha,Jaipur,RJ,61,55,6,90.2,69,44,56,Monsoon,No issues reported,Thursday,8,0,31.8,228.6,3041620,10,Low,2,0,29,31,9,15,0,10.7,7.5,341,1
+444,13-08-2025,Jeevan Jyoti Shelter,Chennai,TN,120,85,35,70.8,31,42,58,Monsoon,High demand,Wednesday,8,0,26.1,250.1,4918923,40,Medium,9,1,16,12,9,9,6,15.2,4.2,241,0
+445,29-08-2025,Karuna Bhavan,Mumbai,MH,148,119,29,80.4,68,58,42,Monsoon,Needs maintenance,Friday,8,0,36.7,132.1,3050109,49,Low,4,1,74,32,22,18,5,14.7,3.8,9,0
+446,11-05-2024,Daya Sagar,Mumbai,MH,157,101,56,64.3,59,51,49,Summer,New admissions pending,Saturday,5,1,19.4,90.7,3622401,40,Medium,2,1,19,33,2,16,1,14.8,7.0,369,0
+447,22-12-2024,Navjeevan Griha,Pune,MH,154,111,43,72.1,40,40,60,Winter,New admissions pending,Sunday,12,1,32.3,77.8,2494975,26,Low,4,0,47,32,19,18,6,13.6,11.6,288,0
+448,31-01-2025,Navjeevan Griha,Pune,MH,95,90,5,94.7,50,45,55,Winter,High demand,Friday,1,0,36.0,58.4,3321557,18,High,6,1,72,55,9,4,5,6.8,9.5,390,1
+449,25-03-2024,Asha Deep Shelter,Chennai,TN,131,90,41,68.7,52,53,47,Summer,No issues reported,Monday,3,0,38.6,17.3,2322759,20,Medium,7,1,1,4,28,19,4,15.9,10.6,130,1
+450,05-01-2024,Manav Seva Sangam,Chennai,TN,129,112,17,86.8,26,55,45,Winter,Normal,Friday,1,0,32.1,102.7,4653623,40,Medium,3,1,36,55,8,12,7,16.4,5.0,269,0
+451,13-05-2025,Jeevan Jyoti Shelter,Delhi,DL,119,79,40,66.4,47,58,42,Summer,High demand,Tuesday,5,0,27.4,81.1,2499308,29,Medium,3,0,0,2,19,12,4,5.9,7.7,427,0
+452,12-01-2024,Manav Seva Sangam,Hyderabad,TS,160,134,26,83.8,18,52,48,Winter,Excellent condition,Friday,1,0,30.4,289.9,3798294,36,Medium,8,0,3,59,18,10,1,5.0,1.6,301,0
+453,05-11-2023,Umeed Ki Kiran,Ahmedabad,GJ,144,120,24,83.3,56,52,48,Autumn,No issues reported,Sunday,11,0,36.7,167.3,324535,37,High,5,1,53,6,13,10,5,17.6,12.4,60,1
+454,18-10-2024,Umeed Ki Kiran,Ahmedabad,GJ,202,169,33,83.7,27,48,52,Autumn,No issues reported,Friday,10,1,29.3,104.2,3298204,49,Low,4,1,24,23,1,15,0,16.0,14.9,163,1
+455,09-05-2025,Sahara Vikas Kendra,Delhi,DL,157,111,46,70.7,55,41,59,Summer,Normal,Friday,5,0,15.8,174.1,2530017,40,Medium,7,1,2,21,4,14,4,16.4,6.7,12,0
+456,19-08-2025,Apna Ghar Ashram,Delhi,DL,73,56,17,76.7,22,55,45,Monsoon,Excellent condition,Tuesday,8,0,38.3,41.8,4866129,24,High,7,0,8,44,19,16,5,16.3,1.2,271,1
+457,02-06-2024,Premalaya Home,Bangalore,KA,270,261,9,96.7,66,42,58,Monsoon,No issues reported,Sunday,6,0,32.2,133.2,4181146,22,Medium,9,0,75,22,28,17,6,11.1,3.4,207,0
+458,16-09-2024,Umeed Ki Kiran,Surat,GJ,67,56,11,83.6,55,43,57,Monsoon,Normal,Monday,9,0,31.9,187.9,967472,42,Low,9,0,73,29,28,18,1,12.7,10.1,245,0
+459,19-01-2024,Asha Deep Shelter,Pune,MH,256,206,50,80.5,61,51,49,Winter,High demand,Friday,1,0,20.4,146.7,2328581,7,Medium,5,1,33,59,7,3,0,11.2,9.6,132,1
+460,17-06-2025,Daya Sagar,Delhi,DL,287,249,38,86.8,18,42,58,Monsoon,High demand,Tuesday,6,0,31.5,120.5,3699279,27,High,8,0,42,17,6,4,5,3.8,12.0,243,1
+461,11-03-2024,Daya Sagar,Bangalore,KA,261,185,76,70.9,55,45,55,Summer,Excellent condition,Monday,3,0,24.8,298.2,2054517,36,Low,1,1,73,31,5,6,2,14.2,4.6,472,1
+462,17-05-2024,Jeevan Jyoti Shelter,Chennai,TN,175,128,47,73.1,25,59,41,Summer,No issues reported,Friday,5,0,31.3,264.1,2112362,49,High,9,1,21,55,10,1,4,10.6,11.7,293,1
+463,12-02-2025,Premalaya Home,Surat,GJ,219,191,28,87.2,66,44,56,Winter,New admissions pending,Wednesday,2,0,17.7,187.0,3682403,20,Low,8,0,69,52,11,0,1,12.7,10.6,485,0
+464,11-01-2025,Navjeevan Griha,Delhi,DL,100,91,9,91.0,36,52,48,Winter,High demand,Saturday,1,0,31.4,170.8,3271131,9,Low,6,1,1,6,17,11,0,10.5,5.5,433,1
+465,12-06-2025,Jeevan Jyoti Shelter,Mumbai,MH,287,270,17,94.1,27,56,44,Monsoon,No issues reported,Thursday,6,1,40.0,186.2,2057338,8,Low,3,0,65,32,18,9,0,10.4,8.6,37,1
+466,09-01-2024,Apna Ghar Ashram,Kolkata,WB,185,159,26,85.9,59,49,51,Winter,New admissions pending,Tuesday,1,0,16.2,60.4,638574,25,Medium,3,1,31,4,9,7,3,5.6,3.1,358,1
+467,16-03-2024,Asha Deep Shelter,Hyderabad,TS,126,95,31,75.4,35,60,40,Summer,No issues reported,Saturday,3,0,39.4,118.5,2484138,44,High,8,1,15,48,24,0,9,7.2,7.3,55,1
+468,12-01-2025,Karuna Bhavan,Ahmedabad,GJ,98,83,15,84.7,41,51,49,Winter,High demand,Sunday,1,0,25.2,11.8,154927,55,High,5,0,75,27,28,11,1,5.4,13.3,318,0
+469,04-05-2025,Apna Ghar Ashram,Surat,GJ,273,213,60,78.0,41,55,45,Summer,High demand,Sunday,5,0,36.8,142.7,1899916,18,High,7,1,0,7,24,1,0,5.9,6.9,375,0
+470,16-11-2024,Premalaya Home,Jaipur,RJ,53,34,19,64.2,62,54,46,Autumn,No issues reported,Saturday,11,1,34.6,162.9,2632985,43,Low,5,1,71,14,20,9,5,17.6,12.8,47,1
+471,13-03-2024,Manav Seva Sangam,Jaipur,RJ,177,125,52,70.6,39,43,57,Summer,Excellent condition,Wednesday,3,0,29.2,68.3,4267690,35,Medium,8,1,47,51,13,16,3,5.3,9.3,104,1
+472,24-02-2025,Daya Sagar,Chennai,TN,61,46,15,75.4,60,48,52,Winter,New admissions pending,Monday,2,1,33.5,289.2,3699886,18,Low,4,1,49,3,2,2,9,7.0,3.7,473,0
+473,19-05-2024,Sahara Vikas Kendra,Ahmedabad,GJ,147,94,53,63.9,62,47,53,Summer,Excellent condition,Sunday,5,0,37.0,272.8,4496460,10,High,2,1,12,33,17,6,6,11.9,9.1,58,0
+474,05-10-2024,Manav Seva Sangam,Ahmedabad,GJ,165,134,31,81.2,45,46,54,Autumn,Needs maintenance,Saturday,10,0,25.1,216.6,1003122,16,Medium,3,1,14,4,23,11,5,12.2,8.1,76,1
+475,06-01-2024,Asha Deep Shelter,Jaipur,RJ,234,181,53,77.4,39,41,59,Winter,Needs maintenance,Saturday,1,0,23.2,160.0,4093763,20,Medium,8,1,52,32,14,7,4,5.3,6.6,427,0
+476,06-06-2024,Sahara Vikas Kendra,Mumbai,MH,170,147,23,86.5,57,50,50,Monsoon,New admissions pending,Thursday,6,1,31.7,261.0,4713754,21,Medium,7,1,43,56,5,19,9,14.9,2.7,498,0
+477,27-01-2025,Karuna Bhavan,Surat,GJ,56,38,18,67.9,58,42,58,Winter,No issues reported,Monday,1,0,35.2,39.2,4567562,49,High,2,0,7,4,9,11,1,14.8,6.8,217,0
+478,31-07-2025,Sahara Vikas Kendra,Ahmedabad,GJ,95,78,17,82.1,33,52,48,Monsoon,No issues reported,Thursday,7,0,34.1,237.2,2348354,27,Medium,6,0,73,37,26,2,4,6.6,2.0,382,0
+479,03-05-2024,Karuna Bhavan,Mumbai,MH,102,71,31,69.6,38,52,48,Summer,Normal,Friday,5,1,34.9,37.4,164589,18,Medium,9,1,45,33,11,16,8,7.3,2.4,54,1
+480,14-01-2025,Asha Deep Shelter,Chennai,TN,207,192,15,92.8,33,52,48,Winter,New admissions pending,Tuesday,1,0,25.9,238.3,1243982,11,Low,4,1,68,57,6,8,8,17.1,6.8,54,0
+481,31-12-2024,Sahara Vikas Kendra,Surat,GJ,295,250,45,84.7,31,43,57,Winter,High demand,Tuesday,12,0,35.4,82.7,669003,50,Low,9,0,18,25,16,9,1,15.4,5.3,128,0
+482,12-12-2024,Apna Ghar Ashram,Ahmedabad,GJ,181,123,58,68.0,55,49,51,Winter,New admissions pending,Thursday,12,0,18.0,263.1,243839,36,Medium,2,1,37,0,0,5,6,13.5,14.0,391,1
+483,03-02-2024,Umeed Ki Kiran,Jaipur,RJ,259,231,28,89.2,34,43,57,Winter,No issues reported,Saturday,2,0,28.6,283.2,556453,19,Medium,2,0,10,3,25,0,9,4.2,6.3,382,1
+484,05-01-2024,Navjeevan Griha,Surat,GJ,202,150,52,74.3,62,53,47,Winter,New admissions pending,Friday,1,0,15.1,44.6,3097589,48,Low,9,0,42,38,17,11,3,9.3,11.6,387,1
+485,19-03-2025,Navjeevan Griha,Kolkata,WB,98,66,32,67.3,54,49,51,Summer,Needs maintenance,Wednesday,3,0,23.1,138.8,2977053,21,Low,7,0,19,53,25,4,2,11.4,8.4,84,0
+486,18-03-2024,Sahara Vikas Kendra,Bangalore,KA,96,67,29,69.8,58,46,54,Summer,No issues reported,Monday,3,1,24.2,294.3,2574055,45,Low,7,1,19,25,14,12,0,5.8,10.9,213,1
+487,16-01-2025,Navjeevan Griha,Chennai,TN,50,41,9,82.0,44,56,44,Winter,New admissions pending,Thursday,1,0,24.9,145.0,3040193,58,High,1,1,20,32,18,14,2,9.7,4.6,114,0
+488,04-12-2023,Sahara Vikas Kendra,Chennai,TN,292,215,77,73.6,62,49,51,Winter,No issues reported,Monday,12,0,32.4,259.1,4690176,51,High,6,1,56,32,27,10,8,12.0,14.2,436,1
+489,28-12-2024,Daya Sagar,Delhi,DL,246,190,56,77.2,49,42,58,Winter,Needs maintenance,Saturday,12,1,24.7,176.6,2557743,48,Low,7,0,49,7,0,7,8,7.9,8.4,313,0
+490,17-04-2025,Navjeevan Griha,Pune,MH,108,68,40,63.0,44,47,53,Summer,No issues reported,Thursday,4,0,26.2,112.6,1605811,38,Medium,6,0,73,19,29,4,6,14.7,12.6,292,1
+491,18-10-2023,Manav Seva Sangam,Kolkata,WB,95,57,38,60.0,39,53,47,Autumn,Normal,Wednesday,10,0,20.9,85.7,1706042,9,Low,6,0,25,15,4,1,2,15.6,6.1,48,1
+492,27-10-2024,Apna Ghar Ashram,Delhi,DL,243,159,84,65.4,32,58,42,Autumn,Excellent condition,Sunday,10,0,24.3,61.0,3895474,49,High,2,1,29,20,14,11,2,7.9,2.4,66,0
+493,03-12-2023,Daya Sagar,Mumbai,MH,145,107,38,73.8,35,40,60,Winter,High demand,Sunday,12,0,20.7,228.5,3974482,31,Medium,6,0,72,44,2,1,3,15.6,10.4,274,1
+494,11-11-2023,Daya Sagar,Bangalore,KA,200,155,45,77.5,21,53,47,Autumn,Excellent condition,Saturday,11,0,16.8,116.0,3282452,56,High,4,0,30,54,0,15,6,4.6,1.1,128,1
+495,21-08-2024,Karuna Bhavan,Kolkata,WB,179,150,29,83.8,54,50,50,Monsoon,High demand,Wednesday,8,0,30.1,153.4,4997796,27,Medium,9,1,41,55,7,2,6,15.6,7.7,28,1
+496,29-04-2025,Jeevan Jyoti Shelter,Kolkata,WB,194,150,44,77.3,32,44,56,Summer,Normal,Tuesday,4,0,31.7,147.7,4340697,44,High,1,0,67,25,11,9,1,5.3,3.7,342,1
+497,14-04-2025,Sahara Vikas Kendra,Delhi,DL,117,67,50,57.3,58,52,48,Summer,Excellent condition,Monday,4,0,30.5,173.2,3796328,18,Medium,8,0,60,22,26,18,4,4.2,9.8,32,1
+498,19-12-2024,Umeed Ki Kiran,Chennai,TN,247,225,22,91.1,53,58,42,Winter,No issues reported,Thursday,12,0,26.6,259.7,4211603,19,Medium,5,1,60,17,21,7,6,12.6,14.7,118,0
+499,24-12-2024,Jeevan Jyoti Shelter,Chennai,TN,229,190,39,83.0,57,59,41,Winter,New admissions pending,Tuesday,12,1,24.5,294.2,1960332,47,Medium,1,1,69,30,24,6,6,10.1,7.5,179,0
+500,25-04-2025,Umeed Ki Kiran,Bangalore,KA,235,171,64,72.8,31,49,51,Summer,High demand,Friday,4,1,36.6,122.3,3790030,37,Medium,4,0,77,51,18,0,5,16.6,12.4,424,1
+501,20-05-2024,Premalaya Home,Delhi,DL,187,95,92,50.8,42,51,49,Summer,No issues reported,Monday,5,0,28.0,248.3,2548578,57,High,1,1,67,41,24,11,9,8.4,8.1,150,1
+502,24-11-2023,Asha Deep Shelter,Pune,MH,177,134,43,75.7,35,44,56,Autumn,New admissions pending,Friday,11,0,27.0,229.4,3862010,35,High,6,0,16,11,24,4,9,7.3,7.9,132,0
+503,11-02-2025,Premalaya Home,Chennai,TN,139,94,45,67.6,31,41,59,Winter,Excellent condition,Tuesday,2,0,15.6,172.1,1528081,39,Medium,2,1,18,0,11,15,7,10.5,14.0,326,0
+504,12-08-2024,Jeevan Jyoti Shelter,Bangalore,KA,111,89,22,80.2,48,50,50,Monsoon,Normal,Monday,8,0,23.5,286.8,1620889,21,Medium,5,0,50,41,12,3,2,9.8,13.5,184,1
+505,25-03-2025,Umeed Ki Kiran,Pune,MH,156,81,75,51.9,54,52,48,Summer,Normal,Tuesday,3,0,24.5,60.1,2449146,32,High,7,1,69,8,27,16,0,8.2,12.0,133,0
+506,25-08-2025,Apna Ghar Ashram,Kolkata,WB,281,228,53,81.1,60,56,44,Monsoon,No issues reported,Monday,8,0,25.0,32.8,3121640,23,Medium,2,0,62,2,0,1,2,13.4,5.1,176,1
+507,30-12-2023,Apna Ghar Ashram,Mumbai,MH,112,88,24,78.6,28,41,59,Winter,New admissions pending,Saturday,12,1,29.5,256.2,1595491,50,Medium,6,1,74,59,18,11,1,14.4,8.6,21,1
+508,25-10-2023,Karuna Bhavan,Jaipur,RJ,273,221,52,81.0,57,59,41,Autumn,High demand,Wednesday,10,0,28.3,131.7,4882303,58,Medium,6,1,79,50,5,0,1,15.8,4.1,240,1
+509,16-07-2025,Sahara Vikas Kendra,Chennai,TN,272,262,10,96.3,49,52,48,Monsoon,New admissions pending,Wednesday,7,1,30.2,254.1,4983842,27,Low,5,1,29,25,7,11,1,17.6,7.2,76,1
+510,01-09-2024,Premalaya Home,Bangalore,KA,238,219,19,92.0,68,59,41,Monsoon,No issues reported,Sunday,9,0,34.1,267.9,1972967,36,Medium,5,1,24,8,3,11,4,7.0,7.8,203,0
+511,06-01-2024,Daya Sagar,Hyderabad,TS,166,151,15,91.0,56,54,46,Winter,Needs maintenance,Saturday,1,0,35.3,18.7,1000922,44,Low,3,1,74,41,4,11,0,13.7,12.6,3,0
+512,24-08-2024,Umeed Ki Kiran,Jaipur,RJ,137,100,37,73.0,53,47,53,Monsoon,Excellent condition,Saturday,8,0,33.0,265.0,1734449,17,Medium,2,1,70,50,24,18,9,8.9,13.5,327,0
+513,21-09-2023,Jeevan Jyoti Shelter,Chennai,TN,243,212,31,87.2,64,55,45,Monsoon,No issues reported,Thursday,9,1,38.9,134.5,515590,24,High,7,1,25,15,21,16,3,13.2,6.8,447,1
+514,06-08-2025,Jeevan Jyoti Shelter,Pune,MH,278,218,60,78.4,45,60,40,Monsoon,New admissions pending,Wednesday,8,0,15.5,153.1,1483284,39,Low,1,0,55,23,27,19,9,10.1,1.2,164,0
+515,30-12-2023,Sahara Vikas Kendra,Ahmedabad,GJ,267,177,90,66.3,30,49,51,Winter,Needs maintenance,Saturday,12,0,19.9,188.0,1167374,9,Low,6,0,21,49,6,10,4,17.9,13.1,414,1
+516,20-04-2025,Premalaya Home,Ahmedabad,GJ,290,163,127,56.2,67,41,59,Summer,Needs maintenance,Sunday,4,0,15.2,277.9,3049610,13,Medium,6,1,18,13,22,12,1,13.9,3.4,420,1
+517,04-06-2025,Jeevan Jyoti Shelter,Surat,GJ,293,250,43,85.3,31,44,56,Monsoon,Needs maintenance,Wednesday,6,0,31.2,5.7,2348756,33,Medium,3,1,30,2,3,7,4,17.3,9.7,127,0
+518,05-07-2024,Umeed Ki Kiran,Jaipur,RJ,143,108,35,75.5,29,50,50,Monsoon,High demand,Friday,7,0,37.5,143.1,2838107,10,Low,2,0,25,33,19,9,9,15.5,1.3,44,1
+519,17-03-2025,Premalaya Home,Ahmedabad,GJ,234,145,89,62.0,18,50,50,Summer,Needs maintenance,Monday,3,1,21.1,206.3,80257,29,High,2,0,41,32,3,7,3,16.5,6.6,217,1
+520,24-10-2023,Daya Sagar,Jaipur,RJ,166,124,42,74.7,27,59,41,Autumn,High demand,Tuesday,10,0,38.2,216.8,4651731,35,High,9,1,40,49,29,19,7,15.2,14.8,234,1
+521,19-06-2025,Umeed Ki Kiran,Ahmedabad,GJ,182,135,47,74.2,29,45,55,Monsoon,No issues reported,Thursday,6,0,16.5,207.8,1035257,26,Medium,5,0,22,23,14,7,0,9.9,2.4,135,0
+522,20-10-2024,Premalaya Home,Bangalore,KA,58,50,8,86.2,49,46,54,Autumn,Normal,Sunday,10,0,38.4,40.3,1151267,6,High,7,0,46,8,26,8,4,6.8,6.9,167,1
+523,10-09-2025,Premalaya Home,Pune,MH,260,228,32,87.7,25,53,47,Monsoon,No issues reported,Wednesday,9,1,23.8,89.8,2105845,49,High,5,1,12,12,20,6,9,8.6,5.3,480,0
+524,09-10-2024,Navjeevan Griha,Bangalore,KA,287,250,37,87.1,52,58,42,Autumn,Excellent condition,Wednesday,10,0,17.5,107.6,468829,9,Medium,7,1,65,1,4,13,0,3.3,13.7,236,1
+525,29-09-2023,Sahara Vikas Kendra,Pune,MH,66,61,5,92.4,25,60,40,Monsoon,Excellent condition,Friday,9,0,27.1,241.3,2685466,31,High,4,1,65,6,23,1,9,10.9,13.2,92,0
+526,16-08-2025,Jeevan Jyoti Shelter,Hyderabad,TS,56,54,2,96.4,46,50,50,Monsoon,New admissions pending,Saturday,8,0,21.4,83.6,3488780,29,Medium,8,0,15,47,8,10,9,10.6,4.3,4,1
+527,20-07-2024,Sahara Vikas Kendra,Bangalore,KA,152,132,20,86.8,30,46,54,Monsoon,New admissions pending,Saturday,7,0,22.1,63.2,4165345,12,Low,7,1,72,20,1,7,3,10.9,2.1,155,0
+528,25-09-2023,Navjeevan Griha,Bangalore,KA,186,133,53,71.5,39,45,55,Monsoon,Excellent condition,Monday,9,0,22.7,287.2,4788202,59,Medium,5,1,27,18,26,12,7,17.6,9.8,244,0
+529,12-11-2023,Karuna Bhavan,Surat,GJ,236,157,79,66.5,35,41,59,Autumn,High demand,Sunday,11,0,35.1,2.7,1596933,5,Low,6,0,76,24,6,14,0,16.7,5.7,359,1
+530,07-02-2024,Navjeevan Griha,Kolkata,WB,286,217,69,75.9,38,45,55,Winter,High demand,Wednesday,2,0,28.5,299.3,375329,24,Low,5,1,34,46,16,2,1,5.4,10.4,80,1
+531,24-12-2023,Premalaya Home,Pune,MH,90,72,18,80.0,68,41,59,Winter,No issues reported,Sunday,12,0,22.8,203.0,3006151,48,High,7,0,40,21,15,13,0,8.5,1.4,246,1
+532,12-10-2023,Navjeevan Griha,Kolkata,WB,241,153,88,63.5,35,58,42,Autumn,High demand,Thursday,10,1,30.3,248.5,1277222,27,High,2,0,76,10,16,14,6,9.4,2.9,342,1
+533,26-09-2024,Umeed Ki Kiran,Mumbai,MH,115,106,9,92.2,26,50,50,Monsoon,High demand,Thursday,9,1,32.9,88.4,3417851,36,High,5,0,30,32,19,1,1,8.4,10.6,492,0
+534,04-08-2025,Manav Seva Sangam,Kolkata,WB,126,88,38,69.8,41,48,52,Monsoon,Excellent condition,Monday,8,0,21.8,4.3,1593812,15,Medium,3,0,31,31,25,18,0,15.0,4.0,136,1
+535,04-10-2024,Manav Seva Sangam,Mumbai,MH,160,111,49,69.4,62,43,57,Autumn,Needs maintenance,Friday,10,0,25.3,221.4,915256,43,High,9,0,53,20,22,11,5,10.9,13.0,385,0
+536,22-04-2024,Sahara Vikas Kendra,Ahmedabad,GJ,154,119,35,77.3,47,50,50,Summer,No issues reported,Monday,4,1,18.0,250.2,50917,51,Low,6,0,71,38,1,19,5,11.6,1.8,62,1
+537,30-06-2024,Daya Sagar,Surat,GJ,192,179,13,93.2,51,48,52,Monsoon,Excellent condition,Sunday,6,0,19.5,222.1,4523447,58,High,3,1,58,19,10,3,9,15.8,4.0,479,0
+538,10-09-2025,Asha Deep Shelter,Kolkata,WB,128,99,29,77.3,47,46,54,Monsoon,New admissions pending,Wednesday,9,0,32.0,42.9,312091,28,High,7,1,40,7,1,2,1,15.1,15.0,306,0
+539,11-01-2025,Apna Ghar Ashram,Bangalore,KA,106,95,11,89.6,22,58,42,Winter,New admissions pending,Saturday,1,0,19.5,226.0,453157,15,Medium,4,1,65,41,0,4,0,5.0,7.1,115,0
+540,22-02-2025,Asha Deep Shelter,Surat,GJ,112,97,15,86.6,25,56,44,Winter,Excellent condition,Saturday,2,0,28.1,230.7,299265,33,Medium,3,0,53,36,25,2,9,13.7,10.8,112,1
+541,09-03-2025,Sahara Vikas Kendra,Ahmedabad,GJ,86,62,24,72.1,26,54,46,Summer,High demand,Sunday,3,1,32.7,197.6,1434822,58,Low,8,1,39,8,1,14,2,9.5,3.6,30,1
+542,28-07-2024,Navjeevan Griha,Hyderabad,TS,217,160,57,73.7,48,59,41,Monsoon,Excellent condition,Sunday,7,0,17.7,229.8,1857402,30,Medium,4,0,27,24,28,18,9,7.4,9.5,6,0
+543,20-02-2024,Asha Deep Shelter,Chennai,TN,189,130,59,68.8,50,57,43,Winter,No issues reported,Tuesday,2,0,29.2,253.8,1999902,20,High,1,1,36,24,22,1,4,3.8,11.2,413,0
+544,07-11-2024,Manav Seva Sangam,Delhi,DL,195,162,33,83.1,41,59,41,Autumn,No issues reported,Thursday,11,0,21.4,184.1,1185371,39,Medium,6,0,64,32,8,11,5,10.3,5.4,441,0
+545,05-11-2023,Premalaya Home,Pune,MH,165,137,28,83.0,45,58,42,Autumn,No issues reported,Sunday,11,0,39.1,26.6,378821,24,Low,1,1,73,1,21,4,2,8.3,12.6,2,0
+546,12-09-2025,Sahara Vikas Kendra,Pune,MH,89,84,5,94.4,45,53,47,Monsoon,New admissions pending,Friday,9,0,27.1,146.3,709987,50,High,5,0,54,18,25,16,8,6.8,9.4,306,0
+547,25-11-2023,Jeevan Jyoti Shelter,Pune,MH,231,140,91,60.6,53,46,54,Autumn,High demand,Saturday,11,0,35.1,23.3,293877,7,Low,7,1,3,45,1,13,4,13.4,6.4,242,1
+548,10-04-2024,Premalaya Home,Pune,MH,146,113,33,77.4,39,58,42,Summer,New admissions pending,Wednesday,4,0,28.8,122.3,3395026,5,Medium,6,0,9,19,27,9,1,14.5,8.8,55,0
+549,12-11-2024,Apna Ghar Ashram,Hyderabad,TS,202,166,36,82.2,69,59,41,Autumn,High demand,Tuesday,11,0,16.1,122.1,1597419,57,Medium,2,1,46,41,14,2,9,6.7,9.1,72,1
+550,06-11-2023,Daya Sagar,Pune,MH,66,49,17,74.2,67,59,41,Autumn,New admissions pending,Monday,11,0,30.8,19.8,970759,51,Low,4,0,74,40,9,3,5,3.7,3.3,9,1
+551,16-01-2024,Sahara Vikas Kendra,Hyderabad,TS,216,178,38,82.4,19,49,51,Winter,No issues reported,Tuesday,1,0,38.8,104.6,1811369,5,High,2,1,13,41,14,5,7,15.7,6.6,60,1
+552,01-10-2023,Jeevan Jyoti Shelter,Ahmedabad,GJ,286,228,58,79.7,48,52,48,Autumn,New admissions pending,Sunday,10,0,30.0,33.3,3298140,21,Medium,1,1,37,28,9,15,5,3.1,5.8,493,0
+553,11-03-2024,Premalaya Home,Pune,MH,134,82,52,61.2,22,44,56,Summer,No issues reported,Monday,3,0,35.5,242.5,2263697,6,Medium,3,1,11,5,28,6,3,17.1,6.6,49,0
+554,04-05-2024,Asha Deep Shelter,Surat,GJ,297,219,78,73.7,33,58,42,Summer,Needs maintenance,Saturday,5,0,37.1,284.3,1517172,33,High,3,0,44,16,24,14,5,12.4,11.7,121,0
+555,15-08-2025,Umeed Ki Kiran,Kolkata,WB,203,144,59,70.9,34,47,53,Monsoon,New admissions pending,Friday,8,0,20.7,21.7,1908997,24,Medium,7,0,16,59,22,19,7,7.8,7.8,174,0
+556,01-07-2024,Karuna Bhavan,Kolkata,WB,85,66,19,77.6,54,46,54,Monsoon,High demand,Monday,7,0,20.3,286.5,1468826,10,Low,1,0,79,24,26,10,7,6.7,14.2,473,1
+557,29-01-2025,Sahara Vikas Kendra,Surat,GJ,111,87,24,78.4,63,55,45,Winter,New admissions pending,Wednesday,1,0,30.3,156.8,4530967,12,Medium,9,0,34,37,16,0,9,3.1,5.1,0,1
+558,07-11-2023,Sahara Vikas Kendra,Pune,MH,105,76,29,72.4,37,47,53,Autumn,Excellent condition,Tuesday,11,0,25.3,89.9,1479290,33,Medium,6,0,65,3,27,4,1,6.5,6.8,477,1
+559,23-03-2024,Daya Sagar,Kolkata,WB,246,149,97,60.6,23,44,56,Summer,High demand,Saturday,3,0,36.0,23.1,2170711,52,High,4,1,74,29,8,12,7,5.1,12.0,440,0
+560,04-02-2024,Daya Sagar,Chennai,TN,246,228,18,92.7,67,46,54,Winter,Needs maintenance,Sunday,2,0,37.5,150.2,571244,55,Low,3,0,40,19,17,13,5,12.2,8.6,37,0
+561,13-02-2025,Daya Sagar,Surat,GJ,221,192,29,86.9,60,50,50,Winter,Excellent condition,Thursday,2,0,23.8,238.4,1449769,37,High,3,1,66,2,3,8,1,5.5,8.7,189,0
+562,07-02-2024,Manav Seva Sangam,Hyderabad,TS,242,203,39,83.9,54,46,54,Winter,High demand,Wednesday,2,0,20.9,212.1,2545389,7,Medium,2,1,28,22,8,16,0,10.9,1.7,78,0
+563,29-02-2024,Premalaya Home,Pune,MH,227,211,16,93.0,68,51,49,Winter,No issues reported,Thursday,2,0,34.5,15.1,4689059,39,Medium,2,0,17,50,15,14,5,11.9,6.6,344,0
+564,04-03-2024,Umeed Ki Kiran,Kolkata,WB,229,146,83,63.8,59,49,51,Summer,Excellent condition,Monday,3,0,21.9,21.9,538051,9,High,5,1,19,17,3,6,6,7.5,4.8,453,0
+565,10-05-2025,Apna Ghar Ashram,Delhi,DL,221,174,47,78.7,39,54,46,Summer,High demand,Saturday,5,0,35.6,120.9,875782,31,High,9,0,13,25,15,11,9,3.5,15.0,337,1
+566,26-07-2025,Karuna Bhavan,Kolkata,WB,295,270,25,91.5,28,55,45,Monsoon,Excellent condition,Saturday,7,0,25.6,88.6,489439,48,High,2,0,33,55,18,5,4,3.6,5.3,448,1
+567,28-11-2023,Apna Ghar Ashram,Bangalore,KA,129,84,45,65.1,35,49,51,Autumn,Excellent condition,Tuesday,11,0,31.7,69.7,3667597,16,Low,2,0,48,35,0,15,9,3.4,13.4,189,0
+568,17-12-2024,Karuna Bhavan,Kolkata,WB,247,224,23,90.7,61,59,41,Winter,Excellent condition,Tuesday,12,0,17.4,84.3,4659770,24,Medium,6,1,53,7,22,4,7,14.1,10.5,183,1
+569,29-03-2025,Umeed Ki Kiran,Mumbai,MH,146,73,73,50.0,66,47,53,Summer,High demand,Saturday,3,1,30.6,241.0,1314134,49,High,2,0,30,16,5,8,8,7.8,5.8,66,1
+570,28-11-2024,Manav Seva Sangam,Surat,GJ,243,214,29,88.1,48,40,60,Autumn,Needs maintenance,Thursday,11,0,26.3,278.8,1944554,24,Medium,4,0,57,30,9,13,3,14.9,8.6,16,1
+571,17-01-2024,Navjeevan Griha,Pune,MH,121,102,19,84.3,57,42,58,Winter,High demand,Wednesday,1,0,29.7,121.5,4765700,13,Low,6,0,41,36,15,7,6,9.5,12.8,382,1
+572,19-05-2025,Manav Seva Sangam,Mumbai,MH,115,75,40,65.2,31,56,44,Summer,Excellent condition,Monday,5,0,19.2,271.8,997272,43,Low,5,1,57,44,3,13,7,9.8,13.4,367,0
+573,15-06-2024,Daya Sagar,Surat,GJ,171,121,50,70.8,34,47,53,Monsoon,Normal,Saturday,6,0,33.4,96.4,4964082,8,Low,1,0,29,56,21,11,5,10.7,3.2,391,1
+574,09-11-2023,Jeevan Jyoti Shelter,Bangalore,KA,272,168,104,61.8,65,59,41,Autumn,Needs maintenance,Thursday,11,0,36.6,142.9,3181603,55,Low,6,1,24,32,21,9,1,13.7,5.8,315,0
+575,13-10-2024,Manav Seva Sangam,Kolkata,WB,240,186,54,77.5,32,60,40,Autumn,Excellent condition,Sunday,10,0,20.4,67.8,3835961,58,Medium,1,1,62,26,12,19,6,7.1,5.7,496,0
+576,28-10-2023,Asha Deep Shelter,Mumbai,MH,166,103,63,62.0,41,51,49,Autumn,New admissions pending,Saturday,10,1,17.4,192.1,3169734,23,Low,3,0,18,44,15,19,8,4.8,1.6,295,1
+577,16-05-2024,Jeevan Jyoti Shelter,Pune,MH,167,112,55,67.1,18,42,58,Summer,New admissions pending,Thursday,5,0,15.6,293.7,761943,42,Low,5,1,71,3,19,12,4,11.3,9.4,208,0
+578,29-12-2023,Jeevan Jyoti Shelter,Ahmedabad,GJ,209,180,29,86.1,37,47,53,Winter,New admissions pending,Friday,12,1,31.0,181.0,2287300,31,High,5,1,7,21,29,18,1,7.9,13.0,344,1
+579,08-02-2024,Premalaya Home,Chennai,TN,190,130,60,68.4,48,55,45,Winter,Needs maintenance,Thursday,2,0,30.2,107.3,4275389,49,Low,6,0,2,25,28,14,3,9.6,6.3,445,0
+580,03-09-2025,Apna Ghar Ashram,Jaipur,RJ,221,219,2,99.1,58,45,55,Monsoon,High demand,Wednesday,9,0,28.7,194.3,2671158,47,High,8,0,66,31,5,7,2,12.7,11.4,40,0
+581,03-01-2024,Apna Ghar Ashram,Chennai,TN,253,178,75,70.4,48,42,58,Winter,Normal,Wednesday,1,0,20.8,36.9,3201478,17,Low,5,0,16,23,25,9,3,10.4,9.8,395,1
+582,31-03-2024,Asha Deep Shelter,Chennai,TN,124,73,51,58.9,18,47,53,Summer,High demand,Sunday,3,1,24.8,266.6,2488064,17,Low,1,1,13,45,10,2,9,12.3,6.3,476,1
+583,16-11-2024,Asha Deep Shelter,Surat,GJ,140,122,18,87.1,51,53,47,Autumn,Normal,Saturday,11,0,29.9,150.9,4280207,26,High,5,0,8,34,23,2,6,11.2,3.0,472,0
+584,02-08-2024,Navjeevan Griha,Bangalore,KA,198,148,50,74.7,51,45,55,Monsoon,High demand,Friday,8,0,27.4,134.8,2048173,32,Low,3,1,61,36,28,4,9,14.1,10.9,114,1
+585,10-01-2024,Karuna Bhavan,Surat,GJ,241,157,84,65.1,67,60,40,Winter,High demand,Wednesday,1,0,39.7,175.8,4856546,56,Medium,4,1,20,31,2,15,7,13.6,13.0,99,0
+586,19-04-2024,Umeed Ki Kiran,Ahmedabad,GJ,106,63,43,59.4,23,54,46,Summer,Normal,Friday,4,0,18.4,187.4,4756797,51,Medium,8,1,75,6,19,16,0,11.0,10.6,372,1
+587,27-01-2025,Apna Ghar Ashram,Bangalore,KA,249,169,80,67.9,55,55,45,Winter,No issues reported,Monday,1,0,32.4,21.5,3623258,57,Low,7,1,36,32,9,5,7,13.2,1.3,437,0
+588,17-07-2024,Manav Seva Sangam,Delhi,DL,233,202,31,86.7,25,50,50,Monsoon,No issues reported,Wednesday,7,0,25.1,204.8,1540017,49,Medium,5,1,10,30,28,19,4,16.1,4.0,344,0
+589,04-10-2024,Daya Sagar,Chennai,TN,278,218,60,78.4,38,55,45,Autumn,Excellent condition,Friday,10,0,25.7,72.6,3152641,26,High,2,0,19,54,27,19,6,9.5,2.0,348,0
+590,09-05-2025,Jeevan Jyoti Shelter,Bangalore,KA,189,98,91,51.9,22,57,43,Summer,Excellent condition,Friday,5,0,32.9,214.2,919446,47,Low,6,0,34,11,29,15,0,9.2,9.0,138,0
+591,09-09-2024,Asha Deep Shelter,Jaipur,RJ,290,243,47,83.8,61,42,58,Monsoon,New admissions pending,Monday,9,0,32.3,246.8,691593,23,Low,6,1,52,10,0,1,1,14.5,11.6,315,0
+592,22-05-2024,Navjeevan Griha,Bangalore,KA,298,159,139,53.4,33,46,54,Summer,New admissions pending,Wednesday,5,0,39.8,241.2,3701361,12,High,6,1,46,23,19,19,0,11.7,2.5,323,1
+593,21-02-2024,Umeed Ki Kiran,Jaipur,RJ,66,60,6,90.9,67,60,40,Winter,High demand,Wednesday,2,0,18.2,165.8,1517130,56,High,9,0,74,7,10,14,4,4.1,12.7,333,0
+594,03-10-2024,Premalaya Home,Chennai,TN,284,214,70,75.4,64,56,44,Autumn,High demand,Thursday,10,0,17.6,156.1,1584227,12,High,8,0,51,31,25,17,5,16.4,8.8,301,1
+595,30-01-2025,Sahara Vikas Kendra,Bangalore,KA,174,158,16,90.8,63,40,60,Winter,High demand,Thursday,1,0,33.1,42.9,2347905,46,Low,8,1,7,56,25,0,9,3.5,10.7,293,1
+596,22-10-2024,Asha Deep Shelter,Ahmedabad,GJ,168,122,46,72.6,66,41,59,Autumn,Needs maintenance,Tuesday,10,0,29.5,232.6,4276405,30,High,1,1,3,37,11,18,8,14.2,14.6,444,0
+597,14-10-2024,Navjeevan Griha,Hyderabad,TS,89,78,11,87.6,40,41,59,Autumn,Excellent condition,Monday,10,0,21.9,81.4,4247079,52,High,5,0,26,59,13,11,7,14.4,2.2,16,0
+598,11-02-2024,Karuna Bhavan,Kolkata,WB,150,136,14,90.7,56,44,56,Winter,Excellent condition,Sunday,2,0,17.0,149.0,2637551,55,Medium,7,0,43,21,24,7,6,17.3,13.6,321,1
+599,16-10-2024,Premalaya Home,Chennai,TN,231,178,53,77.1,19,53,47,Autumn,Needs maintenance,Wednesday,10,0,17.1,85.3,4159070,30,Medium,6,1,39,33,7,5,4,3.8,2.8,455,0
+600,28-01-2024,Premalaya Home,Hyderabad,TS,77,61,16,79.2,19,54,46,Winter,Normal,Sunday,1,0,37.4,40.1,3448116,27,Low,5,0,46,18,10,11,2,12.0,6.5,291,0
+601,06-04-2025,Jeevan Jyoti Shelter,Jaipur,RJ,252,173,79,68.7,27,44,56,Summer,High demand,Sunday,4,0,19.8,188.9,2559907,47,Medium,8,0,43,51,3,6,8,9.4,12.9,73,1
+602,29-10-2024,Navjeevan Griha,Jaipur,RJ,65,56,9,86.2,55,59,41,Autumn,Normal,Tuesday,10,0,23.1,16.3,1856210,17,Medium,3,1,47,19,27,17,4,8.0,13.7,262,1
+603,11-02-2025,Daya Sagar,Delhi,DL,282,204,78,72.3,36,59,41,Winter,No issues reported,Tuesday,2,0,20.7,224.6,4039284,32,High,6,1,51,55,6,13,2,4.4,8.1,483,1
+604,12-08-2024,Apna Ghar Ashram,Jaipur,RJ,210,165,45,78.6,32,52,48,Monsoon,No issues reported,Monday,8,0,23.9,95.3,76616,13,High,5,1,67,13,9,7,2,11.4,9.3,15,1
+605,22-06-2024,Navjeevan Griha,Hyderabad,TS,161,157,4,97.5,33,56,44,Monsoon,High demand,Saturday,6,0,16.7,0.0,4192887,24,Medium,8,0,10,32,18,19,2,10.2,10.9,13,1
+606,02-07-2024,Asha Deep Shelter,Jaipur,RJ,181,138,43,76.2,56,40,60,Monsoon,High demand,Tuesday,7,0,28.0,153.3,4990359,23,Medium,4,1,76,9,24,13,5,4.6,12.7,335,1
+607,31-10-2023,Apna Ghar Ashram,Hyderabad,TS,53,36,17,67.9,21,46,54,Autumn,Excellent condition,Tuesday,10,0,16.7,14.1,1284215,52,Medium,8,0,72,15,25,4,0,12.2,2.7,280,0
+608,27-09-2023,Sahara Vikas Kendra,Surat,GJ,193,139,54,72.0,33,58,42,Monsoon,Needs maintenance,Wednesday,9,0,35.0,82.9,3888187,43,Low,2,1,3,3,3,8,3,14.1,12.3,360,1
+609,27-03-2024,Daya Sagar,Jaipur,RJ,246,135,111,54.9,55,45,55,Summer,Excellent condition,Wednesday,3,0,20.8,212.1,4451207,55,Low,9,1,75,26,1,7,7,14.5,7.7,3,1
+610,10-12-2023,Premalaya Home,Kolkata,WB,94,71,23,75.5,54,49,51,Winter,Excellent condition,Sunday,12,0,28.5,18.8,1088218,16,Low,9,0,72,27,25,1,2,16.6,7.3,412,0
+611,16-12-2024,Asha Deep Shelter,Jaipur,RJ,60,51,9,85.0,43,60,40,Winter,Needs maintenance,Monday,12,0,37.0,251.8,402365,19,Medium,6,0,76,42,20,15,4,9.1,6.9,126,0
+612,18-04-2024,Daya Sagar,Jaipur,RJ,290,217,73,74.8,28,49,51,Summer,High demand,Thursday,4,0,31.3,1.1,2434775,35,Medium,4,1,47,15,17,12,1,17.3,8.1,311,0
+613,30-07-2025,Karuna Bhavan,Surat,GJ,170,147,23,86.5,51,40,60,Monsoon,High demand,Wednesday,7,0,28.3,74.0,4159404,59,Low,4,1,25,58,13,6,1,16.0,14.2,5,0
+614,30-06-2024,Navjeevan Griha,Hyderabad,TS,186,157,29,84.4,36,40,60,Monsoon,Normal,Sunday,6,0,23.1,222.3,411309,18,Low,6,0,76,51,25,15,6,7.4,8.7,128,0
+615,21-02-2024,Karuna Bhavan,Jaipur,RJ,285,242,43,84.9,23,60,40,Winter,Excellent condition,Wednesday,2,0,23.3,94.9,4300167,15,Medium,5,1,38,32,15,6,9,5.4,14.3,422,0
+616,29-12-2023,Umeed Ki Kiran,Surat,GJ,278,260,18,93.5,60,42,58,Winter,No issues reported,Friday,12,1,31.7,30.6,3368843,30,High,6,0,57,47,21,13,2,9.5,3.5,384,1
+617,08-04-2025,Manav Seva Sangam,Bangalore,KA,241,140,101,58.1,28,58,42,Summer,High demand,Tuesday,4,0,39.9,108.1,1967577,46,Low,7,0,18,18,10,13,4,9.0,11.1,370,0
+618,30-11-2024,Premalaya Home,Delhi,DL,284,192,92,67.6,21,52,48,Autumn,New admissions pending,Saturday,11,0,31.5,81.1,2642806,31,Medium,7,1,76,20,9,11,2,11.6,12.4,231,0
+619,29-10-2023,Premalaya Home,Delhi,DL,247,188,59,76.1,45,47,53,Autumn,New admissions pending,Sunday,10,0,28.9,252.8,1601899,15,Medium,9,0,76,21,16,0,5,11.8,10.5,446,0
+620,25-07-2025,Navjeevan Griha,Surat,GJ,273,267,6,97.8,56,56,44,Monsoon,Excellent condition,Friday,7,0,33.3,94.0,827635,42,High,8,0,57,8,13,0,9,14.2,9.5,312,0
+621,16-08-2025,Premalaya Home,Bangalore,KA,70,59,11,84.3,65,57,43,Monsoon,High demand,Saturday,8,0,26.6,236.7,763340,38,Medium,6,0,27,8,21,11,2,10.6,8.9,194,1
+622,15-03-2025,Apna Ghar Ashram,Delhi,DL,246,145,101,58.9,23,58,42,Summer,High demand,Saturday,3,0,16.5,267.6,328495,47,Medium,6,1,65,8,3,19,7,4.6,13.1,64,0
+623,13-06-2024,Premalaya Home,Hyderabad,TS,119,83,36,69.7,26,47,53,Monsoon,Needs maintenance,Thursday,6,0,29.1,130.1,3330931,23,Low,5,0,9,26,18,14,1,15.9,12.5,320,0
+624,05-08-2024,Sahara Vikas Kendra,Hyderabad,TS,70,62,8,88.6,41,49,51,Monsoon,No issues reported,Monday,8,0,38.9,273.0,881257,10,Low,1,1,76,16,1,3,2,7.6,2.7,102,1
+625,14-05-2025,Navjeevan Griha,Pune,MH,284,167,117,58.8,35,43,57,Summer,Needs maintenance,Wednesday,5,0,19.4,113.2,1896357,50,High,9,1,57,43,6,6,7,17.6,12.9,276,1
+626,29-12-2024,Premalaya Home,Pune,MH,148,114,34,77.0,62,41,59,Winter,No issues reported,Sunday,12,0,32.3,289.2,1929262,56,High,9,1,72,56,8,15,7,4.8,6.8,492,1
+627,28-11-2023,Premalaya Home,Surat,GJ,290,213,77,73.4,66,42,58,Autumn,Needs maintenance,Tuesday,11,0,20.0,26.8,3693327,42,Medium,9,0,13,44,27,2,0,17.4,4.6,157,0
+628,30-03-2024,Sahara Vikas Kendra,Jaipur,RJ,184,141,43,76.6,29,45,55,Summer,New admissions pending,Saturday,3,0,28.4,206.1,1373173,53,Low,8,0,14,7,18,6,7,4.4,13.2,223,1
+629,14-10-2023,Navjeevan Griha,Bangalore,KA,61,38,23,62.3,59,60,40,Autumn,Normal,Saturday,10,0,17.4,148.1,1772199,46,High,3,1,32,15,15,5,9,6.5,7.0,288,1
+630,18-01-2024,Premalaya Home,Delhi,DL,100,85,15,85.0,24,48,52,Winter,Needs maintenance,Thursday,1,0,26.3,116.3,2749134,32,High,1,1,16,17,21,15,1,3.7,12.3,431,1
+631,13-11-2023,Apna Ghar Ashram,Hyderabad,TS,230,179,51,77.8,58,41,59,Autumn,Excellent condition,Monday,11,0,33.9,189.8,3080486,5,High,8,0,23,58,24,7,6,13.6,4.7,277,0
+632,16-01-2024,Asha Deep Shelter,Chennai,TN,259,206,53,79.5,42,43,57,Winter,High demand,Tuesday,1,0,23.7,211.2,4030053,39,Medium,7,1,29,32,15,5,5,15.8,1.1,477,0
+633,14-02-2024,Sahara Vikas Kendra,Jaipur,RJ,54,40,14,74.1,59,58,42,Winter,Needs maintenance,Wednesday,2,0,31.6,1.3,750033,44,Low,5,1,61,0,17,9,1,9.5,7.9,181,1
+634,06-02-2024,Jeevan Jyoti Shelter,Chennai,TN,196,168,28,85.7,52,55,45,Winter,Needs maintenance,Tuesday,2,0,34.9,50.1,3951403,12,High,7,0,12,11,22,15,4,16.9,2.4,365,0
+635,21-06-2025,Jeevan Jyoti Shelter,Hyderabad,TS,207,191,16,92.3,65,56,44,Monsoon,Excellent condition,Saturday,6,0,38.2,213.9,184445,56,Low,4,1,61,5,20,10,6,11.9,11.6,3,0
+636,27-02-2025,Jeevan Jyoti Shelter,Bangalore,KA,117,82,35,70.1,26,47,53,Winter,High demand,Thursday,2,0,20.9,199.9,4647855,58,High,9,0,46,40,20,12,7,12.5,4.9,214,0
+637,23-11-2024,Karuna Bhavan,Surat,GJ,72,59,13,81.9,62,54,46,Autumn,High demand,Saturday,11,0,25.0,289.8,1895700,51,High,2,0,15,54,10,5,2,15.7,7.2,438,0
+638,17-08-2025,Sahara Vikas Kendra,Bangalore,KA,122,114,8,93.4,32,53,47,Monsoon,Normal,Sunday,8,0,18.8,228.3,2716981,11,Low,9,1,65,4,6,0,0,7.5,2.2,427,0
+639,25-11-2024,Asha Deep Shelter,Delhi,DL,139,94,45,67.6,37,40,60,Autumn,Excellent condition,Monday,11,0,39.8,285.2,3870671,15,Low,9,0,42,58,8,18,6,8.3,5.0,216,1
+640,12-09-2025,Navjeevan Griha,Hyderabad,TS,113,99,14,87.6,68,40,60,Monsoon,Excellent condition,Friday,9,0,38.2,210.8,4958951,43,Low,5,0,7,15,3,11,4,16.6,11.9,395,1
+641,12-09-2024,Daya Sagar,Bangalore,KA,248,202,46,81.5,24,47,53,Monsoon,Excellent condition,Thursday,9,0,28.5,89.4,4137138,8,Medium,1,0,2,17,24,5,4,16.5,3.1,208,1
+642,21-05-2025,Asha Deep Shelter,Delhi,DL,109,85,24,78.0,20,44,56,Summer,Normal,Wednesday,5,0,36.1,31.6,921535,29,High,7,1,11,48,29,17,6,17.6,10.1,462,1
+643,24-08-2025,Daya Sagar,Bangalore,KA,281,213,68,75.8,57,51,49,Monsoon,High demand,Sunday,8,0,28.0,234.5,1833611,16,Medium,4,1,15,17,12,12,0,16.5,13.8,73,0
+644,23-04-2024,Daya Sagar,Hyderabad,TS,140,110,30,78.6,69,52,48,Summer,Needs maintenance,Tuesday,4,0,30.6,193.2,1792166,30,Low,9,1,77,0,26,6,7,4.9,10.5,226,1
+645,17-10-2024,Apna Ghar Ashram,Bangalore,KA,198,159,39,80.3,40,45,55,Autumn,Needs maintenance,Thursday,10,0,17.2,14.5,1085408,42,High,6,0,79,18,25,12,9,15.4,12.4,374,1
+646,01-05-2025,Jeevan Jyoti Shelter,Jaipur,RJ,173,101,72,58.4,38,59,41,Summer,New admissions pending,Thursday,5,0,33.9,108.0,1511312,50,Medium,3,0,58,53,24,7,4,9.1,2.5,499,0
+647,19-11-2024,Daya Sagar,Ahmedabad,GJ,192,163,29,84.9,23,46,54,Autumn,New admissions pending,Tuesday,11,0,18.2,287.0,2625606,16,High,6,1,48,7,28,16,7,17.9,4.5,435,0
+648,26-11-2024,Apna Ghar Ashram,Hyderabad,TS,119,77,42,64.7,45,52,48,Autumn,No issues reported,Tuesday,11,0,35.7,150.1,546440,47,Medium,6,1,62,2,3,8,9,10.1,13.5,92,0
+649,07-09-2024,Manav Seva Sangam,Kolkata,WB,165,149,16,90.3,18,40,60,Monsoon,No issues reported,Saturday,9,0,34.6,129.8,1521926,55,Low,5,0,61,57,18,19,9,11.3,11.0,459,0
+650,31-10-2024,Premalaya Home,Pune,MH,182,148,34,81.3,66,57,43,Autumn,High demand,Thursday,10,0,32.7,137.3,1502137,57,Medium,2,1,48,24,1,12,4,10.9,10.0,64,1
+651,15-07-2025,Navjeevan Griha,Pune,MH,71,65,6,91.5,37,58,42,Monsoon,Excellent condition,Tuesday,7,0,15.9,62.7,2923524,41,High,2,1,50,57,8,1,6,7.8,10.3,320,0
+652,30-03-2024,Navjeevan Griha,Pune,MH,148,83,65,56.1,62,53,47,Summer,New admissions pending,Saturday,3,0,22.6,110.6,2792455,50,High,7,1,32,4,11,3,9,4.1,6.8,9,0
+653,03-01-2025,Apna Ghar Ashram,Mumbai,MH,51,35,16,68.6,67,41,59,Winter,Needs maintenance,Friday,1,0,21.6,110.9,2319409,57,High,2,1,29,54,1,1,2,16.4,1.6,401,0
+654,28-06-2025,Navjeevan Griha,Jaipur,RJ,278,200,78,71.9,36,48,52,Monsoon,New admissions pending,Saturday,6,0,24.0,15.7,1753820,28,High,6,1,58,39,5,3,1,15.0,12.0,302,0
+655,30-09-2023,Premalaya Home,Hyderabad,TS,258,252,6,97.7,44,44,56,Monsoon,New admissions pending,Saturday,9,0,17.2,230.3,345599,20,Low,5,0,75,18,4,17,5,5.1,10.5,321,0
+656,01-10-2024,Manav Seva Sangam,Mumbai,MH,125,100,25,80.0,69,41,59,Autumn,Excellent condition,Tuesday,10,0,38.4,125.0,1607009,17,Medium,4,1,14,17,29,4,4,14.7,7.6,304,0
+657,10-12-2023,Apna Ghar Ashram,Ahmedabad,GJ,287,188,99,65.5,53,58,42,Winter,Excellent condition,Sunday,12,0,28.8,246.7,647904,29,Low,7,1,22,49,4,18,8,12.4,13.6,455,1
+658,12-03-2024,Manav Seva Sangam,Mumbai,MH,155,114,41,73.5,34,56,44,Summer,High demand,Tuesday,3,0,22.6,255.1,3807454,58,Low,8,0,77,52,19,9,9,9.1,5.7,277,1
+659,23-12-2023,Navjeevan Griha,Mumbai,MH,142,105,37,73.9,63,52,48,Winter,New admissions pending,Saturday,12,0,24.9,63.6,166841,58,Low,4,0,44,30,21,17,3,6.8,5.1,85,1
+660,15-12-2024,Karuna Bhavan,Jaipur,RJ,187,156,31,83.4,27,45,55,Winter,Excellent condition,Sunday,12,0,26.2,197.2,219934,56,High,1,0,61,32,4,9,2,15.9,13.2,25,0
+661,30-12-2024,Jeevan Jyoti Shelter,Bangalore,KA,94,70,24,74.5,69,50,50,Winter,No issues reported,Monday,12,0,30.0,141.7,3972750,58,High,1,0,78,46,26,4,8,13.5,12.2,217,0
+662,27-01-2024,Karuna Bhavan,Chennai,TN,62,48,14,77.4,62,45,55,Winter,No issues reported,Saturday,1,1,27.9,264.0,1185270,8,High,1,1,70,17,3,16,7,11.2,8.2,392,1
+663,18-06-2024,Jeevan Jyoti Shelter,Ahmedabad,GJ,248,230,18,92.7,24,40,60,Monsoon,New admissions pending,Tuesday,6,0,38.0,64.7,287068,15,Medium,1,1,14,56,28,12,5,12.1,2.8,404,1
+664,08-07-2025,Manav Seva Sangam,Hyderabad,TS,190,153,37,80.5,64,54,46,Monsoon,Needs maintenance,Tuesday,7,0,27.4,203.3,3689688,36,High,5,1,45,38,8,16,0,4.4,4.0,94,1
+665,19-07-2024,Jeevan Jyoti Shelter,Jaipur,RJ,222,177,45,79.7,34,53,47,Monsoon,High demand,Friday,7,0,39.8,182.3,4199287,53,Medium,4,1,63,15,28,8,9,10.1,10.2,243,1
+666,05-10-2023,Umeed Ki Kiran,Bangalore,KA,245,181,64,73.9,66,50,50,Autumn,Needs maintenance,Thursday,10,0,36.3,88.6,1654243,11,High,9,0,45,15,21,11,0,5.9,6.4,446,0
+667,31-01-2024,Apna Ghar Ashram,Ahmedabad,GJ,175,126,49,72.0,44,50,50,Winter,New admissions pending,Wednesday,1,0,20.2,41.0,901161,50,High,3,0,55,46,26,13,5,6.1,12.7,106,1
+668,20-08-2024,Daya Sagar,Delhi,DL,177,128,49,72.3,62,55,45,Monsoon,Normal,Tuesday,8,0,38.3,195.5,4822945,15,Low,7,1,43,37,9,13,2,12.9,14.3,389,0
+669,14-07-2024,Jeevan Jyoti Shelter,Surat,GJ,116,101,15,87.1,48,48,52,Monsoon,High demand,Sunday,7,0,17.9,221.6,755356,32,Low,8,1,74,40,15,7,2,16.7,12.3,247,0
+670,25-02-2025,Sahara Vikas Kendra,Delhi,DL,94,77,17,81.9,34,44,56,Winter,New admissions pending,Tuesday,2,0,35.4,94.7,1688846,58,Low,6,1,28,6,9,4,5,9.1,6.3,13,0
+671,14-10-2024,Umeed Ki Kiran,Bangalore,KA,256,219,37,85.5,46,45,55,Autumn,No issues reported,Monday,10,0,24.5,193.4,4280987,45,Medium,1,1,61,13,28,18,2,6.1,12.0,160,1
+672,01-07-2025,Manav Seva Sangam,Delhi,DL,263,246,17,93.5,46,51,49,Monsoon,No issues reported,Tuesday,7,0,36.9,118.5,3309819,27,Medium,8,0,51,42,9,13,9,12.7,5.9,70,1
+673,29-04-2024,Apna Ghar Ashram,Jaipur,RJ,267,197,70,73.8,50,57,43,Summer,Excellent condition,Monday,4,0,36.7,214.0,1509410,49,High,3,1,53,52,28,8,5,16.1,3.3,151,1
+674,24-01-2024,Manav Seva Sangam,Jaipur,RJ,155,133,22,85.8,42,49,51,Winter,No issues reported,Wednesday,1,0,35.1,59.8,374934,27,Medium,8,0,56,47,18,6,4,14.2,1.5,456,0
+675,01-10-2023,Asha Deep Shelter,Bangalore,KA,198,170,28,85.9,37,48,52,Autumn,No issues reported,Sunday,10,0,34.8,267.1,1852466,54,High,4,0,65,24,9,7,3,16.0,6.4,74,0
+676,19-01-2024,Manav Seva Sangam,Ahmedabad,GJ,205,180,25,87.8,34,51,49,Winter,Needs maintenance,Friday,1,1,22.6,86.2,3871615,32,Medium,8,0,21,31,5,13,7,11.0,13.6,375,1
+677,13-10-2024,Jeevan Jyoti Shelter,Ahmedabad,GJ,276,168,108,60.9,69,49,51,Autumn,High demand,Sunday,10,0,17.0,110.3,2432865,47,Medium,1,0,19,37,29,13,1,14.3,4.3,214,0
+678,16-06-2024,Karuna Bhavan,Hyderabad,TS,274,203,71,74.1,44,41,59,Monsoon,High demand,Sunday,6,0,25.1,17.4,847583,51,Medium,3,1,32,21,16,10,6,5.1,3.9,367,1
+679,24-03-2024,Karuna Bhavan,Bangalore,KA,184,125,59,67.9,66,49,51,Summer,High demand,Sunday,3,1,19.3,33.5,514310,30,Low,6,1,71,58,4,13,3,8.2,14.6,50,0
+680,14-03-2025,Premalaya Home,Bangalore,KA,207,155,52,74.9,34,57,43,Summer,High demand,Friday,3,0,32.4,154.8,3764755,29,Medium,9,1,24,15,25,7,1,8.8,1.4,385,0
+681,13-05-2025,Manav Seva Sangam,Delhi,DL,144,79,65,54.9,66,45,55,Summer,Normal,Tuesday,5,0,23.7,80.3,607242,58,Low,2,1,45,51,5,2,6,10.7,12.0,142,0
+682,04-08-2025,Manav Seva Sangam,Ahmedabad,GJ,176,134,42,76.1,44,53,47,Monsoon,No issues reported,Monday,8,0,39.4,250.6,3177640,33,Low,1,0,72,28,26,17,0,16.9,5.5,418,0
+683,14-05-2024,Jeevan Jyoti Shelter,Jaipur,RJ,86,43,43,50.0,19,41,59,Summer,New admissions pending,Tuesday,5,0,31.0,4.4,818223,23,Medium,3,0,56,15,23,2,3,16.1,1.5,35,0
+684,30-12-2024,Premalaya Home,Chennai,TN,54,37,17,68.5,64,59,41,Winter,Excellent condition,Monday,12,0,35.6,113.7,4353677,37,High,4,0,4,11,26,12,8,5.0,13.8,499,0
+685,28-12-2023,Apna Ghar Ashram,Chennai,TN,222,207,15,93.2,64,46,54,Winter,Normal,Thursday,12,1,18.3,101.2,4148535,40,High,5,1,54,16,14,11,3,5.6,3.0,373,0
+686,21-02-2025,Premalaya Home,Delhi,DL,285,211,74,74.0,40,57,43,Winter,High demand,Friday,2,0,36.6,5.8,4803292,18,High,3,0,60,36,24,14,2,8.4,8.7,475,1
+687,28-02-2025,Daya Sagar,Pune,MH,59,45,14,76.3,18,47,53,Winter,High demand,Friday,2,0,38.1,37.3,1222304,18,Medium,2,0,7,26,26,17,9,7.4,4.8,166,0
+688,05-11-2023,Premalaya Home,Delhi,DL,231,140,91,60.6,53,57,43,Autumn,Needs maintenance,Sunday,11,0,27.2,124.1,1693909,39,High,2,0,15,24,18,4,9,12.2,1.9,235,0
+689,21-07-2024,Sahara Vikas Kendra,Jaipur,RJ,281,230,51,81.9,39,47,53,Monsoon,New admissions pending,Sunday,7,0,30.2,147.9,2049117,34,Low,7,0,47,12,17,6,1,16.5,1.7,259,1
+690,11-01-2025,Manav Seva Sangam,Bangalore,KA,270,223,47,82.6,22,49,51,Winter,Normal,Saturday,1,0,34.1,121.3,969134,32,High,9,1,60,7,28,10,2,17.4,2.6,191,1
+691,29-03-2024,Karuna Bhavan,Mumbai,MH,170,99,71,58.2,35,45,55,Summer,High demand,Friday,3,0,19.4,159.3,1905797,21,Medium,2,0,14,55,3,10,0,12.8,2.0,201,1
+692,24-10-2023,Premalaya Home,Jaipur,RJ,186,162,24,87.1,29,45,55,Autumn,No issues reported,Tuesday,10,0,27.6,178.5,2979735,7,High,7,0,64,4,7,14,9,15.6,11.6,261,1
+693,20-03-2024,Asha Deep Shelter,Pune,MH,154,114,40,74.0,23,59,41,Summer,New admissions pending,Wednesday,3,0,25.0,3.0,4686440,20,Low,7,1,21,11,26,9,7,10.9,7.8,184,0
+694,16-06-2025,Umeed Ki Kiran,Delhi,DL,165,115,50,69.7,33,45,55,Monsoon,Excellent condition,Monday,6,0,18.7,139.2,561162,50,Medium,7,1,2,40,15,14,0,6.1,5.8,157,0
+695,30-09-2023,Sahara Vikas Kendra,Pune,MH,277,217,60,78.3,56,49,51,Monsoon,New admissions pending,Saturday,9,0,24.2,289.0,2620725,34,High,3,1,53,2,23,12,2,10.9,6.9,245,1
+696,28-05-2025,Umeed Ki Kiran,Surat,GJ,205,152,53,74.1,38,50,50,Summer,High demand,Wednesday,5,0,16.7,155.7,3461134,56,Medium,7,0,13,34,18,13,2,11.3,14.0,109,0
+697,18-11-2024,Navjeevan Griha,Pune,MH,234,157,77,67.1,37,56,44,Autumn,New admissions pending,Monday,11,0,15.6,203.3,2476277,33,Medium,1,0,35,32,19,16,1,14.1,13.8,98,1
+698,22-05-2025,Umeed Ki Kiran,Pune,MH,259,135,124,52.1,58,54,46,Summer,No issues reported,Thursday,5,0,18.4,93.6,3250450,49,Medium,1,0,66,56,2,12,4,6.3,11.0,240,0
+699,28-01-2025,Karuna Bhavan,Ahmedabad,GJ,139,131,8,94.2,33,48,52,Winter,Needs maintenance,Tuesday,1,0,39.1,232.2,2329042,19,High,5,0,9,21,9,9,9,8.5,13.4,490,0
+700,28-01-2025,Premalaya Home,Hyderabad,TS,61,45,16,73.8,25,56,44,Winter,No issues reported,Tuesday,1,0,28.7,231.9,1367621,50,Medium,2,1,48,49,1,0,2,8.5,5.5,201,0
+701,13-07-2025,Apna Ghar Ashram,Bangalore,KA,113,112,1,99.1,48,59,41,Monsoon,Excellent condition,Sunday,7,0,39.1,156.4,3687967,29,High,9,0,64,55,3,0,2,17.4,6.3,121,0
+702,14-02-2024,Daya Sagar,Kolkata,WB,260,217,43,83.5,34,55,45,Winter,Excellent condition,Wednesday,2,0,25.8,292.8,2417893,55,Low,7,0,56,43,5,14,7,9.7,9.6,116,0
+703,07-11-2023,Umeed Ki Kiran,Hyderabad,TS,169,128,41,75.7,25,55,45,Autumn,Needs maintenance,Tuesday,11,0,22.8,37.7,1490351,42,High,4,1,26,8,10,15,3,14.3,9.7,95,1
+704,24-06-2024,Navjeevan Griha,Bangalore,KA,74,57,17,77.0,66,55,45,Monsoon,Excellent condition,Monday,6,0,27.7,5.1,1948917,46,Low,4,1,74,40,13,11,3,14.3,7.7,233,0
+705,23-07-2024,Asha Deep Shelter,Pune,MH,255,187,68,73.3,22,47,53,Monsoon,High demand,Tuesday,7,0,26.0,231.0,789574,51,High,2,1,4,17,15,5,2,7.0,6.6,489,0
+706,31-08-2025,Daya Sagar,Ahmedabad,GJ,215,185,30,86.0,67,44,56,Monsoon,High demand,Sunday,8,1,17.6,242.1,4121495,57,Medium,5,0,70,49,26,5,0,11.6,14.8,66,0
+707,25-12-2023,Apna Ghar Ashram,Ahmedabad,GJ,194,159,35,82.0,38,43,57,Winter,High demand,Monday,12,0,31.0,36.1,375437,58,High,4,0,56,28,20,11,7,16.4,12.5,375,0
+708,21-01-2024,Jeevan Jyoti Shelter,Ahmedabad,GJ,144,100,44,69.4,28,49,51,Winter,New admissions pending,Sunday,1,0,20.4,79.7,1866760,56,Medium,1,0,14,38,18,14,0,10.1,7.1,217,0
+709,26-03-2025,Jeevan Jyoti Shelter,Mumbai,MH,267,210,57,78.7,63,49,51,Summer,Normal,Wednesday,3,0,30.5,5.3,2141013,42,Low,8,0,75,26,1,3,6,17.2,11.2,14,1
+710,29-01-2024,Navjeevan Griha,Hyderabad,TS,88,78,10,88.6,51,58,42,Winter,Needs maintenance,Monday,1,0,31.3,88.0,3680623,27,High,3,0,29,35,24,3,4,6.2,4.8,272,0
+711,08-03-2025,Navjeevan Griha,Jaipur,RJ,114,75,39,65.8,57,48,52,Summer,New admissions pending,Saturday,3,0,18.8,231.9,3731890,29,Medium,6,1,19,44,16,1,3,4.1,2.4,218,1
+712,19-06-2025,Navjeevan Griha,Kolkata,WB,210,179,31,85.2,34,59,41,Monsoon,Normal,Thursday,6,0,16.5,155.4,922834,46,Low,4,1,36,16,8,11,3,16.4,5.9,273,0
+713,19-09-2023,Premalaya Home,Bangalore,KA,103,77,26,74.8,44,55,45,Monsoon,New admissions pending,Tuesday,9,0,34.5,104.4,4687370,11,Low,9,0,2,55,16,6,7,15.7,6.6,370,0
+714,22-04-2025,Sahara Vikas Kendra,Surat,GJ,215,151,64,70.2,37,44,56,Summer,Excellent condition,Tuesday,4,0,26.5,111.5,669696,26,High,7,0,72,33,14,19,5,17.9,1.2,146,1
+715,25-12-2024,Asha Deep Shelter,Chennai,TN,203,137,66,67.5,66,48,52,Winter,No issues reported,Wednesday,12,0,16.5,0.4,4122250,21,Low,9,0,40,45,29,8,0,13.2,12.4,331,0
+716,17-01-2024,Karuna Bhavan,Chennai,TN,288,240,48,83.3,65,45,55,Winter,Excellent condition,Wednesday,1,1,39.9,89.9,4162732,22,Medium,3,0,38,2,6,8,9,17.1,6.0,343,0
+717,24-11-2023,Apna Ghar Ashram,Pune,MH,54,48,6,88.9,25,58,42,Autumn,High demand,Friday,11,0,16.4,193.9,4364366,53,Low,1,0,25,4,21,7,7,15.4,9.1,452,1
+718,19-04-2024,Asha Deep Shelter,Delhi,DL,110,62,48,56.4,62,50,50,Summer,Excellent condition,Friday,4,1,32.4,292.3,1082499,45,Low,5,1,1,13,22,13,1,15.7,2.0,151,0
+719,04-11-2023,Daya Sagar,Chennai,TN,147,111,36,75.5,33,46,54,Autumn,High demand,Saturday,11,0,39.6,254.1,3870888,14,Medium,3,1,22,2,18,0,5,11.5,3.4,346,1
+720,23-09-2024,Manav Seva Sangam,Jaipur,RJ,117,89,28,76.1,42,48,52,Monsoon,No issues reported,Monday,9,0,21.0,7.1,3026030,14,Low,6,1,22,22,29,11,8,8.7,13.5,303,1
+721,19-09-2023,Umeed Ki Kiran,Bangalore,KA,295,270,25,91.5,66,44,56,Monsoon,No issues reported,Tuesday,9,1,18.6,269.6,2381348,11,Low,8,0,15,38,2,1,0,17.0,9.5,413,1
+722,29-11-2023,Manav Seva Sangam,Chennai,TN,176,108,68,61.4,42,40,60,Autumn,Excellent condition,Wednesday,11,0,18.0,235.0,4451913,52,Low,4,0,8,29,28,12,5,9.5,14.3,14,0
+723,25-04-2025,Daya Sagar,Hyderabad,TS,229,171,58,74.7,35,47,53,Summer,High demand,Friday,4,0,22.6,234.1,2062755,54,Low,5,1,12,49,26,3,7,11.1,15.0,430,0
+724,02-05-2024,Navjeevan Griha,Jaipur,RJ,111,81,30,73.0,39,49,51,Summer,Normal,Thursday,5,0,17.5,137.4,4527310,42,Medium,5,1,27,44,0,19,9,9.7,6.2,378,1
+725,18-09-2023,Umeed Ki Kiran,Hyderabad,TS,245,210,35,85.7,46,50,50,Monsoon,Excellent condition,Monday,9,0,32.3,119.4,2856284,31,Low,4,0,26,22,3,17,1,11.5,5.2,485,0
+726,06-08-2024,Daya Sagar,Chennai,TN,204,194,10,95.1,23,45,55,Monsoon,Excellent condition,Tuesday,8,0,16.6,90.9,1900924,56,Medium,4,1,50,26,27,18,4,10.1,13.0,382,1
+727,24-03-2025,Jeevan Jyoti Shelter,Bangalore,KA,111,66,45,59.5,22,57,43,Summer,Excellent condition,Monday,3,0,27.7,19.7,2936569,37,Low,4,1,63,53,17,15,5,3.7,15.0,427,0
+728,28-06-2024,Asha Deep Shelter,Kolkata,WB,262,261,1,99.6,58,54,46,Monsoon,High demand,Friday,6,0,39.9,68.5,3400448,5,Low,4,0,51,9,25,13,4,16.2,9.8,353,1
+729,29-01-2025,Manav Seva Sangam,Kolkata,WB,260,201,59,77.3,36,52,48,Winter,Needs maintenance,Wednesday,1,0,35.3,74.0,1664099,48,Low,4,1,37,24,7,7,2,9.7,12.1,410,0
+730,14-10-2023,Jeevan Jyoti Shelter,Chennai,TN,260,207,53,79.6,24,55,45,Autumn,Needs maintenance,Saturday,10,0,30.4,145.2,1191452,57,Low,5,1,64,12,18,11,3,11.8,11.9,83,1
+731,08-12-2024,Asha Deep Shelter,Kolkata,WB,170,146,24,85.9,27,55,45,Winter,Excellent condition,Sunday,12,0,22.7,224.2,1280796,38,Medium,2,1,17,15,22,8,6,5.1,6.0,191,0
+732,11-01-2025,Apna Ghar Ashram,Bangalore,KA,266,185,81,69.5,29,41,59,Winter,Normal,Saturday,1,0,30.6,142.1,163936,8,Medium,2,0,62,40,22,5,3,3.1,9.0,40,1
+733,24-04-2025,Manav Seva Sangam,Delhi,DL,162,98,64,60.5,37,52,48,Summer,Excellent condition,Thursday,4,0,28.2,17.4,4260583,21,Medium,9,1,50,33,27,17,8,6.7,12.7,351,0
+734,03-01-2024,Navjeevan Griha,Kolkata,WB,109,95,14,87.2,29,47,53,Winter,New admissions pending,Wednesday,1,0,25.7,287.3,3299479,8,High,2,1,8,54,24,1,9,13.6,10.6,323,1
+735,17-08-2024,Premalaya Home,Mumbai,MH,213,182,31,85.4,41,49,51,Monsoon,Normal,Saturday,8,0,18.3,282.8,3562305,47,Low,6,1,12,36,5,7,1,4.5,1.3,260,0
+736,02-05-2024,Karuna Bhavan,Delhi,DL,108,63,45,58.3,51,55,45,Summer,Normal,Thursday,5,0,37.2,235.6,4330428,58,Low,2,0,39,21,0,13,4,16.6,5.7,308,0
+737,08-09-2024,Manav Seva Sangam,Hyderabad,TS,241,219,22,90.9,54,45,55,Monsoon,High demand,Sunday,9,0,26.2,297.4,1962493,30,Medium,5,0,54,16,7,5,7,6.2,3.0,377,1
+738,20-05-2025,Karuna Bhavan,Ahmedabad,GJ,257,150,107,58.4,67,44,56,Summer,Needs maintenance,Tuesday,5,0,19.9,163.3,2483351,8,High,4,1,78,22,0,9,4,6.1,4.3,135,0
+739,16-05-2025,Karuna Bhavan,Kolkata,WB,219,130,89,59.4,18,52,48,Summer,Normal,Friday,5,0,24.2,288.8,2239063,5,Low,7,0,42,53,18,7,9,5.7,13.7,277,0
+740,16-12-2023,Apna Ghar Ashram,Hyderabad,TS,218,191,27,87.6,62,55,45,Winter,Needs maintenance,Saturday,12,0,25.4,22.7,3032202,11,Medium,7,1,43,35,10,16,7,3.2,1.5,105,0
+741,18-02-2024,Premalaya Home,Ahmedabad,GJ,250,220,30,88.0,39,53,47,Winter,High demand,Sunday,2,0,35.7,109.7,2869182,34,Low,6,0,67,48,20,11,7,14.6,4.1,6,0
+742,09-09-2024,Navjeevan Griha,Jaipur,RJ,171,142,29,83.0,47,60,40,Monsoon,No issues reported,Monday,9,0,33.3,67.6,1043978,54,Low,5,0,32,8,23,16,8,16.1,5.3,405,1
+743,26-11-2023,Umeed Ki Kiran,Delhi,DL,137,83,54,60.6,55,50,50,Autumn,Needs maintenance,Sunday,11,0,34.2,58.7,497244,13,Medium,1,1,23,51,24,12,9,12.2,9.6,301,0
+744,02-01-2025,Umeed Ki Kiran,Surat,GJ,191,180,11,94.2,36,59,41,Winter,No issues reported,Thursday,1,0,15.3,42.2,2523188,39,Medium,3,1,35,1,14,18,5,5.8,8.5,29,0
+745,14-12-2024,Jeevan Jyoti Shelter,Ahmedabad,GJ,56,39,17,69.6,63,49,51,Winter,Needs maintenance,Saturday,12,0,25.4,186.7,4482027,12,Low,9,1,9,31,22,11,3,7.3,4.1,125,1
+746,02-01-2024,Daya Sagar,Ahmedabad,GJ,211,192,19,91.0,43,52,48,Winter,New admissions pending,Tuesday,1,0,27.0,234.4,3529000,28,Low,1,0,19,55,24,15,2,10.1,3.3,356,0
+747,06-02-2025,Umeed Ki Kiran,Bangalore,KA,252,219,33,86.9,21,44,56,Winter,New admissions pending,Thursday,2,0,15.5,173.5,888927,23,Medium,5,1,74,49,10,4,4,17.3,4.3,399,1
+748,08-05-2025,Asha Deep Shelter,Mumbai,MH,123,93,30,75.6,65,43,57,Summer,Needs maintenance,Thursday,5,0,21.5,44.1,132806,40,Low,2,0,11,52,18,15,5,6.7,8.0,78,0
+749,29-07-2024,Karuna Bhavan,Ahmedabad,GJ,181,151,30,83.4,65,40,60,Monsoon,Excellent condition,Monday,7,1,34.0,243.3,4075345,54,Low,4,0,61,58,28,5,2,14.0,4.8,388,1
+750,27-12-2023,Daya Sagar,Hyderabad,TS,223,184,39,82.5,68,47,53,Winter,New admissions pending,Wednesday,12,0,18.4,190.8,2879045,56,Medium,1,1,17,21,20,10,1,9.6,14.3,66,0
+751,20-04-2025,Apna Ghar Ashram,Chennai,TN,137,75,62,54.7,63,45,55,Summer,Normal,Sunday,4,0,28.4,116.4,1328673,47,Low,3,0,62,42,9,16,6,7.5,7.5,22,1
+752,05-11-2024,Apna Ghar Ashram,Chennai,TN,167,121,46,72.5,39,58,42,Autumn,New admissions pending,Tuesday,11,1,20.4,202.2,4165741,31,Low,7,1,24,12,23,13,4,9.8,1.8,188,1
+753,14-03-2024,Manav Seva Sangam,Hyderabad,TS,77,52,25,67.5,61,50,50,Summer,Needs maintenance,Thursday,3,0,15.3,78.0,3507521,36,High,3,0,11,7,11,5,8,4.1,11.2,73,1
+754,30-08-2025,Karuna Bhavan,Ahmedabad,GJ,183,146,37,79.8,26,57,43,Monsoon,High demand,Saturday,8,0,21.0,103.6,4734013,18,Medium,4,1,20,58,0,10,2,15.0,5.6,4,0
+755,18-03-2024,Manav Seva Sangam,Hyderabad,TS,110,55,55,50.0,22,40,60,Summer,No issues reported,Monday,3,0,39.4,275.2,4681889,22,High,2,0,24,0,23,11,7,6.6,10.1,406,1
+756,29-04-2024,Premalaya Home,Delhi,DL,164,90,74,54.9,42,48,52,Summer,No issues reported,Monday,4,0,35.0,87.2,3427932,32,High,3,0,10,16,6,12,5,13.9,4.9,462,0
+757,13-11-2024,Jeevan Jyoti Shelter,Kolkata,WB,259,192,67,74.1,38,55,45,Autumn,Needs maintenance,Wednesday,11,0,39.0,141.0,2504698,33,High,9,1,63,11,16,3,3,4.0,9.0,81,1
+758,05-09-2025,Daya Sagar,Pune,MH,67,52,15,77.6,22,53,47,Monsoon,High demand,Friday,9,0,27.2,267.0,2329023,20,Low,3,0,72,3,28,6,8,17.3,11.8,24,1
+759,06-12-2024,Navjeevan Griha,Jaipur,RJ,84,70,14,83.3,22,43,57,Winter,Needs maintenance,Friday,12,0,17.7,212.3,2488710,39,Low,5,1,49,52,28,1,4,5.9,14.0,263,1
+760,22-06-2024,Umeed Ki Kiran,Chennai,TN,227,179,48,78.9,34,48,52,Monsoon,New admissions pending,Saturday,6,0,28.7,18.7,548512,51,High,2,0,61,12,25,5,9,16.2,4.7,478,0
+761,17-03-2024,Apna Ghar Ashram,Surat,GJ,69,52,17,75.4,46,47,53,Summer,No issues reported,Sunday,3,0,26.4,44.2,3550967,35,High,4,0,48,30,27,5,5,15.1,5.7,404,0
+762,10-10-2023,Apna Ghar Ashram,Kolkata,WB,76,66,10,86.8,18,50,50,Autumn,High demand,Tuesday,10,0,36.1,2.4,817442,8,High,7,0,13,40,9,17,8,17.5,7.5,1,1
+763,12-09-2025,Jeevan Jyoti Shelter,Jaipur,RJ,203,168,35,82.8,69,41,59,Monsoon,No issues reported,Friday,9,0,17.5,189.3,525278,41,Low,7,1,0,58,27,19,6,10.2,14.0,277,1
+764,23-06-2024,Apna Ghar Ashram,Bangalore,KA,202,187,15,92.6,44,41,59,Monsoon,High demand,Sunday,6,0,27.2,134.3,1980440,21,High,3,1,24,6,5,7,4,13.9,13.6,327,1
+765,12-01-2024,Premalaya Home,Jaipur,RJ,266,185,81,69.5,51,51,49,Winter,No issues reported,Friday,1,0,18.8,40.3,429593,43,High,5,1,58,22,16,7,1,8.6,2.3,342,1
+766,03-04-2025,Apna Ghar Ashram,Jaipur,RJ,196,119,77,60.7,44,49,51,Summer,Excellent condition,Thursday,4,0,23.1,287.4,544955,52,Medium,1,1,71,23,17,7,3,5.8,2.8,223,1
+767,27-01-2025,Jeevan Jyoti Shelter,Surat,GJ,138,104,34,75.4,63,49,51,Winter,No issues reported,Monday,1,0,33.4,158.9,1570180,50,Medium,1,1,68,4,4,7,1,9.6,7.9,71,1
+768,05-11-2024,Karuna Bhavan,Bangalore,KA,160,140,20,87.5,29,54,46,Autumn,Excellent condition,Tuesday,11,0,26.9,72.6,4890349,30,Low,5,0,4,4,17,0,2,5.5,2.5,67,1
+769,11-08-2024,Asha Deep Shelter,Hyderabad,TS,223,176,47,78.9,21,41,59,Monsoon,Normal,Sunday,8,0,24.4,150.2,1676528,52,Medium,9,0,18,16,29,1,9,17.7,5.8,319,1
+770,10-07-2024,Apna Ghar Ashram,Surat,GJ,142,108,34,76.1,35,58,42,Monsoon,Excellent condition,Wednesday,7,0,24.9,203.9,2964611,43,Medium,1,1,22,29,25,11,2,4.4,3.1,93,0
+771,23-04-2025,Jeevan Jyoti Shelter,Hyderabad,TS,55,30,25,54.5,66,51,49,Summer,High demand,Wednesday,4,0,26.5,22.9,2837976,45,Medium,1,0,8,8,16,14,3,11.8,9.9,18,1
+772,30-04-2025,Manav Seva Sangam,Delhi,DL,74,46,28,62.2,67,43,57,Summer,Needs maintenance,Wednesday,4,0,34.6,82.4,1358014,8,Low,4,0,49,5,21,3,5,12.4,14.3,127,0
+773,08-10-2024,Sahara Vikas Kendra,Surat,GJ,282,206,76,73.0,20,43,57,Autumn,New admissions pending,Tuesday,10,0,37.3,242.1,2297680,34,Medium,4,0,15,24,15,2,2,11.1,15.0,342,1
+774,19-04-2024,Karuna Bhavan,Pune,MH,274,210,64,76.6,63,42,58,Summer,Needs maintenance,Friday,4,0,38.9,137.9,4712315,34,Low,2,0,32,18,7,13,9,12.9,6.3,81,0
+775,24-01-2025,Manav Seva Sangam,Ahmedabad,GJ,79,65,14,82.3,43,54,46,Winter,Excellent condition,Friday,1,0,34.7,164.0,2871839,26,High,9,1,1,15,23,7,0,4.7,9.4,253,0
+776,24-04-2025,Apna Ghar Ashram,Mumbai,MH,135,91,44,67.4,41,49,51,Summer,Needs maintenance,Thursday,4,0,22.9,129.8,4991064,15,Medium,9,0,13,20,12,12,0,11.3,13.0,436,1
+777,23-07-2024,Manav Seva Sangam,Surat,GJ,97,73,24,75.3,52,45,55,Monsoon,High demand,Tuesday,7,0,32.2,13.2,348783,6,Low,2,1,0,1,28,18,8,7.3,2.6,220,0
+778,30-12-2023,Premalaya Home,Hyderabad,TS,120,81,39,67.5,61,44,56,Winter,No issues reported,Saturday,12,0,25.9,49.7,3426910,48,Medium,9,1,57,9,23,4,8,17.1,10.7,342,0
+779,20-07-2025,Daya Sagar,Bangalore,KA,114,104,10,91.2,44,51,49,Monsoon,Excellent condition,Sunday,7,0,21.4,133.7,3652571,16,High,6,0,15,15,15,12,4,14.4,6.7,96,1
+780,21-07-2024,Navjeevan Griha,Hyderabad,TS,96,93,3,96.9,63,50,50,Monsoon,No issues reported,Sunday,7,0,36.0,62.8,1187613,34,Low,8,1,78,36,10,19,8,17.6,3.9,51,1
+781,22-06-2025,Manav Seva Sangam,Mumbai,MH,86,78,8,90.7,53,55,45,Monsoon,Needs maintenance,Sunday,6,0,16.0,15.0,3929928,40,Low,4,0,46,14,5,0,6,3.6,6.6,174,1
+782,14-12-2024,Apna Ghar Ashram,Pune,MH,267,219,48,82.0,28,51,49,Winter,Needs maintenance,Saturday,12,0,37.5,253.1,3905288,22,Low,2,0,43,12,26,15,8,7.3,2.1,337,0
+783,12-07-2024,Karuna Bhavan,Delhi,DL,136,131,5,96.3,30,41,59,Monsoon,New admissions pending,Friday,7,0,26.5,294.4,2165226,30,High,2,0,79,12,2,1,6,5.9,10.7,181,1
+784,20-08-2025,Daya Sagar,Pune,MH,194,170,24,87.6,25,43,57,Monsoon,High demand,Wednesday,8,0,30.9,237.9,1390683,57,High,9,1,13,31,0,6,8,3.2,4.5,427,0
+785,26-02-2025,Premalaya Home,Hyderabad,TS,152,126,26,82.9,21,60,40,Winter,Needs maintenance,Wednesday,2,0,31.5,256.1,3680400,11,High,1,1,23,44,17,5,1,6.6,5.4,352,1
+786,01-10-2024,Sahara Vikas Kendra,Surat,GJ,121,107,14,88.4,69,51,49,Autumn,Excellent condition,Tuesday,10,1,37.4,72.6,2904119,5,Low,7,1,54,46,4,4,7,13.2,2.7,390,1
+787,24-01-2025,Manav Seva Sangam,Ahmedabad,GJ,104,96,8,92.3,20,49,51,Winter,Needs maintenance,Friday,1,0,30.9,288.2,2723705,30,High,3,0,14,45,12,3,6,6.5,13.1,114,0
+788,26-03-2025,Manav Seva Sangam,Surat,GJ,185,147,38,79.5,31,58,42,Summer,Excellent condition,Wednesday,3,0,30.3,59.1,3647170,27,Medium,3,0,71,7,9,1,5,10.6,7.9,347,0
+789,10-06-2024,Manav Seva Sangam,Surat,GJ,183,135,48,73.8,38,54,46,Monsoon,Needs maintenance,Monday,6,0,16.7,285.4,3355610,30,High,2,0,33,42,4,9,4,16.3,9.0,0,0
+790,20-02-2025,Jeevan Jyoti Shelter,Pune,MH,180,141,39,78.3,46,42,58,Winter,Excellent condition,Thursday,2,1,28.0,298.4,503222,49,Low,6,1,1,17,25,4,3,13.4,9.0,62,1
+791,26-12-2023,Sahara Vikas Kendra,Ahmedabad,GJ,94,63,31,67.0,24,43,57,Winter,Needs maintenance,Tuesday,12,0,18.8,213.5,2138618,10,Medium,2,0,26,55,13,17,6,8.9,6.7,247,1
+792,31-08-2025,Daya Sagar,Mumbai,MH,67,49,18,73.1,40,51,49,Monsoon,Needs maintenance,Sunday,8,0,33.4,294.3,4882094,10,High,4,0,73,35,16,9,2,8.6,3.7,230,1
+793,02-10-2024,Karuna Bhavan,Kolkata,WB,175,120,55,68.6,29,60,40,Autumn,High demand,Wednesday,10,0,27.8,170.9,2649327,48,Medium,9,1,71,25,0,14,7,9.8,11.4,225,0
+794,12-08-2025,Umeed Ki Kiran,Jaipur,RJ,297,271,26,91.2,46,45,55,Monsoon,Excellent condition,Tuesday,8,0,32.0,77.9,4450852,12,Medium,9,1,22,9,24,8,1,5.7,2.8,422,0
+795,30-09-2023,Daya Sagar,Mumbai,MH,72,68,4,94.4,30,58,42,Monsoon,No issues reported,Saturday,9,0,16.0,131.1,4695287,28,Low,6,1,67,30,1,10,0,12.5,2.5,18,0
+796,14-07-2025,Navjeevan Griha,Kolkata,WB,170,128,42,75.3,65,43,57,Monsoon,Needs maintenance,Monday,7,0,17.1,178.1,2643157,26,Medium,4,0,13,32,6,16,1,8.5,10.9,30,0
+797,02-04-2024,Asha Deep Shelter,Surat,GJ,86,56,30,65.1,23,60,40,Summer,High demand,Tuesday,4,1,32.9,21.9,2847909,23,Medium,7,0,62,28,9,8,8,15.8,3.9,332,1
+798,28-01-2024,Premalaya Home,Pune,MH,298,238,60,79.9,19,54,46,Winter,Excellent condition,Sunday,1,0,16.8,186.7,2999311,41,Low,1,0,64,4,19,15,4,14.3,5.3,120,0
+799,13-11-2024,Navjeevan Griha,Mumbai,MH,95,71,24,74.7,27,60,40,Autumn,Needs maintenance,Wednesday,11,0,16.8,294.4,267314,22,Low,4,1,67,12,6,5,7,12.2,7.7,23,0
+800,12-03-2025,Manav Seva Sangam,Ahmedabad,GJ,190,109,81,57.4,67,43,57,Summer,High demand,Wednesday,3,1,15.3,57.0,2685122,35,Low,5,1,62,0,23,10,2,8.5,7.3,324,1
+801,26-06-2025,Jeevan Jyoti Shelter,Ahmedabad,GJ,157,120,37,76.4,41,60,40,Monsoon,New admissions pending,Thursday,6,0,38.9,237.8,3516032,41,Medium,8,1,63,22,15,16,6,6.1,10.9,470,1
+802,09-12-2023,Manav Seva Sangam,Chennai,TN,265,194,71,73.2,57,45,55,Winter,Needs maintenance,Saturday,12,0,33.4,272.4,798692,34,Medium,2,1,31,39,4,3,1,14.6,9.7,210,0
+803,02-10-2024,Premalaya Home,Delhi,DL,177,110,67,62.1,44,41,59,Autumn,High demand,Wednesday,10,0,23.8,283.1,2432962,46,Medium,5,0,78,2,28,14,7,10.3,10.0,448,0
+804,17-07-2024,Apna Ghar Ashram,Bangalore,KA,132,128,4,97.0,64,57,43,Monsoon,No issues reported,Wednesday,7,0,22.4,288.0,3516689,37,Low,6,0,12,2,27,0,6,6.4,11.0,160,0
+805,07-05-2024,Sahara Vikas Kendra,Jaipur,RJ,256,188,68,73.4,22,46,54,Summer,Excellent condition,Tuesday,5,0,23.7,156.4,2126775,14,High,5,0,65,6,11,19,4,5.9,5.1,254,0
+806,08-07-2024,Daya Sagar,Surat,GJ,173,164,9,94.8,48,43,57,Monsoon,Needs maintenance,Monday,7,0,34.4,293.2,1664694,41,Medium,9,0,18,35,16,0,3,5.5,5.5,58,0
+807,05-04-2025,Umeed Ki Kiran,Bangalore,KA,75,45,30,60.0,29,41,59,Summer,Needs maintenance,Saturday,4,1,31.5,227.2,631904,16,High,1,0,23,34,15,8,0,14.7,7.1,113,0
+808,11-10-2023,Asha Deep Shelter,Delhi,DL,50,36,14,72.0,39,53,47,Autumn,High demand,Wednesday,10,1,19.6,48.5,4515669,58,Low,3,0,10,14,19,11,4,6.4,5.3,416,1
+809,09-04-2024,Manav Seva Sangam,Surat,GJ,265,134,131,50.6,56,54,46,Summer,No issues reported,Tuesday,4,0,19.4,143.1,3338210,34,Medium,2,0,58,39,25,3,8,10.9,14.8,159,1
+810,19-02-2025,Premalaya Home,Delhi,DL,251,202,49,80.5,54,57,43,Winter,Needs maintenance,Wednesday,2,0,17.5,215.5,3931143,31,High,3,0,14,2,15,12,9,9.8,12.4,442,1
+811,18-04-2024,Daya Sagar,Chennai,TN,138,101,37,73.2,58,48,52,Summer,Excellent condition,Thursday,4,1,31.5,74.2,4961077,43,Medium,9,1,9,28,18,6,3,11.7,3.3,219,1
+812,08-07-2025,Manav Seva Sangam,Kolkata,WB,120,97,23,80.8,52,51,49,Monsoon,No issues reported,Tuesday,7,0,34.1,192.2,3196779,13,Medium,9,1,40,29,25,7,8,16.2,1.1,356,0
+813,16-10-2023,Navjeevan Griha,Pune,MH,101,81,20,80.2,31,52,48,Autumn,High demand,Monday,10,0,21.6,200.0,1995537,58,Medium,2,0,26,38,14,12,1,16.0,1.6,168,0
+814,17-06-2025,Navjeevan Griha,Mumbai,MH,216,157,59,72.7,28,41,59,Monsoon,New admissions pending,Tuesday,6,1,15.5,48.8,2091381,25,High,3,1,59,17,11,10,3,9.8,4.4,11,0
+815,08-01-2024,Navjeevan Griha,Pune,MH,192,171,21,89.1,21,59,41,Winter,No issues reported,Monday,1,0,17.1,169.5,128116,16,Low,4,0,72,10,20,8,8,3.2,2.6,456,0
+816,13-10-2023,Apna Ghar Ashram,Kolkata,WB,196,137,59,69.9,44,40,60,Autumn,Needs maintenance,Friday,10,0,39.2,231.5,434370,59,Medium,9,0,51,42,9,15,3,9.4,8.5,241,1
+817,16-03-2024,Manav Seva Sangam,Surat,GJ,172,98,74,57.0,19,56,44,Summer,No issues reported,Saturday,3,0,22.4,149.7,2072643,33,Low,3,1,27,48,28,9,4,12.1,13.0,374,0
+818,16-07-2025,Apna Ghar Ashram,Mumbai,MH,220,158,62,71.8,60,55,45,Monsoon,No issues reported,Wednesday,7,0,34.2,3.6,3424659,37,Low,7,0,64,59,25,10,7,11.4,11.3,138,0
+819,26-08-2024,Karuna Bhavan,Kolkata,WB,220,195,25,88.6,47,51,49,Monsoon,New admissions pending,Monday,8,0,30.6,2.7,3502629,47,High,3,0,16,37,28,11,0,12.8,4.0,96,0
+820,11-01-2024,Karuna Bhavan,Hyderabad,TS,71,56,15,78.9,64,50,50,Winter,New admissions pending,Thursday,1,0,24.5,107.1,569385,57,High,7,0,43,39,21,13,0,5.3,6.6,146,0
+821,30-06-2024,Daya Sagar,Bangalore,KA,199,179,20,89.9,18,49,51,Monsoon,No issues reported,Sunday,6,0,20.1,277.9,3578880,19,Low,7,0,9,0,1,18,8,12.7,8.1,181,1
+822,23-04-2024,Umeed Ki Kiran,Jaipur,RJ,237,162,75,68.4,42,52,48,Summer,No issues reported,Tuesday,4,0,18.0,68.6,1622138,6,Medium,9,0,62,28,6,11,8,5.7,12.3,56,0
+823,27-01-2024,Jeevan Jyoti Shelter,Kolkata,WB,250,187,63,74.8,45,51,49,Winter,Normal,Saturday,1,0,30.4,190.3,2067337,56,High,2,0,46,9,12,17,3,14.3,12.7,41,1
+824,03-02-2025,Navjeevan Griha,Ahmedabad,GJ,78,52,26,66.7,56,60,40,Winter,High demand,Monday,2,0,34.4,66.6,2373724,43,Medium,6,0,37,27,2,16,1,8.1,13.7,353,0
+825,15-04-2024,Sahara Vikas Kendra,Hyderabad,TS,182,125,57,68.7,40,46,54,Summer,No issues reported,Monday,4,0,31.1,96.5,2278531,57,Medium,9,1,69,56,14,2,8,13.6,8.1,198,0
+826,25-11-2023,Asha Deep Shelter,Mumbai,MH,220,159,61,72.3,28,57,43,Autumn,Excellent condition,Saturday,11,1,28.3,254.4,1679753,48,Medium,2,1,75,30,0,0,3,3.7,10.7,30,0
+827,23-10-2023,Navjeevan Griha,Hyderabad,TS,275,236,39,85.8,66,54,46,Autumn,New admissions pending,Monday,10,0,16.0,218.7,276256,58,Low,2,0,52,18,25,18,5,9.1,2.6,179,1
+828,11-08-2024,Daya Sagar,Kolkata,WB,234,216,18,92.3,69,51,49,Monsoon,Needs maintenance,Sunday,8,0,39.2,28.6,470539,22,Medium,5,1,77,2,2,3,0,13.6,8.9,1,0
+829,13-07-2025,Jeevan Jyoti Shelter,Ahmedabad,GJ,206,159,47,77.2,38,40,60,Monsoon,No issues reported,Sunday,7,0,35.0,128.6,3423307,7,Low,8,0,43,35,24,15,8,6.4,4.5,466,0
+830,24-04-2024,Sahara Vikas Kendra,Mumbai,MH,160,109,51,68.1,61,45,55,Summer,Needs maintenance,Wednesday,4,0,22.3,8.8,600242,11,Low,9,0,73,42,9,11,4,14.9,7.0,421,0
+831,19-04-2024,Manav Seva Sangam,Chennai,TN,144,110,34,76.4,66,60,40,Summer,High demand,Friday,4,0,39.5,144.3,3547831,47,Medium,2,0,53,14,26,12,2,12.5,9.9,287,1
+832,09-04-2025,Asha Deep Shelter,Ahmedabad,GJ,251,179,72,71.3,62,54,46,Summer,New admissions pending,Wednesday,4,0,30.0,198.7,2898439,22,Medium,5,0,19,32,26,16,3,11.8,4.6,137,1
+833,24-07-2024,Jeevan Jyoti Shelter,Hyderabad,TS,256,218,38,85.2,56,55,45,Monsoon,New admissions pending,Wednesday,7,0,29.6,35.6,4770553,48,Medium,7,1,78,40,14,7,0,8.3,1.7,104,0
+834,25-11-2024,Sahara Vikas Kendra,Pune,MH,154,127,27,82.5,42,44,56,Autumn,Needs maintenance,Monday,11,0,33.7,86.7,2572919,42,Medium,6,1,30,42,21,12,8,10.2,1.1,391,1
+835,15-12-2024,Jeevan Jyoti Shelter,Jaipur,RJ,87,71,16,81.6,55,45,55,Winter,New admissions pending,Sunday,12,0,35.3,119.4,2071835,41,Low,6,1,6,50,26,19,7,12.0,1.3,217,0
+836,02-03-2024,Karuna Bhavan,Kolkata,WB,282,198,84,70.2,36,45,55,Summer,No issues reported,Saturday,3,0,31.4,275.9,849687,37,Medium,7,1,57,44,5,4,3,10.1,1.1,221,0
+837,18-11-2023,Daya Sagar,Hyderabad,TS,50,35,15,70.0,50,41,59,Autumn,No issues reported,Saturday,11,1,18.2,298.0,3899091,48,Medium,3,0,9,25,19,17,1,13.5,2.5,330,1
+838,09-07-2024,Sahara Vikas Kendra,Chennai,TN,56,44,12,78.6,41,51,49,Monsoon,No issues reported,Tuesday,7,0,23.5,13.5,3581674,35,Low,3,1,9,15,14,14,8,9.5,4.4,104,0
+839,02-04-2025,Umeed Ki Kiran,Bangalore,KA,296,221,75,74.7,51,52,48,Summer,No issues reported,Wednesday,4,0,38.2,228.3,2470872,15,High,9,0,38,35,23,11,3,6.0,4.1,403,0
+840,01-05-2024,Apna Ghar Ashram,Delhi,DL,93,48,45,51.6,41,40,60,Summer,Normal,Wednesday,5,0,20.6,111.5,2977503,8,High,8,0,27,32,20,16,8,6.2,14.8,403,1
+841,17-07-2025,Karuna Bhavan,Mumbai,MH,153,110,43,71.9,52,55,45,Monsoon,New admissions pending,Thursday,7,0,24.3,117.7,4981767,22,Low,5,1,29,19,6,14,9,3.1,5.3,126,1
+842,17-12-2024,Umeed Ki Kiran,Kolkata,WB,154,121,33,78.6,50,50,50,Winter,High demand,Tuesday,12,0,25.8,226.3,400679,8,High,6,0,36,12,24,1,2,7.5,2.8,264,1
+843,06-11-2024,Manav Seva Sangam,Mumbai,MH,286,215,71,75.2,41,53,47,Autumn,Excellent condition,Wednesday,11,0,26.0,275.5,4874574,53,Low,1,1,66,32,28,5,6,14.2,8.6,199,1
+844,05-01-2024,Premalaya Home,Kolkata,WB,264,194,70,73.5,62,52,48,Winter,New admissions pending,Friday,1,1,30.3,285.3,2476105,38,Medium,1,1,42,4,28,16,6,14.9,13.0,251,0
+845,15-05-2025,Daya Sagar,Jaipur,RJ,151,106,45,70.2,57,59,41,Summer,Needs maintenance,Thursday,5,0,38.6,173.1,4861671,33,Medium,4,1,78,36,29,15,9,6.0,10.5,14,0
+846,20-05-2025,Manav Seva Sangam,Pune,MH,276,170,106,61.6,45,49,51,Summer,High demand,Tuesday,5,0,21.0,107.1,1154381,28,High,2,1,51,13,20,16,3,17.4,5.1,225,0
+847,31-07-2025,Manav Seva Sangam,Mumbai,MH,91,68,23,74.7,65,60,40,Monsoon,No issues reported,Thursday,7,0,18.0,236.3,2066328,26,Medium,7,1,55,26,26,19,1,10.5,8.9,471,0
+848,24-11-2024,Umeed Ki Kiran,Chennai,TN,88,55,33,62.5,38,53,47,Autumn,Excellent condition,Sunday,11,1,19.9,75.3,4482787,6,High,2,0,75,22,29,8,8,16.8,11.0,352,0
+849,24-09-2023,Asha Deep Shelter,Bangalore,KA,74,52,22,70.3,52,57,43,Monsoon,Normal,Sunday,9,0,37.2,169.2,320146,48,High,2,1,67,13,4,4,3,13.6,11.2,104,0
+850,19-09-2024,Premalaya Home,Mumbai,MH,164,118,46,72.0,57,56,44,Monsoon,Excellent condition,Thursday,9,0,31.1,107.6,4351828,10,Medium,5,1,8,39,29,0,7,13.8,10.3,232,0
+851,13-11-2023,Manav Seva Sangam,Surat,GJ,72,52,20,72.2,58,44,56,Autumn,Needs maintenance,Monday,11,0,22.1,197.0,594026,46,Medium,4,0,22,3,3,5,1,4.3,13.2,492,0
+852,12-02-2024,Apna Ghar Ashram,Kolkata,WB,76,50,26,65.8,29,58,42,Winter,No issues reported,Monday,2,0,35.4,72.1,3992863,29,High,8,1,62,38,21,13,7,6.3,13.2,318,1
+853,14-04-2025,Daya Sagar,Ahmedabad,GJ,167,125,42,74.9,65,43,57,Summer,Needs maintenance,Monday,4,0,36.5,57.5,4358080,59,Medium,4,1,60,51,17,16,9,3.1,9.1,487,0
+854,18-11-2024,Jeevan Jyoti Shelter,Mumbai,MH,214,131,83,61.2,53,46,54,Autumn,New admissions pending,Monday,11,0,36.2,275.5,4424798,25,Low,6,0,39,18,2,18,4,13.7,7.0,218,0
+855,02-12-2024,Apna Ghar Ashram,Delhi,DL,157,129,28,82.2,35,52,48,Winter,No issues reported,Monday,12,0,38.0,30.5,4522089,59,Medium,5,0,43,46,16,0,6,8.2,10.0,276,0
+856,16-12-2023,Premalaya Home,Mumbai,MH,284,254,30,89.4,63,47,53,Winter,Needs maintenance,Saturday,12,0,21.3,151.8,1440254,20,Medium,2,1,23,53,17,0,6,14.8,12.5,260,0
+857,04-08-2025,Asha Deep Shelter,Bangalore,KA,183,131,52,71.6,34,41,59,Monsoon,High demand,Monday,8,0,33.9,66.3,318449,35,Low,8,0,50,3,17,12,8,8.1,1.1,380,0
+858,16-08-2025,Jeevan Jyoti Shelter,Pune,MH,189,167,22,88.4,25,44,56,Monsoon,Needs maintenance,Saturday,8,0,26.5,11.7,2900774,18,Medium,2,1,57,29,23,13,2,15.3,14.9,418,1
+859,07-12-2023,Asha Deep Shelter,Pune,MH,279,253,26,90.7,31,48,52,Winter,Needs maintenance,Thursday,12,0,36.0,10.8,4480675,43,Medium,9,0,32,18,23,5,9,5.0,3.6,340,1
+860,09-05-2024,Premalaya Home,Surat,GJ,202,126,76,62.4,46,45,55,Summer,Excellent condition,Thursday,5,0,33.2,52.6,4225318,32,High,9,1,15,30,1,5,3,5.6,7.6,451,1
+861,02-07-2025,Apna Ghar Ashram,Delhi,DL,271,263,8,97.0,43,47,53,Monsoon,New admissions pending,Wednesday,7,0,34.4,260.0,696275,36,Medium,3,1,21,30,12,0,9,8.1,13.2,368,0
+862,09-07-2024,Apna Ghar Ashram,Mumbai,MH,193,171,22,88.6,51,42,58,Monsoon,High demand,Tuesday,7,0,31.4,84.7,174591,32,Medium,4,1,56,8,29,13,3,9.1,4.2,431,0
+863,28-07-2025,Navjeevan Griha,Surat,GJ,85,73,12,85.9,46,51,49,Monsoon,High demand,Monday,7,0,19.4,285.1,689104,55,Low,8,0,61,52,21,2,9,8.2,7.7,335,0
+864,10-01-2025,Navjeevan Griha,Hyderabad,TS,209,179,30,85.6,52,60,40,Winter,Normal,Friday,1,0,28.6,174.5,2648133,59,High,9,1,70,12,14,9,4,14.5,2.9,478,0
+865,17-09-2023,Karuna Bhavan,Jaipur,RJ,82,62,20,75.6,20,45,55,Monsoon,Needs maintenance,Sunday,9,0,39.6,131.0,4511213,53,High,3,0,71,13,4,18,5,4.5,6.5,473,1
+866,24-02-2025,Apna Ghar Ashram,Hyderabad,TS,267,248,19,92.9,34,50,50,Winter,Needs maintenance,Monday,2,0,38.4,174.0,3347154,13,High,5,1,69,54,2,18,2,8.3,3.5,189,1
+867,16-04-2025,Umeed Ki Kiran,Bangalore,KA,226,148,78,65.5,34,47,53,Summer,New admissions pending,Wednesday,4,0,16.1,155.0,1384649,49,Medium,8,1,29,59,4,18,3,15.6,6.1,371,0
+868,19-10-2023,Daya Sagar,Ahmedabad,GJ,121,82,39,67.8,63,54,46,Autumn,Needs maintenance,Thursday,10,0,19.1,227.6,1258468,26,High,3,1,22,45,4,3,2,4.0,6.2,418,0
+869,31-12-2024,Sahara Vikas Kendra,Hyderabad,TS,196,152,44,77.6,26,56,44,Winter,New admissions pending,Tuesday,12,0,18.3,84.7,1210152,36,Low,7,1,31,53,4,19,1,17.1,14.9,197,1
+870,21-03-2025,Karuna Bhavan,Surat,GJ,89,65,24,73.0,46,47,53,Summer,Normal,Friday,3,1,33.1,105.9,3791104,9,High,8,1,56,9,2,18,9,17.8,14.9,352,1
+871,17-08-2025,Umeed Ki Kiran,Delhi,DL,273,214,59,78.4,57,55,45,Monsoon,No issues reported,Sunday,8,0,35.4,268.2,1033667,27,Low,3,0,8,47,2,9,8,4.3,2.6,276,1
+872,27-12-2023,Jeevan Jyoti Shelter,Pune,MH,249,173,76,69.5,36,40,60,Winter,No issues reported,Wednesday,12,0,20.3,283.9,3273253,9,High,2,0,30,30,19,1,0,7.4,11.2,335,1
+873,26-03-2024,Umeed Ki Kiran,Bangalore,KA,162,104,58,64.2,69,45,55,Summer,No issues reported,Tuesday,3,0,27.6,267.8,2415885,46,High,7,0,70,36,22,3,1,8.6,1.7,494,1
+874,16-11-2024,Asha Deep Shelter,Delhi,DL,177,146,31,82.5,46,51,49,Autumn,Needs maintenance,Saturday,11,0,36.0,125.8,930096,57,Low,9,1,8,22,27,5,7,14.6,1.4,38,1
+875,08-10-2023,Daya Sagar,Jaipur,RJ,139,115,24,82.7,60,42,58,Autumn,New admissions pending,Sunday,10,0,33.3,234.1,3640437,36,High,1,1,12,26,27,6,6,11.9,2.5,161,1
+876,28-03-2025,Daya Sagar,Hyderabad,TS,170,118,52,69.4,63,54,46,Summer,High demand,Friday,3,0,28.6,142.9,2251340,14,High,3,0,57,5,27,15,0,12.7,14.5,489,0
+877,07-09-2024,Sahara Vikas Kendra,Bangalore,KA,243,234,9,96.3,18,48,52,Monsoon,High demand,Saturday,9,0,29.8,149.3,2764766,43,High,5,1,2,25,29,6,4,14.4,14.2,120,0
+878,15-07-2025,Umeed Ki Kiran,Mumbai,MH,145,143,2,98.6,64,41,59,Monsoon,Needs maintenance,Tuesday,7,0,27.7,61.4,2974537,19,Medium,3,1,34,1,17,17,9,4.8,3.7,379,1
+879,25-06-2024,Karuna Bhavan,Pune,MH,168,150,18,89.3,45,43,57,Monsoon,Excellent condition,Tuesday,6,0,22.4,177.3,4834377,11,Low,1,1,20,44,25,19,5,15.5,3.3,398,0
+880,28-02-2024,Apna Ghar Ashram,Surat,GJ,60,56,4,93.3,36,54,46,Winter,Excellent condition,Wednesday,2,0,29.1,55.8,1642173,33,High,7,0,63,12,19,18,4,13.6,4.4,261,1
+881,02-10-2023,Daya Sagar,Bangalore,KA,62,52,10,83.9,48,45,55,Autumn,Needs maintenance,Monday,10,0,32.2,99.5,1677059,51,Low,7,0,51,50,3,8,3,11.7,8.2,449,0
+882,18-04-2024,Daya Sagar,Hyderabad,TS,93,48,45,51.6,69,53,47,Summer,New admissions pending,Thursday,4,0,36.8,256.5,1124477,7,Low,8,0,33,49,0,19,0,16.3,9.0,215,1
+883,23-08-2024,Daya Sagar,Surat,GJ,208,197,11,94.7,26,49,51,Monsoon,No issues reported,Friday,8,0,30.9,62.1,1523300,23,Low,5,0,34,59,25,9,6,13.5,4.1,311,0
+884,14-02-2025,Jeevan Jyoti Shelter,Hyderabad,TS,215,174,41,80.9,66,41,59,Winter,High demand,Friday,2,0,34.0,21.3,347584,14,High,5,0,14,18,15,12,8,6.0,11.6,48,1
+885,08-07-2024,Sahara Vikas Kendra,Kolkata,WB,188,161,27,85.6,38,44,56,Monsoon,Needs maintenance,Monday,7,0,19.0,20.7,1455802,32,High,5,1,5,0,7,17,5,9.4,5.3,91,0
+886,17-02-2025,Manav Seva Sangam,Delhi,DL,127,110,17,86.6,64,50,50,Winter,New admissions pending,Monday,2,0,26.5,282.2,942015,33,Low,1,1,31,39,16,15,2,10.4,13.9,128,0
+887,31-05-2025,Umeed Ki Kiran,Kolkata,WB,120,83,37,69.2,21,42,58,Summer,Needs maintenance,Saturday,5,0,15.2,152.1,4825275,19,Medium,5,1,51,31,7,16,9,3.8,10.2,320,1
+888,03-03-2024,Sahara Vikas Kendra,Hyderabad,TS,96,70,26,72.9,67,41,59,Summer,New admissions pending,Sunday,3,0,21.2,122.8,2533502,39,Low,6,1,27,21,6,12,3,17.3,7.1,27,1
+889,22-08-2025,Umeed Ki Kiran,Kolkata,WB,280,216,64,77.1,25,44,56,Monsoon,No issues reported,Friday,8,0,33.2,243.3,2018067,10,Medium,1,0,63,47,24,11,9,4.9,12.1,355,1
+890,08-01-2025,Navjeevan Griha,Bangalore,KA,268,234,34,87.3,20,55,45,Winter,High demand,Wednesday,1,0,39.8,250.7,1701348,16,Low,7,0,78,28,7,9,4,13.5,12.5,147,0
+891,31-03-2024,Karuna Bhavan,Hyderabad,TS,136,101,35,74.3,19,59,41,Summer,No issues reported,Sunday,3,0,17.5,99.7,2921259,51,Low,1,1,77,1,20,0,0,10.6,5.1,431,0
+892,02-10-2024,Premalaya Home,Delhi,DL,247,153,94,61.9,65,59,41,Autumn,Normal,Wednesday,10,0,25.0,208.1,904741,42,Low,2,0,18,39,23,7,4,3.4,5.8,327,0
+893,13-09-2024,Umeed Ki Kiran,Chennai,TN,126,99,27,78.6,53,43,57,Monsoon,High demand,Friday,9,0,35.0,231.3,3402214,17,High,2,1,14,37,29,17,0,16.9,14.1,64,0
+894,07-09-2025,Umeed Ki Kiran,Bangalore,KA,108,82,26,75.9,50,52,48,Monsoon,High demand,Sunday,9,0,20.1,196.4,2073615,33,Medium,5,1,5,47,26,1,8,15.8,3.3,217,1
+895,19-11-2024,Daya Sagar,Delhi,DL,213,143,70,67.1,56,49,51,Autumn,No issues reported,Tuesday,11,0,28.9,45.5,3060087,23,Medium,7,1,72,54,25,15,6,10.9,1.6,50,1
+896,19-07-2025,Manav Seva Sangam,Kolkata,WB,288,223,65,77.4,44,45,55,Monsoon,Excellent condition,Saturday,7,0,33.3,262.8,4694081,7,Low,1,1,37,10,11,11,2,6.4,7.4,426,0
+897,30-03-2025,Asha Deep Shelter,Ahmedabad,GJ,271,139,132,51.3,65,45,55,Summer,High demand,Sunday,3,0,30.4,161.7,191449,12,High,1,0,25,16,15,8,8,4.8,12.2,304,1
+898,10-06-2024,Asha Deep Shelter,Mumbai,MH,71,58,13,81.7,59,60,40,Monsoon,Normal,Monday,6,0,19.7,84.7,2725032,12,High,1,1,50,54,11,2,1,8.5,11.8,408,1
+899,11-11-2023,Sahara Vikas Kendra,Delhi,DL,136,104,32,76.5,63,46,54,Autumn,Excellent condition,Saturday,11,0,23.9,127.6,4540224,59,Medium,6,0,72,50,18,3,6,6.8,13.9,73,1
+900,14-06-2025,Navjeevan Griha,Mumbai,MH,150,142,8,94.7,35,47,53,Monsoon,Excellent condition,Saturday,6,0,34.6,11.3,3068439,24,High,2,1,52,42,9,1,8,10.6,8.5,459,1
+901,08-03-2024,Premalaya Home,Kolkata,WB,133,95,38,71.4,37,51,49,Summer,Normal,Friday,3,0,28.9,38.4,1678662,51,Medium,1,1,55,59,6,7,5,17.5,2.4,424,0
+902,28-06-2024,Karuna Bhavan,Mumbai,MH,243,205,38,84.4,66,46,54,Monsoon,Needs maintenance,Friday,6,0,15.1,229.7,185370,8,Medium,6,1,58,7,11,9,9,11.6,9.2,198,1
+903,07-04-2025,Manav Seva Sangam,Surat,GJ,234,165,69,70.5,59,54,46,Summer,High demand,Monday,4,0,34.0,0.0,906636,55,Medium,2,1,69,21,19,15,4,16.3,11.9,191,1
+904,03-08-2024,Premalaya Home,Bangalore,KA,102,87,15,85.3,69,52,48,Monsoon,High demand,Saturday,8,0,15.9,125.0,3019791,25,High,6,0,77,3,4,10,6,12.8,2.3,188,1
+905,25-03-2025,Asha Deep Shelter,Jaipur,RJ,64,35,29,54.7,41,43,57,Summer,High demand,Tuesday,3,0,33.6,156.8,4082516,7,Medium,8,1,57,10,15,17,5,10.1,3.4,11,0
+906,27-11-2023,Umeed Ki Kiran,Surat,GJ,147,128,19,87.1,48,59,41,Autumn,New admissions pending,Monday,11,0,20.1,16.4,4692681,49,Medium,2,0,12,7,8,13,4,15.8,1.2,238,1
+907,02-12-2024,Karuna Bhavan,Hyderabad,TS,131,94,37,71.8,64,43,57,Winter,Needs maintenance,Monday,12,0,39.0,291.9,2994236,12,Low,9,1,42,8,6,7,1,10.1,9.3,359,0
+908,24-11-2024,Sahara Vikas Kendra,Hyderabad,TS,149,129,20,86.6,28,47,53,Autumn,New admissions pending,Sunday,11,0,24.2,67.8,4736134,27,Medium,8,1,75,25,19,14,7,16.0,13.4,80,0
+909,29-04-2024,Karuna Bhavan,Jaipur,RJ,61,39,22,63.9,50,60,40,Summer,No issues reported,Monday,4,0,23.2,91.3,966004,20,Medium,1,1,50,1,21,16,6,7.4,10.4,452,1
+910,15-10-2023,Apna Ghar Ashram,Mumbai,MH,63,42,21,66.7,66,55,45,Autumn,High demand,Sunday,10,0,18.7,91.2,1643786,17,Low,7,0,18,15,25,17,5,4.9,14.7,382,1
+911,08-06-2024,Jeevan Jyoti Shelter,Ahmedabad,GJ,63,58,5,92.1,40,49,51,Monsoon,Normal,Saturday,6,0,22.6,69.1,477244,7,Low,6,1,20,30,13,5,4,15.8,1.9,269,0
+912,03-07-2024,Jeevan Jyoti Shelter,Mumbai,MH,272,267,5,98.2,49,48,52,Monsoon,Needs maintenance,Wednesday,7,0,36.9,0.4,4748981,52,High,6,1,23,5,10,13,4,11.8,13.6,289,0
+913,12-06-2024,Apna Ghar Ashram,Jaipur,RJ,138,112,26,81.2,65,41,59,Monsoon,High demand,Wednesday,6,0,39.9,218.8,3605912,13,Medium,6,1,25,52,6,2,8,16.3,12.4,47,0
+914,10-10-2024,Asha Deep Shelter,Mumbai,MH,227,187,40,82.4,44,58,42,Autumn,Normal,Thursday,10,0,24.2,290.1,4763199,18,High,6,1,44,20,28,6,0,17.1,5.4,316,0
+915,26-06-2024,Manav Seva Sangam,Jaipur,RJ,59,52,7,88.1,28,45,55,Monsoon,High demand,Wednesday,6,0,26.2,67.3,1325393,17,High,7,1,27,25,9,14,8,3.8,14.6,208,1
+916,17-08-2024,Navjeevan Griha,Hyderabad,TS,230,185,45,80.4,20,60,40,Monsoon,High demand,Saturday,8,0,33.1,198.9,2564368,57,Low,3,0,28,58,28,15,5,10.5,5.0,34,0
+917,05-05-2024,Daya Sagar,Hyderabad,TS,213,115,98,54.0,18,46,54,Summer,Normal,Sunday,5,0,37.2,222.6,2139319,11,High,6,0,16,18,8,15,3,8.6,13.5,118,1
+918,23-11-2023,Navjeevan Griha,Pune,MH,263,210,53,79.8,28,42,58,Autumn,Excellent condition,Thursday,11,1,29.8,254.5,2259821,19,Medium,3,1,67,27,3,7,9,12.4,13.3,64,1
+919,26-02-2025,Umeed Ki Kiran,Chennai,TN,105,71,34,67.6,53,53,47,Winter,High demand,Wednesday,2,0,24.8,126.8,842330,11,Low,7,1,43,7,15,6,6,14.9,11.6,314,0
+920,05-01-2025,Sahara Vikas Kendra,Ahmedabad,GJ,107,73,34,68.2,60,52,48,Winter,Excellent condition,Sunday,1,0,25.3,90.9,4524843,42,Medium,7,0,60,13,9,5,8,7.2,8.9,241,1
+921,19-04-2024,Premalaya Home,Surat,GJ,180,116,64,64.4,51,54,46,Summer,New admissions pending,Friday,4,0,32.4,97.6,1792955,38,Medium,8,1,67,23,18,1,4,11.4,2.7,497,0
+922,21-03-2025,Sahara Vikas Kendra,Chennai,TN,173,92,81,53.2,29,50,50,Summer,High demand,Friday,3,0,15.1,213.8,316150,45,Low,2,0,73,47,23,12,4,13.6,8.4,35,0
+923,12-08-2024,Navjeevan Griha,Mumbai,MH,250,246,4,98.4,23,41,59,Monsoon,No issues reported,Monday,8,0,30.5,245.0,2836905,26,Medium,9,1,24,43,16,11,7,5.0,6.0,462,0
+924,23-06-2024,Premalaya Home,Chennai,TN,106,87,19,82.1,55,46,54,Monsoon,High demand,Sunday,6,0,23.9,54.5,1895964,28,Low,5,1,66,36,8,14,6,15.2,12.1,251,1
+925,19-11-2024,Sahara Vikas Kendra,Jaipur,RJ,137,89,48,65.0,36,47,53,Autumn,Normal,Tuesday,11,0,34.9,111.3,539415,53,Medium,9,0,1,55,12,8,7,12.1,11.6,402,1
+926,29-07-2024,Daya Sagar,Jaipur,RJ,87,83,4,95.4,31,42,58,Monsoon,Needs maintenance,Monday,7,0,17.3,270.6,3094287,41,Low,5,1,48,25,0,1,9,17.2,13.7,242,0
+927,10-04-2024,Asha Deep Shelter,Delhi,DL,204,130,74,63.7,36,59,41,Summer,Excellent condition,Wednesday,4,0,29.7,242.0,3553548,48,High,7,0,69,30,1,16,1,8.1,1.2,41,1
+928,28-07-2025,Daya Sagar,Jaipur,RJ,280,212,68,75.7,44,42,58,Monsoon,No issues reported,Monday,7,0,27.0,295.5,696012,5,Medium,9,0,25,55,12,4,8,4.6,12.3,68,1
+929,23-11-2023,Jeevan Jyoti Shelter,Jaipur,RJ,241,191,50,79.3,64,57,43,Autumn,No issues reported,Thursday,11,0,31.1,226.3,1685765,14,Low,4,0,71,50,23,10,2,10.6,14.1,402,1
+930,30-01-2024,Apna Ghar Ashram,Hyderabad,TS,202,170,32,84.2,18,41,59,Winter,Excellent condition,Tuesday,1,0,16.6,118.0,4969161,47,Medium,2,1,26,31,8,18,5,4.3,12.1,106,1
+931,22-12-2023,Daya Sagar,Surat,GJ,261,224,37,85.8,61,54,46,Winter,New admissions pending,Friday,12,0,29.5,177.2,2635181,20,Medium,9,0,17,49,6,6,5,17.5,2.8,38,1
+932,08-11-2023,Asha Deep Shelter,Ahmedabad,GJ,270,190,80,70.4,28,43,57,Autumn,New admissions pending,Wednesday,11,0,29.0,198.3,2319798,50,Medium,2,0,53,40,15,1,1,3.6,2.1,68,0
+933,24-05-2024,Apna Ghar Ashram,Delhi,DL,281,218,63,77.6,60,49,51,Summer,New admissions pending,Friday,5,1,29.0,23.5,4231726,12,Low,3,1,0,1,18,15,6,14.3,1.3,179,1
+934,17-09-2024,Sahara Vikas Kendra,Bangalore,KA,171,135,36,78.9,66,60,40,Monsoon,No issues reported,Tuesday,9,0,30.1,163.3,3489289,53,High,2,1,60,24,6,11,8,10.9,9.8,11,1
+935,17-08-2025,Sahara Vikas Kendra,Bangalore,KA,161,143,18,88.8,45,60,40,Monsoon,Normal,Sunday,8,0,31.9,212.8,2055534,29,High,3,1,2,51,5,14,9,8.5,9.8,338,0
+936,14-09-2025,Apna Ghar Ashram,Delhi,DL,199,178,21,89.4,22,50,50,Monsoon,No issues reported,Sunday,9,0,35.1,50.2,182659,54,High,6,1,67,43,17,0,0,4.0,14.8,430,1
+937,22-08-2024,Manav Seva Sangam,Hyderabad,TS,146,137,9,93.8,34,57,43,Monsoon,Needs maintenance,Thursday,8,0,21.7,234.2,2648475,16,Low,3,1,40,1,18,12,7,12.3,6.6,203,1
+938,04-12-2023,Manav Seva Sangam,Pune,MH,143,127,16,88.8,28,52,48,Winter,New admissions pending,Monday,12,1,35.6,175.1,689872,29,High,8,1,36,41,10,5,1,11.8,5.6,35,1
+939,18-02-2025,Jeevan Jyoti Shelter,Mumbai,MH,74,52,22,70.3,24,49,51,Winter,Excellent condition,Tuesday,2,0,27.5,285.7,3905798,21,Low,6,0,50,0,28,12,0,7.2,9.7,125,0
+940,29-06-2024,Daya Sagar,Jaipur,RJ,272,249,23,91.5,57,49,51,Monsoon,New admissions pending,Saturday,6,0,16.9,12.7,4991412,30,Medium,7,1,14,35,11,17,7,16.7,12.6,62,1
+941,08-11-2023,Sahara Vikas Kendra,Delhi,DL,137,123,14,89.8,46,40,60,Autumn,New admissions pending,Wednesday,11,0,16.5,79.6,3009470,50,Medium,1,0,7,56,28,2,1,7.6,14.1,331,1
+942,06-10-2024,Umeed Ki Kiran,Mumbai,MH,145,93,52,64.1,55,54,46,Autumn,No issues reported,Sunday,10,0,23.4,180.5,986320,52,High,3,1,37,11,25,0,5,9.7,12.2,81,0
+943,30-01-2024,Umeed Ki Kiran,Kolkata,WB,294,277,17,94.2,51,55,45,Winter,No issues reported,Tuesday,1,0,34.6,89.0,3936912,18,Low,3,0,55,8,9,14,5,11.2,7.0,496,0
+944,07-03-2024,Karuna Bhavan,Chennai,TN,126,97,29,77.0,29,54,46,Summer,Excellent condition,Thursday,3,0,32.7,214.3,4511902,45,Medium,2,0,46,35,12,12,4,4.5,9.9,306,1
+945,29-08-2025,Premalaya Home,Kolkata,WB,227,183,44,80.6,21,45,55,Monsoon,No issues reported,Friday,8,0,34.7,227.7,1697824,40,Low,7,1,9,40,11,4,7,17.0,13.0,495,0
+946,27-08-2025,Karuna Bhavan,Chennai,TN,200,187,13,93.5,54,55,45,Monsoon,Needs maintenance,Wednesday,8,0,27.9,30.8,1200997,27,Low,9,1,77,27,20,12,2,8.6,7.9,298,0
+947,18-05-2025,Manav Seva Sangam,Mumbai,MH,162,121,41,74.7,24,53,47,Summer,Excellent condition,Sunday,5,0,26.0,154.2,3433973,47,Medium,4,0,48,37,9,4,9,4.2,4.0,33,0
+948,31-01-2024,Jeevan Jyoti Shelter,Pune,MH,88,68,20,77.3,31,50,50,Winter,New admissions pending,Wednesday,1,1,18.7,152.7,4175903,10,Low,5,1,40,32,19,18,3,8.8,3.4,239,1
+949,25-07-2025,Manav Seva Sangam,Hyderabad,TS,180,147,33,81.7,50,57,43,Monsoon,No issues reported,Friday,7,0,23.2,110.8,482829,51,Medium,3,1,29,41,17,17,6,12.0,1.0,96,1
+950,17-01-2024,Navjeevan Griha,Ahmedabad,GJ,283,229,54,80.9,55,42,58,Winter,Excellent condition,Wednesday,1,0,25.9,279.9,4461054,9,Medium,9,0,4,45,3,9,6,10.7,11.1,48,0
+951,15-06-2024,Daya Sagar,Hyderabad,TS,171,156,15,91.2,37,42,58,Monsoon,Excellent condition,Saturday,6,0,17.2,248.3,4364896,47,Medium,4,0,70,21,27,7,7,13.4,2.6,145,0
+952,04-08-2024,Umeed Ki Kiran,Delhi,DL,203,197,6,97.0,64,47,53,Monsoon,No issues reported,Sunday,8,0,20.5,209.2,284000,29,Low,5,0,30,24,23,14,1,3.8,4.4,124,0
+953,01-04-2024,Manav Seva Sangam,Ahmedabad,GJ,178,135,43,75.8,55,54,46,Summer,High demand,Monday,4,0,30.0,214.3,2927429,22,Medium,1,1,51,17,4,19,1,7.3,5.2,188,0
+954,09-06-2024,Premalaya Home,Kolkata,WB,193,142,51,73.6,59,53,47,Monsoon,Needs maintenance,Sunday,6,1,33.4,138.5,372137,17,Low,2,1,22,5,4,3,3,15.3,8.8,56,1
+955,25-09-2024,Navjeevan Griha,Bangalore,KA,259,218,41,84.2,58,45,55,Monsoon,High demand,Wednesday,9,0,40.0,276.3,3073504,47,Medium,9,1,47,17,28,1,9,4.2,6.6,348,0
+956,03-12-2024,Asha Deep Shelter,Jaipur,RJ,203,176,27,86.7,56,51,49,Winter,No issues reported,Tuesday,12,0,38.3,208.4,2655221,18,Medium,2,1,39,51,27,5,8,15.8,10.4,108,1
+957,11-01-2024,Sahara Vikas Kendra,Chennai,TN,252,200,52,79.4,38,55,45,Winter,Needs maintenance,Thursday,1,0,31.1,218.7,3970367,32,High,5,0,5,15,11,2,9,4.4,1.8,4,0
+958,01-11-2024,Jeevan Jyoti Shelter,Delhi,DL,171,122,49,71.3,43,58,42,Autumn,Normal,Friday,11,0,25.5,258.5,3413244,22,High,8,1,37,14,25,6,8,15.5,2.7,472,1
+959,19-04-2025,Apna Ghar Ashram,Chennai,TN,86,65,21,75.6,61,40,60,Summer,Normal,Saturday,4,0,30.9,82.2,4623957,32,High,3,0,40,47,2,9,3,8.4,8.0,23,1
+960,08-12-2023,Daya Sagar,Kolkata,WB,118,78,40,66.1,38,46,54,Winter,High demand,Friday,12,0,34.6,242.1,2350269,55,Low,6,1,26,7,28,5,8,12.2,5.7,220,0
+961,17-04-2025,Premalaya Home,Bangalore,KA,219,126,93,57.5,50,49,51,Summer,No issues reported,Thursday,4,0,18.0,58.6,4481373,31,Low,4,1,74,12,7,15,2,5.3,5.1,447,1
+962,31-08-2024,Manav Seva Sangam,Mumbai,MH,167,128,39,76.6,42,57,43,Monsoon,Excellent condition,Saturday,8,0,25.2,103.6,616510,36,Medium,7,0,68,54,21,1,4,4.0,1.9,314,1
+963,10-01-2025,Karuna Bhavan,Bangalore,KA,254,223,31,87.8,58,57,43,Winter,New admissions pending,Friday,1,0,36.0,100.7,4031383,51,Medium,3,1,56,42,1,16,9,6.2,13.5,293,1
+964,09-09-2024,Apna Ghar Ashram,Hyderabad,TS,227,180,47,79.3,22,49,51,Monsoon,Normal,Monday,9,0,24.6,293.6,1340894,13,Medium,6,1,16,59,17,12,8,4.9,10.7,416,0
+965,16-03-2025,Jeevan Jyoti Shelter,Hyderabad,TS,240,171,69,71.2,53,54,46,Summer,New admissions pending,Sunday,3,0,29.3,257.0,758092,44,Medium,9,0,70,56,8,0,5,7.7,2.7,9,1
+966,13-11-2023,Apna Ghar Ashram,Jaipur,RJ,234,151,83,64.5,37,51,49,Autumn,Normal,Monday,11,0,29.7,210.4,1147996,36,Low,1,1,46,6,12,5,2,10.7,1.9,164,1
+967,12-04-2024,Apna Ghar Ashram,Mumbai,MH,244,149,95,61.1,64,47,53,Summer,Normal,Friday,4,0,19.6,218.1,649792,24,Medium,3,0,78,16,6,4,9,11.8,14.6,480,0
+968,09-02-2025,Umeed Ki Kiran,Hyderabad,TS,78,57,21,73.1,26,40,60,Winter,New admissions pending,Sunday,2,0,24.1,168.6,1625326,32,Medium,2,0,12,49,9,12,8,14.8,10.5,214,0
+969,11-07-2024,Umeed Ki Kiran,Pune,MH,219,206,13,94.1,48,43,57,Monsoon,High demand,Thursday,7,0,23.4,284.1,2418756,37,High,8,0,10,31,8,17,5,12.8,6.8,125,1
+970,13-06-2025,Manav Seva Sangam,Kolkata,WB,77,72,5,93.5,34,48,52,Monsoon,No issues reported,Friday,6,0,15.7,148.9,4867911,8,Medium,7,0,23,21,29,11,3,12.1,10.8,266,1
+971,17-11-2024,Umeed Ki Kiran,Hyderabad,TS,115,78,37,67.8,62,45,55,Autumn,New admissions pending,Sunday,11,0,15.6,114.2,3976690,50,Medium,2,1,72,54,21,6,3,9.2,11.6,279,0
+972,24-02-2024,Manav Seva Sangam,Delhi,DL,105,90,15,85.7,35,49,51,Winter,Normal,Saturday,2,1,35.8,48.9,4908939,38,Medium,6,1,3,50,14,14,7,10.1,11.9,87,0
+973,07-08-2025,Karuna Bhavan,Ahmedabad,GJ,199,193,6,97.0,39,57,43,Monsoon,Needs maintenance,Thursday,8,0,21.8,235.9,718629,52,Low,3,1,45,56,4,2,6,9.2,7.7,454,1
+974,26-01-2025,Apna Ghar Ashram,Mumbai,MH,152,142,10,93.4,34,41,59,Winter,Needs maintenance,Sunday,1,0,28.0,220.3,1752457,7,High,8,0,17,12,11,15,0,15.6,7.0,113,1
+975,06-02-2025,Navjeevan Griha,Pune,MH,68,50,18,73.5,27,57,43,Winter,Excellent condition,Thursday,2,0,22.5,115.3,1221248,30,Medium,3,1,42,46,0,0,5,6.5,1.2,20,0
+976,23-04-2024,Umeed Ki Kiran,Bangalore,KA,139,72,67,51.8,68,52,48,Summer,No issues reported,Tuesday,4,0,38.5,7.6,3654886,12,Medium,9,1,79,22,11,15,7,3.1,14.0,147,0
+977,31-05-2025,Apna Ghar Ashram,Mumbai,MH,78,59,19,75.6,60,51,49,Summer,High demand,Saturday,5,0,21.5,251.7,1433640,10,High,1,1,32,53,21,11,2,12.8,9.4,244,1
+978,15-02-2024,Manav Seva Sangam,Ahmedabad,GJ,295,226,69,76.6,20,45,55,Winter,Needs maintenance,Thursday,2,0,25.7,3.4,563953,20,Medium,5,1,9,28,5,18,8,6.0,3.8,265,1
+979,07-03-2025,Apna Ghar Ashram,Jaipur,RJ,107,63,44,58.9,45,58,42,Summer,No issues reported,Friday,3,0,36.8,211.1,4288340,28,Low,3,0,72,21,18,7,9,16.4,13.9,216,0
+980,26-02-2024,Apna Ghar Ashram,Delhi,DL,262,203,59,77.5,37,52,48,Winter,No issues reported,Monday,2,0,36.0,291.1,4613653,52,Medium,6,0,58,0,18,11,1,15.9,13.8,430,1
+981,14-02-2024,Asha Deep Shelter,Chennai,TN,92,68,24,73.9,29,44,56,Winter,No issues reported,Wednesday,2,0,19.7,131.3,735503,43,Low,2,1,30,28,15,14,5,4.2,14.8,483,1
+982,16-01-2025,Jeevan Jyoti Shelter,Mumbai,MH,284,190,94,66.9,55,60,40,Winter,No issues reported,Thursday,1,0,35.1,70.5,472641,34,Low,9,0,27,47,18,1,0,4.6,13.2,239,1
+983,04-05-2024,Umeed Ki Kiran,Delhi,DL,262,166,96,63.4,47,45,55,Summer,New admissions pending,Saturday,5,0,26.5,211.5,1973217,49,Medium,6,1,59,4,2,16,1,10.4,15.0,430,1
+984,01-05-2024,Sahara Vikas Kendra,Bangalore,KA,93,72,21,77.4,18,48,52,Summer,High demand,Wednesday,5,0,27.1,245.1,387283,17,High,7,1,2,57,22,6,4,12.1,4.4,398,0
+985,10-06-2025,Manav Seva Sangam,Delhi,DL,138,120,18,87.0,44,43,57,Monsoon,High demand,Tuesday,6,0,18.3,163.9,1628232,9,Low,5,1,54,34,9,12,0,7.1,12.8,427,0
+986,03-12-2024,Daya Sagar,Pune,MH,61,45,16,73.8,36,60,40,Winter,Needs maintenance,Tuesday,12,0,17.0,290.1,4827421,29,High,9,0,13,54,26,0,7,13.8,12.5,231,1
+987,29-05-2024,Premalaya Home,Delhi,DL,154,83,71,53.9,24,45,55,Summer,New admissions pending,Wednesday,5,0,33.2,15.5,441180,24,Medium,1,1,57,9,17,5,0,11.9,4.2,231,1
+988,16-04-2024,Asha Deep Shelter,Bangalore,KA,73,55,18,75.3,59,58,42,Summer,Excellent condition,Tuesday,4,0,27.4,151.4,3749243,58,Low,5,0,14,18,25,12,8,7.9,2.4,241,1
+989,08-02-2025,Premalaya Home,Kolkata,WB,92,66,26,71.7,38,55,45,Winter,New admissions pending,Saturday,2,0,25.9,215.5,4878022,22,Medium,6,0,1,36,12,10,9,3.4,14.7,189,1
+990,20-11-2024,Jeevan Jyoti Shelter,Bangalore,KA,230,169,61,73.5,32,40,60,Autumn,High demand,Wednesday,11,0,33.2,258.8,2547934,51,High,7,1,23,6,25,9,2,14.3,5.1,389,0
+991,17-08-2024,Apna Ghar Ashram,Ahmedabad,GJ,226,203,23,89.8,60,40,60,Monsoon,Needs maintenance,Saturday,8,0,34.1,53.8,628110,22,Medium,4,0,77,45,17,15,1,6.2,13.2,228,1
+992,21-07-2024,Karuna Bhavan,Delhi,DL,196,186,10,94.9,55,42,58,Monsoon,No issues reported,Sunday,7,0,19.0,240.0,4268346,6,Medium,1,0,63,34,2,19,0,15.5,1.1,65,1
+993,15-06-2025,Umeed Ki Kiran,Bangalore,KA,92,65,27,70.7,50,50,50,Monsoon,Normal,Sunday,6,0,30.3,165.8,4652606,14,Low,8,1,70,44,25,16,8,9.3,1.3,459,0
+994,11-02-2024,Premalaya Home,Pune,MH,292,195,97,66.8,22,44,56,Winter,Needs maintenance,Sunday,2,0,18.4,119.0,2760864,59,Medium,4,0,23,12,27,16,3,11.7,7.5,377,0
+995,14-04-2025,Apna Ghar Ashram,Bangalore,KA,119,85,34,71.4,22,58,42,Summer,High demand,Monday,4,0,33.8,39.5,4991714,49,Medium,3,0,26,9,22,3,0,16.1,4.3,387,1
+996,23-01-2024,Sahara Vikas Kendra,Mumbai,MH,272,252,20,92.6,27,58,42,Winter,Normal,Tuesday,1,0,31.4,259.6,4393699,54,Medium,7,1,36,1,2,4,0,16.0,10.7,278,0
+997,16-12-2023,Asha Deep Shelter,Surat,GJ,232,185,47,79.7,66,43,57,Winter,High demand,Saturday,12,1,38.9,47.2,3760879,51,Low,2,1,38,5,22,13,6,8.6,8.9,268,0
+998,03-08-2024,Navjeevan Griha,Hyderabad,TS,68,63,5,92.6,63,57,43,Monsoon,Needs maintenance,Saturday,8,0,16.7,92.9,3185609,16,High,8,0,62,7,24,19,1,6.1,2.1,208,1
+999,04-11-2023,Apna Ghar Ashram,Delhi,DL,137,102,35,74.5,30,42,58,Autumn,Needs maintenance,Saturday,11,1,16.4,87.0,985783,51,High,6,1,78,35,26,9,6,14.6,3.3,414,1
+1000,07-09-2025,Asha Deep Shelter,Kolkata,WB,98,90,8,91.8,32,55,45,Monsoon,No issues reported,Sunday,9,0,22.1,261.4,2209932,17,Medium,7,1,25,24,25,13,6,9.5,6.4,15,0
