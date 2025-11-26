@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shelter Occupancy Prediction</title>
+    <title>Data-Driven Shelter Demand Forecasting and Resource Optimization</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
@@ -16,8 +16,53 @@
 <body>
     <div class="container">
         <header>
-            <h1>Homeless Shelter Occupancy Prediction</h1>
+            <h1>Data-Driven Shelter Demand Forecasting and Resource Optimization</h1>
+            <button onclick="openAddShelterModal()"
+                style="background: #27ae60; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; font-size: 16px;">+
+                Add New Shelter</button>
         </header>
+
+        <!-- Add Shelter Modal -->
+        <div id="addShelterModal"
+            style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4);">
+            <div
+                style="background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 500px; border-radius: 8px;">
+                <span onclick="closeAddShelterModal()"
+                    style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+                <h2>Add New Shelter</h2>
+                <form id="addShelterForm">
+                    <div style="margin-bottom: 15px;">
+                        <label for="newShelterName">Shelter Name:</label>
+                        <input type="text" id="newShelterName" required
+                            style="width: 100%; padding: 8px; margin-top: 5px;">
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <label for="newShelterCity">City:</label>
+                        <select id="newShelterCity" required style="width: 100%; padding: 8px; margin-top: 5px;">
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Lucknow">Lucknow</option>
+                            <option value="Jaipur">Jaipur</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Surat">Surat</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                        </select>
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <label for="newShelterCapacity">Total Capacity:</label>
+                        <input type="number" id="newShelterCapacity" required min="1"
+                            style="width: 100%; padding: 8px; margin-top: 5px;">
+                    </div>
+                    <button type="submit"
+                        style="background: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; width: 100%;">Add
+                        Shelter</button>
+                </form>
+            </div>
+        </div>
 
         <!-- Dashboard Stats -->
         <section class="dashboard">
@@ -41,6 +86,121 @@
             <div id="map" style="height: 400px; width: 100%; border-radius: 8px; z-index: 1;"></div>
         </section>
 
+        <!-- Resource Optimization Insights -->
+        {% if over_utilized or under_utilized %}
+        <section class="optimization-section" style="margin-top: 40px;">
+            <h2>Resource Optimization Insights (Last 30 Days)</h2>
+
+            <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                <!-- Over-Utilized -->
+                <div
+                    style="flex: 1; min-width: 300px; background: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 8px;">
+                    <h3 style="color: #856404; margin-top: 0;">⚠️ Over-Utilized Shelters (>90%)</h3>
+                    <p style="font-size: 0.9em; color: #856404;">Consider expanding capacity or redirecting new
+                        admissions.</p>
+                    {% if over_utilized %}
+                    <ul style="list-style: none; padding: 0;">
+                        {% for shelter in over_utilized %}
+                        <li style="padding: 8px 0; border-bottom: 1px solid #ffeeba;">
+                            <strong>{{ shelter.shelter_name }}</strong>: {{ shelter.occupancy_rate }}%
+                            <a href="{{ url_for('shelter_detail', shelter_name=shelter.shelter_name) }}"
+                                style="float: right; color: #856404;">View</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p style="color: #28a745;">No shelters are currently over-utilized.</p>
+                    {% endif %}
+                </div>
+
+                <!-- Under-Utilized -->
+                <div
+                    style="flex: 1; min-width: 300px; background: #d4edda; border: 1px solid #c3e6cb; padding: 15px; border-radius: 8px;">
+                    <h3 style="color: #155724; margin-top: 0;">📉 Under-Utilized Shelters (<50%)< /h3>
+                            <p style="font-size: 0.9em; color: #155724;">Consider consolidating resources or increasing
+                                outreach.</p>
+                            {% if under_utilized %}
+                            <ul style="list-style: none; padding: 0;">
+                                {% for shelter in under_utilized %}
+                                <li style="padding: 8px 0; border-bottom: 1px solid #c3e6cb;">
+                                    <strong>{{ shelter.shelter_name }}</strong>: {{ shelter.occupancy_rate }}%
+                                    <a href="{{ url_for('shelter_detail', shelter_name=shelter.shelter_name) }}"
+                                        style="float: right; color: #155724;">View</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% else %}
+                            <p>No shelters are significantly under-utilized.</p>
+                            {% endif %}
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- Managerial Analytics -->
+        <section class="analytics-section" style="margin-top: 40px;">
+            <h2>Managerial Analytics</h2>
+
+            <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                <!-- City-wise Occupancy Chart -->
+                <div
+                    style="flex: 2; min-width: 400px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                    <h3>City-wise Average Occupancy</h3>
+                    <canvas id="cityChart"></canvas>
+                </div>
+
+                <!-- System Utilization Pie Chart -->
+                <div
+                    style="flex: 1; min-width: 300px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                    <h3>System Capacity Utilization</h3>
+                    <canvas id="utilizationChart"></canvas>
+                    <div style="text-align: center; margin-top: 10px;">
+                        <strong>{{ system_utilization.percentage }}% Utilized</strong><br>
+                        <small>{{ system_utilization.occupied }} / {{ system_utilization.capacity }} Beds
+                            Occupied</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Crowded Shelters -->
+            <div
+                style="margin-top: 20px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <h3>Top 5 Most Crowded Shelters</h3>
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr style="background: #f8f9fa; text-align: left;">
+                            <th style="padding: 10px; border-bottom: 2px solid #dee2e6;">Shelter Name</th>
+                            <th style="padding: 10px; border-bottom: 2px solid #dee2e6;">City</th>
+                            <th style="padding: 10px; border-bottom: 2px solid #dee2e6;">Occupancy %</th>
+                            <th style="padding: 10px; border-bottom: 2px solid #dee2e6;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for shelter in top_crowded_shelters %}
+                        <tr style="border-bottom: 1px solid #eee;">
+                            <td style="padding: 10px;">{{ shelter.shelter_name }}</td>
+                            <td style="padding: 10px;">{{ shelter.city }}</td>
+                            <td style="padding: 10px;">
+                                <span style="
+                                    padding: 4px 8px; 
+                                    border-radius: 4px; 
+                                    background: {% if shelter.occupancy_rate > 90 %}#ffeeba{% else %}#e2e3e5{% endif %};
+                                    color: {% if shelter.occupancy_rate > 90 %}#856404{% else %}#383d41{% endif %};
+                                    font-weight: bold;">
+                                    {{ shelter.occupancy_rate }}%
+                                </span>
+                            </td>
+                            <td style="padding: 10px;">
+                                <a href="{{ url_for('shelter_detail', shelter_name=shelter.shelter_name) }}"
+                                    style="color: #3498db; text-decoration: none;">Manage</a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
         <!-- Shelters List -->
         <section class="shelters-section">
             <h2>Shelters</h2>
@@ -49,12 +209,6 @@
                 <li><a href="{{ url_for('shelter_detail', shelter_name=shelter) }}">{{ shelter }}</a></li>
                 {% endfor %}
             </ul>
-        </section>
-
-        <!-- Chart -->
-        <section class="chart-section">
-            <h2>Occupancy Trend (Recent)</h2>
-            <canvas id="occupancyChart"></canvas>
         </section>
 
         <!-- Upload Section -->
@@ -105,32 +259,6 @@
         </section>
         {% endif %}
 
-        <!-- Recent Records Table (Only show if not predicting) -->
-        {% if not preview_data and recent_records %}
-        <section class="recent-records-section">
-            <h2>Recent Records</h2>
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            {% for key in recent_records[0].keys() %}
-                            <th>{{ key }}</th>
-                            {% endfor %}
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for row in recent_records %}
-                        <tr>
-                            {% for value in row.values() %}
-                            <td>{{ value }}</td>
-                            {% endfor %}
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        {% endif %}
     </div>
 
     <script>
@@ -151,20 +279,72 @@
             });
         }
 
-        // Chart.js implementation
-        const chartData = {{ chart_data | tojson }};
-        if (chartData && chartData.length > 0) {
-            const ctx = document.getElementById('occupancyChart').getContext('2d');
-            new Chart(ctx, {
-                type: 'line',
+        // Add Shelter Modal Logic
+        const modal = document.getElementById("addShelterModal");
+
+        function openAddShelterModal() {
+            modal.style.display = "block";
+        }
+
+        function closeAddShelterModal() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        document.getElementById('addShelterForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById('newShelterName').value;
+            const city = document.getElementById('newShelterCity').value;
+            const capacity = document.getElementById('newShelterCapacity').value;
+
+            try {
+                const response = await fetch('/add_shelter', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        shelter_name: name,
+                        city: city,
+                        capacity: capacity
+                    }),
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    alert('Shelter added successfully!');
+                    closeAddShelterModal();
+                    location.reload(); // Reload to show new shelter in list
+                } else {
+                    alert('Error: ' + (data.error || 'Unknown error'));
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        });
+
+
+        // Managerial Analytics Charts
+        const cityStats = {{ city_stats | tojson }};
+        if (cityStats && Object.keys(cityStats).length > 0) {
+            const ctxCity = document.getElementById('cityChart').getContext('2d');
+            new Chart(ctxCity, {
+                type: 'bar',
                 data: {
-                    labels: chartData.map(d => d.date),
+                    labels: Object.keys(cityStats),
                     datasets: [{
-                        label: 'Occupancy Rate (%)',
-                        data: chartData.map(d => d.occupancy_rate),
-                        borderColor: '#3498db',
-                        tension: 0.1,
-                        fill: false
+                        label: 'Avg Occupancy Rate (%)',
+                        data: Object.values(cityStats),
+                        backgroundColor: '#3498db',
+                        borderColor: '#2980b9',
+                        borderWidth: 1
                     }]
                 },
                 options: {
@@ -173,6 +353,30 @@
                         y: {
                             beginAtZero: true,
                             max: 100
+                        }
+                    }
+                }
+            });
+        }
+
+        const systemUtilization = {{ system_utilization | tojson }};
+        if (systemUtilization) {
+            const ctxUtil = document.getElementById('utilizationChart').getContext('2d');
+            new Chart(ctxUtil, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Occupied', 'Available'],
+                    datasets: [{
+                        data: [systemUtilization.occupied, systemUtilization.capacity - systemUtilization.occupied],
+                        backgroundColor: ['#e74c3c', '#2ecc71'],
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
                         }
                     }
                 }

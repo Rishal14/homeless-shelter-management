@@ -1,0 +1,11 @@
+id,date,shelter_name,city,state,total_capacity,occupied_beds,available_beds,occupancy_rate,average_age,male_percentage,female_percentage,season,notes,day_of_week,month,is_holiday,temperature,rainfall_mm,area_population,staff_count,funding_level,food_availability_score,medical_facilities_available,children_count,senior_citizens_count,new_admissions,exits_today,emergency_cases,unemployment_rate,crime_rate,covid_cases_city,public_event_impact
+1,29-06-2025,Umeed Ki Kiran,Bangalore,KA,206,149,57,72.3,60,55,45,Monsoon,New admissions pending,Sunday,6,0,19.6,78.5,3606210,21,Medium,9,1,61,0,11,11,0,4.6,3.7,367,0
+2,20-07-2024,Premalaya Home,Ahmedabad,GJ,97,90,7,92.8,38,53,47,Monsoon,High demand,Saturday,7,1,28.5,74.1,2537111,11,High,4,0,46,55,27,19,9,10.1,13.7,324,1
+3,05-10-2024,Jeevan Jyoti Shelter,Chennai,TN,134,80,54,59.7,56,41,59,Autumn,Needs maintenance,Saturday,10,0,36.8,271.9,2059606,47,Low,8,0,33,3,14,6,6,13.2,3.8,355,1
+4,27-03-2025,Sahara Vikas Kendra,Kolkata,WB,162,102,60,63.0,36,53,47,Summer,Needs maintenance,Thursday,3,0,33.3,74.9,1609757,54,High,7,0,16,28,7,7,1,16.1,1.4,89,0
+5,17-01-2024,Umeed Ki Kiran,Mumbai,MH,121,107,14,88.4,48,53,47,Winter,Normal,Wednesday,1,0,35.2,81.6,4649409,5,High,7,0,53,56,6,8,1,14.2,1.3,41,0
+6,23-07-2025,Karuna Bhavan,Jaipur,RJ,225,176,49,78.2,66,51,49,Monsoon,Normal,Wednesday,7,0,31.5,227.8,3482207,39,High,8,0,75,0,13,13,7,17.1,9.7,364,1
+7,04-12-2023,Asha Deep Shelter,Delhi,DL,226,154,72,68.1,54,55,45,Winter,Needs maintenance,Monday,12,0,32.3,134.9,4517890,36,High,1,0,39,42,22,4,9,3.8,10.3,158,0
+8,04-01-2024,Karuna Bhavan,Delhi,DL,176,143,33,81.2,24,55,45,Winter,Excellent condition,Thursday,1,0,36.2,233.0,1931297,40,High,5,0,18,49,18,18,9,3.2,5.4,201,0
+9,26-12-2023,Apna Ghar Ashram,Ahmedabad,GJ,182,128,54,70.3,27,45,55,Winter,Excellent condition,Tuesday,12,0,21.2,19.6,873759,17,Low,2,0,66,45,13,15,9,12.9,5.5,365,1
+10,22-02-2025,Apna Ghar Ashram,Pune,MH,86,72,14,83.7,52,49,51,Winter,Needs maintenance,Saturday,2,0,27.2,146.3,3080855,10,Medium,2,1,52,21,21,11,4,7.3,5.8,281,1

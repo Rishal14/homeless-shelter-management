@@ -51,13 +51,13 @@
                         style="background: #27ae60; color: white; border: none; padding: 10px; border-radius: 50%; width: 40px; height: 40px; font-size: 20px; cursor: pointer;">+</button>
                     <div style="text-align: center;">
                         <span style="font-size: 12px; color: #555;">Occupied</span><br>
-                        <strong id="occupied-count" style="font-size: 24px;">{{ recent_records[0]['occupied_beds'] if
-                            recent_records else 0 }}</strong>
+                        <strong id="occupied-count" style="font-size: 24px;">{{ latest_record['occupied_beds'] if
+                            latest_record else 0 }}</strong>
                     </div>
                     <div style="text-align: center;">
                         <span style="font-size: 12px; color: #555;">Available</span><br>
-                        <strong id="available-count" style="font-size: 24px;">{{ recent_records[0]['available_beds'] if
-                            recent_records else 0 }}</strong>
+                        <strong id="available-count" style="font-size: 24px;">{{ latest_record['available_beds'] if
+                            latest_record else 0 }}</strong>
                     </div>
                     <button onclick="updateOccupancy('check_out')"
                         style="background: #c0392b; color: white; border: none; padding: 10px; border-radius: 50%; width: 40px; height: 40px; font-size: 20px; cursor: pointer;">-</button>
@@ -67,41 +67,163 @@
             </div>
         </section>
 
+        <!-- Recommendations Section (Hidden by default) -->
+        <section id="recommendations-section" class="chart-section"
+            style="display: none; background: #fff3cd; border: 1px solid #ffeeba;">
+            <h2 style="color: #856404;">⚠️ High Occupancy Alert</h2>
+            <p style="color: #856404; margin-bottom: 15px;">This shelter is predicted to be over 80% capacity. Consider
+                these alternatives:</p>
+            <div id="recommendations-list" style="display: grid; gap: 10px;">
+                <!-- Recommendations will be injected here -->
+            </div>
+        </section>
+
+        <!-- Resource Requirements Section (Hidden by default) -->
+        <section id="resources-section" class="chart-section"
+            style="display: none; background: #d1ecf1; border: 1px solid #bee5eb;">
+            <h2 style="color: #0c5460;">📦 Resource Requirements</h2>
+            <p style="color: #0c5460; margin-bottom: 15px;">Estimated daily resources based on predicted occupancy:</p>
+            <div id="resources-list"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+                <!-- Resources will be injected here -->
+            </div>
+        </section>
+
+        <!-- Data Management Section -->
+        <section class="chart-section">
+            <h2>🔧 Data Management</h2>
+
+            <!-- Bulk Upload -->
+            <div style="margin-bottom: 30px; padding-top: 20px;">
+                <h3 style="color: #8e44ad; margin-bottom: 15px;">📂 Bulk Upload & Retrain</h3>
+                <p style="color: #7f8c8d; margin-bottom: 15px;">Upload a CSV file with multiple records to update the
+                    dataset and automatically retrain the model.</p>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <input type="file" id="csv-file" accept=".csv"
+                        style="padding: 8px; border: 1px solid #ddd; border-radius: 4px; flex-grow: 1;">
+                    <button onclick="uploadCSV()" id="upload-btn"
+                        style="background: linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%); color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 14px;">
+                        ⬆️ Upload & Retrain
+                    </button>
+                </div>
+                <div id="upload-status" style="margin-top: 10px; padding: 10px; border-radius: 4px; display: none;">
+                </div>
+            </div>
+
+            <!-- Model Retraining -->
+            <div style="border-top: 2px solid #f0f2f5; padding-top: 20px;">
+                <h3 style="color: #e74c3c; margin-bottom: 15px;">🤖 Manual Retraining</h3>
+                <p style="color: #7f8c8d; margin-bottom: 15px;">Manually trigger model retraining if needed.</p>
+                <button onclick="retrainModel()" id="retrain-btn"
+                    style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; font-size: 14px;">
+                    🔄 Retrain Model
+                </button>
+                <div id="retrain-status" style="margin-top: 10px; padding: 10px; border-radius: 4px; display: none;">
+                </div>
+            </div>
+        </section>
+
         <!-- Chart -->
         <section class="chart-section">
             <h2>Occupancy Trend</h2>
             <canvas id="shelterChart"></canvas>
         </section>
-
-        <!-- Recent Records Table -->
-        <section class="recent-records-section">
-            <h2>Recent Records</h2>
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            {% if recent_records %}
-                            {% for key in recent_records[0].keys() %}
-                            <th>{{ key }}</th>
-                            {% endfor %}
-                            {% endif %}
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for row in recent_records %}
-                        <tr>
-                            {% for value in row.values() %}
-                            <td>{{ value }}</td>
-                            {% endfor %}
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-        </section>
     </div>
 
     <script>
+        // Extract Flask template variables first to avoid JavaScript syntax issues
+        var shelterCapacity = {{ capacity if capacity is not none else 0 }};
+        var shelterCity = '{{ city if city else "" }}';
+        var shelterState = '{{ state if state else "" }}';
+        var shelterName = '{{ shelter_name if shelter_name else "" }}';
+
+        // Bulk Upload
+        async function uploadCSV() {
+            var fileInput = document.getElementById('csv-file');
+            var btn = document.getElementById('upload-btn');
+            var statusDiv = document.getElementById('upload-status');
+
+            if (fileInput.files.length === 0) {
+                alert("Please select a CSV file first.");
+                return;
+            }
+
+            var file = fileInput.files[0];
+            var formData = new FormData();
+            formData.append('file', file);
+
+            btn.disabled = true;
+            btn.innerText = 'Uploading & Training...';
+            statusDiv.style.display = 'block';
+            statusDiv.style.background = '#fff3cd';
+            statusDiv.style.color = '#856404';
+            statusDiv.style.border = '1px solid #ffeeba';
+            statusDiv.innerText = '⏳ Uploading data and retraining model... This may take a few minutes.';
+
+            try {
+                var response = await fetch('/api/upload_training_data', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                var data = await response.json();
+
+                if (response.ok && data.success) {
+                    statusDiv.style.background = '#d4edda';
+                    statusDiv.style.color = '#155724';
+                    statusDiv.style.border = '1px solid #c3e6cb';
+                    statusDiv.innerText = '✓ ' + data.message;
+                    fileInput.value = ''; // Clear input
+                } else {
+                    throw new Error(data.error || 'Upload failed');
+                }
+            } catch (error) {
+                statusDiv.style.background = '#f8d7da';
+                statusDiv.style.color = '#721c24';
+                statusDiv.style.border = '1px solid #f5c6cb';
+                statusDiv.innerText = '✗ Error: ' + error.message;
+            } finally {
+                btn.disabled = false;
+                btn.innerText = '⬆️ Upload & Retrain';
+            }
+        }
+
+        // Model Retraining
+        async function retrainModel() {
+            var btn = document.getElementById('retrain-btn');
+            var statusDiv = document.getElementById('retrain-status');
+
+            btn.disabled = true;
+            btn.innerText = '🔄 Training...';
+            statusDiv.style.display = 'block';
+            statusDiv.style.background = '#fff3cd';
+            statusDiv.style.color = '#856404';
+            statusDiv.style.border = '1px solid #ffeeba';
+            statusDiv.innerText = '⏳ Model training in progress. This may take a few minutes...';
+
+            try {
+                var response = await fetch('/api/retrain_model', { method: 'POST' });
+                var data = await response.json();
+
+                if (response.ok && data.success) {
+                    statusDiv.style.background = '#d4edda';
+                    statusDiv.style.color = '#155724';
+                    statusDiv.style.border = '1px solid #c3e6cb';
+                    statusDiv.innerText = '✓ ' + data.message;
+                } else {
+                    throw new Error(data.error || 'Training failed');
+                }
+            } catch (error) {
+                statusDiv.style.background = '#f8d7da';
+                statusDiv.style.color = '#721c24';
+                statusDiv.style.border = '1px solid #f5c6cb';
+                statusDiv.innerText = '✗ Error: ' + error.message;
+            } finally {
+                btn.disabled = false;
+                btn.innerText = '🔄 Retrain Model';
+            }
+        }
+
         async function updateOccupancy(action) {
             const statusElement = document.getElementById('update-status');
             statusElement.innerText = "Updating...";
@@ -126,17 +248,69 @@
         async function predictLive() {
             const button = document.querySelector('button[onclick="predictLive()"]');
             const resultElement = document.getElementById('prediction-result');
+            const recSection = document.getElementById('recommendations-section');
+            const resSection = document.getElementById('resources-section');
 
             button.disabled = true;
             button.innerText = "Predicting...";
             resultElement.innerText = "Loading...";
+            recSection.style.display = 'none';
+            resSection.style.display = 'none';
 
             try {
                 const response = await fetch(`/predict_live/{{ shelter_name }}`);
                 const data = await response.json();
 
                 if (response.ok) {
-                    resultElement.innerHTML = `<strong>${data.predicted_occupied_beds} beds</strong><br><small>${data.predicted_occupancy_rate}% Occupancy</small>`;
+                    resultElement.innerHTML = `<strong>${data.prediction} beds</strong><br><small>${data.occupancy_rate}% Occupancy</small>`;
+
+                    // Handle Recommendations
+                    if (data.recommendations && data.recommendations.length > 0) {
+                        recSection.style.display = 'block';
+                        const recList = document.getElementById('recommendations-list');
+                        recList.innerHTML = data.recommendations.map(rec => `
+                            <div style="background: white; padding: 10px; border-radius: 4px; border: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <strong>${rec.name}</strong><br>
+                                    <small>Available: ${rec.available} beds</small>
+                                </div>
+                                <div style="text-align: right;">
+                                    <span style="font-weight: bold; color: ${rec.occupancy_rate > 80 ? '#dc3545' : '#28a745'}">${rec.occupancy_rate}%</span><br>
+                                    <small>Occupancy</small>
+                                </div>
+                            </div>
+                        `).join('');
+                    }
+
+                    // Handle Resource Requirements
+                    if (data.resource_requirements) {
+                        resSection.style.display = 'block';
+                        const resList = document.getElementById('resources-list');
+                        const res = data.resource_requirements;
+                        resList.innerHTML = `
+                            <div style="background: white; padding: 15px; border-radius: 4px; text-align: center;">
+                                <div style="font-size: 24px;">🍱</div>
+                                <strong>${res.meals_per_day}</strong><br>
+                                <small>Meals / Day</small>
+                            </div>
+                            <div style="background: white; padding: 15px; border-radius: 4px; text-align: center;">
+                                <div style="font-size: 24px;">💧</div>
+                                <strong>${res.water_liters_per_day} L</strong><br>
+                                <small>Water / Day</small>
+                            </div>
+                            <div style="background: white; padding: 15px; border-radius: 4px; text-align: center;">
+                                <div style="font-size: 24px;">👥</div>
+                                <strong>${res.staff_required}</strong><br>
+                                <small>Staff Needed</small>
+                            </div>
+                            <div style="background: white; padding: 15px; border-radius: 4px; text-align: center;">
+                                <div style="font-size: 24px;">💊</div>
+                                <strong>${res.medical_kits}</strong><br>
+                                <small>Medical Kits</small>
+                            </div>
+                        `;
+                    }
+
                 } else {
                     resultElement.innerText = "Error: " + (data.error || "Unknown");
                 }

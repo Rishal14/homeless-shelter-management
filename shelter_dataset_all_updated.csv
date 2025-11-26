@@ -983,15 +983,15 @@ id,date,shelter_name,city,state,total_capacity,occupied_beds,available_beds,occu
 982,16-01-2025,Jeevan Jyoti Shelter,Mumbai,MH,284,190,94,66.9,55,60,40,Winter,No issues reported,Thursday,1,0,35.1,70.5,472641,34,Low,9,0,27,47,18,1,0,4.6,13.2,239,1
 983,04-05-2024,Umeed Ki Kiran,Delhi,DL,262,166,96,63.4,47,45,55,Summer,New admissions pending,Saturday,5,0,26.5,211.5,1973217,49,Medium,6,1,59,4,2,16,1,10.4,15.0,430,1
 984,01-05-2024,Sahara Vikas Kendra,Bangalore,KA,93,72,21,77.4,18,48,52,Summer,High demand,Wednesday,5,0,27.1,245.1,387283,17,High,7,1,2,57,22,6,4,12.1,4.4,398,0
-985,10-06-2025,Manav Seva Sangam,Delhi,DL,138,120,18,87.0,44,43,57,Monsoon,High demand,Tuesday,6,0,18.3,163.9,1628232,9,Low,5,1,54,34,9,12,0,7.1,12.8,427,0
-986,03-12-2024,Daya Sagar,Pune,MH,61,45,16,73.8,36,60,40,Winter,Needs maintenance,Tuesday,12,0,17.0,290.1,4827421,29,High,9,0,13,54,26,0,7,13.8,12.5,231,1
+985,10-06-2025,Manav Seva Sangam,Delhi,DL,138,125,13,90.57971014492752,44,43,57,Monsoon,High demand,Tuesday,6,0,18.3,163.9,1628232,9,Low,5,1,54,34,9,12,0,7.1,12.8,427,0
+986,03-12-2024,Daya Sagar,Pune,MH,61,56,5,91.8032786885246,36,60,40,Winter,Needs maintenance,Tuesday,12,0,17.0,290.1,4827421,29,High,9,0,13,54,26,0,7,13.8,12.5,231,1
 987,29-05-2024,Premalaya Home,Delhi,DL,154,83,71,53.9,24,45,55,Summer,New admissions pending,Wednesday,5,0,33.2,15.5,441180,24,Medium,1,1,57,9,17,5,0,11.9,4.2,231,1
 988,16-04-2024,Asha Deep Shelter,Bangalore,KA,73,55,18,75.3,59,58,42,Summer,Excellent condition,Tuesday,4,0,27.4,151.4,3749243,58,Low,5,0,14,18,25,12,8,7.9,2.4,241,1
 989,08-02-2025,Premalaya Home,Kolkata,WB,92,66,26,71.7,38,55,45,Winter,New admissions pending,Saturday,2,0,25.9,215.5,4878022,22,Medium,6,0,1,36,12,10,9,3.4,14.7,189,1
-990,20-11-2024,Jeevan Jyoti Shelter,Bangalore,KA,230,169,61,73.5,32,40,60,Autumn,High demand,Wednesday,11,0,33.2,258.8,2547934,51,High,7,1,23,6,25,9,2,14.3,5.1,389,0
+990,20-11-2024,Jeevan Jyoti Shelter,Bangalore,KA,230,209,21,90.8695652173913,32,40,60,Autumn,High demand,Wednesday,11,0,33.2,258.8,2547934,51,High,7,1,23,6,25,9,2,14.3,5.1,389,0
 991,17-08-2024,Apna Ghar Ashram,Ahmedabad,GJ,226,203,23,89.8,60,40,60,Monsoon,Needs maintenance,Saturday,8,0,34.1,53.8,628110,22,Medium,4,0,77,45,17,15,1,6.2,13.2,228,1
-992,21-07-2024,Karuna Bhavan,Delhi,DL,196,186,10,94.9,55,42,58,Monsoon,No issues reported,Sunday,7,0,19.0,240.0,4268346,6,Medium,1,0,63,34,2,19,0,15.5,1.1,65,1
-993,15-06-2025,Umeed Ki Kiran,Bangalore,KA,92,65,27,70.7,50,50,50,Monsoon,Normal,Sunday,6,0,30.3,165.8,4652606,14,Low,8,1,70,44,25,16,8,9.3,1.3,459,0
+992,21-07-2024,Karuna Bhavan,Delhi,DL,196,179,17,91.3265306122449,55,42,58,Monsoon,No issues reported,Sunday,7,0,19.0,240.0,4268346,6,Medium,1,0,63,34,2,19,0,15.5,1.1,65,1
+993,15-06-2025,Umeed Ki Kiran,Bangalore,KA,92,61,31,66.30434782608695,50,50,50,Monsoon,Normal,Sunday,6,0,30.3,165.8,4652606,14,Low,8,1,70,44,25,16,8,9.3,1.3,459,0
 994,11-02-2024,Premalaya Home,Pune,MH,292,195,97,66.8,22,44,56,Winter,Needs maintenance,Sunday,2,0,18.4,119.0,2760864,59,Medium,4,0,23,12,27,16,3,11.7,7.5,377,0
 995,14-04-2025,Apna Ghar Ashram,Bangalore,KA,119,85,34,71.4,22,58,42,Summer,High demand,Monday,4,0,33.8,39.5,4991714,49,Medium,3,0,26,9,22,3,0,16.1,4.3,387,1
 996,23-01-2024,Sahara Vikas Kendra,Mumbai,MH,272,252,20,92.6,27,58,42,Winter,Normal,Tuesday,1,0,31.4,259.6,4393699,54,Medium,7,1,36,1,2,4,0,16.0,10.7,278,0
@@ -999,3 +999,262 @@ id,date,shelter_name,city,state,total_capacity,occupied_beds,available_beds,occu
 998,03-08-2024,Navjeevan Griha,Hyderabad,TS,68,63,5,92.6,63,57,43,Monsoon,Needs maintenance,Saturday,8,0,16.7,92.9,3185609,16,High,8,0,62,7,24,19,1,6.1,2.1,208,1
 999,04-11-2023,Apna Ghar Ashram,Delhi,DL,137,102,35,74.5,30,42,58,Autumn,Needs maintenance,Saturday,11,1,16.4,87.0,985783,51,High,6,1,78,35,26,9,6,14.6,3.3,414,1
 1000,07-09-2025,Asha Deep Shelter,Kolkata,WB,98,90,8,91.8,32,55,45,Monsoon,No issues reported,Sunday,9,0,22.1,261.4,2209932,17,Medium,7,1,25,24,25,13,6,9.5,6.4,15,0
+0,25-11-2025,Test Shelter 1764056576,Bangalore,0,100,0,100,0.0,30,50,50,Winter,0,Monday,0,0,0.0,0.0,0,5,Medium,0,0,0,0,0,0,0,0.0,0.0,0,0
+0,25-11-2025,Manasa,Bangalore,0,200,0,200,0.0,30,50,50,Winter,0,Monday,0,0,0.0,0.0,0,5,Medium,0,0,0,0,0,0,0,0.0,0.0,0,0
+0,25-11-2025,Siksha,Bangalore,0,120,0,120,0.0,30,50,50,Winter,0,Monday,0,0,0.0,0.0,0,5,Medium,0,0,0,0,0,0,0,0.0,0.0,0,0
+0,25-11-2025,Test 1 1764057217.6885107,Bangalore,0,100,9,91,9.0,30,50,50,Winter,0,Monday,0,0,0.0,0.0,0,5,Medium,0,0,0,0,0,0,0,0.0,0.0,0,0
+0,25-11-2025,Test 2 1764057217.7560446,Bangalore,0,100,0,100,0.0,30,50,50,Winter,0,Monday,0,0,0.0,0.0,0,5,Medium,0,0,0,0,0,0,0,0.0,0.0,0,0
+0,25-11-2025,Siksha,Bangalore,0,120,7,113,5.833333333333333,30,50,50,Winter,0,Monday,0,0,0.0,0.0,0,5,Medium,0,0,0,0,0,0,0,0.0,0.0,0,0
+0,25-11-2025,rishal,Bangalore,0,150,5,145,3.333333333333333,30,50,50,Winter,0,Monday,0,0,0.0,0.0,0,5,Medium,0,0,0,0,0,0,0,0.0,0.0,0,0
+52,13-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,32,18,64.0,37,55,45,Monsoon,Normal,Saturday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,14-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,28,22,56.0,37,55,45,Monsoon,Normal,Sunday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,15-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,44,6,88.0,37,55,45,Monsoon,Normal,Monday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,16-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,41,9,82.0,37,55,45,Monsoon,Normal,Tuesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,17-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,31,19,62.0,37,55,45,Monsoon,Normal,Wednesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,18-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,39,11,78.0,37,55,45,Monsoon,Normal,Thursday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,19-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,35,15,70.0,37,55,45,Monsoon,Normal,Friday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,20-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,26,24,52.0,37,55,45,Monsoon,Normal,Saturday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,21-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,29,21,58.0,37,55,45,Monsoon,Normal,Sunday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,22-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,29,21,58.0,37,55,45,Monsoon,Normal,Monday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,23-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,40,10,80.0,37,55,45,Monsoon,Normal,Tuesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,24-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,39,11,78.0,37,55,45,Monsoon,Normal,Wednesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,25-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,29,21,58.0,37,55,45,Monsoon,Normal,Thursday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,26-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,46,4,92.0,37,55,45,Monsoon,Normal,Friday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,27-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,26,24,52.0,37,55,45,Monsoon,Normal,Saturday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,28-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,32,18,64.0,37,55,45,Monsoon,Normal,Sunday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,29-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,39,11,78.0,37,55,45,Monsoon,Normal,Monday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,30-09-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,30,20,60.0,37,55,45,Monsoon,Normal,Tuesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,01-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,43,7,86.0,37,55,45,Monsoon,Normal,Wednesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,02-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,32,18,64.0,37,55,45,Monsoon,Normal,Thursday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,03-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,27,23,54.0,37,55,45,Monsoon,Normal,Friday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,04-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,46,4,92.0,37,55,45,Monsoon,Normal,Saturday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,05-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,31,19,62.0,37,55,45,Monsoon,Normal,Sunday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,06-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,43,7,86.0,37,55,45,Monsoon,Normal,Monday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,07-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,33,17,66.0,37,55,45,Monsoon,Normal,Tuesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,08-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,25,25,50.0,37,55,45,Monsoon,Normal,Wednesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,09-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,28,22,56.0,37,55,45,Monsoon,Normal,Thursday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,10-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,46,4,92.0,37,55,45,Monsoon,Normal,Friday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,11-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,46,4,92.0,37,55,45,Monsoon,Normal,Saturday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,12-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,29,21,58.0,37,55,45,Monsoon,Normal,Sunday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,13-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,38,12,76.0,37,55,45,Monsoon,Normal,Monday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,14-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,35,15,70.0,37,55,45,Monsoon,Normal,Tuesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,15-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,28,22,56.0,37,55,45,Monsoon,Normal,Wednesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,16-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,44,6,88.0,37,55,45,Monsoon,Normal,Thursday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,17-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,45,5,90.0,37,55,45,Monsoon,Normal,Friday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,18-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,39,11,78.0,37,55,45,Monsoon,Normal,Saturday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,19-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,33,17,66.0,37,55,45,Monsoon,Normal,Sunday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,20-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,33,17,66.0,37,55,45,Monsoon,Normal,Monday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,21-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,25,25,50.0,37,55,45,Monsoon,Normal,Tuesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,22-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,46,4,92.0,37,55,45,Monsoon,Normal,Wednesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,23-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,27,23,54.0,37,55,45,Monsoon,Normal,Thursday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,24-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,45,5,90.0,37,55,45,Monsoon,Normal,Friday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,25-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,33,17,66.0,37,55,45,Monsoon,Normal,Saturday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,26-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,30,20,60.0,37,55,45,Monsoon,Normal,Sunday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,27-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,26,24,52.0,37,55,45,Monsoon,Normal,Monday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,28-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,26,24,52.0,37,55,45,Monsoon,Normal,Tuesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,29-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,39,11,78.0,37,55,45,Monsoon,Normal,Wednesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,30-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,45,5,90.0,37,55,45,Monsoon,Normal,Thursday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,31-10-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,31,19,62.0,37,55,45,Monsoon,Normal,Friday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,01-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,34,16,68.0,37,55,45,Monsoon,Normal,Saturday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,02-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,34,16,68.0,37,55,45,Monsoon,Normal,Sunday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,03-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,42,8,84.0,37,55,45,Monsoon,Normal,Monday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,04-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,27,23,54.0,37,55,45,Monsoon,Normal,Tuesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,05-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,28,22,56.0,37,55,45,Monsoon,Normal,Wednesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,06-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,33,17,66.0,37,55,45,Monsoon,Normal,Thursday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,07-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,28,22,56.0,37,55,45,Monsoon,Normal,Friday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,08-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,45,5,90.0,37,55,45,Monsoon,Normal,Saturday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,09-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,46,4,92.0,37,55,45,Monsoon,Normal,Sunday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,10-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,46,4,92.0,37,55,45,Monsoon,Normal,Monday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+52,11-11-2025,Jeevan Jyoti Shelter,Hyderabad,TS,50,42,8,84.0,37,55,45,Monsoon,Normal,Tuesday,9,0,28.2,145.4,145556,54,Medium,2,0,74,16,2,5,0,7.9,1.5,420,0
+1,29-06-2025,Umeed Ki Kiran,Bangalore,KA,206,149,57,72.3,60,55,45,Monsoon,New admissions pending,Sunday,6,0,19.6,78.5,3606210,21,Medium,9,1,61,0,11,11,0,4.6,3.7,367,0
+5,17-01-2024,Umeed Ki Kiran,Mumbai,MH,121,107,14,88.4,48,53,47,Winter,Normal,Wednesday,1,0,35.2,81.6,4649409,5,High,7,0,53,56,6,8,1,14.2,1.3,41,0
+15,19-04-2025,Umeed Ki Kiran,Kolkata,WB,107,62,45,57.9,22,51,49,Summer,Needs maintenance,Saturday,4,0,32.6,159.7,295300,51,Low,3,1,71,35,26,5,5,9.6,15.0,480,1
+18,03-09-2025,Umeed Ki Kiran,Surat,GJ,57,54,3,94.7,65,40,60,Monsoon,High demand,Wednesday,9,0,29.2,270.0,903392,20,High,6,0,47,25,27,12,8,8.8,4.1,51,0
+21,24-11-2024,Umeed Ki Kiran,Kolkata,WB,97,82,15,84.5,27,57,43,Autumn,Excellent condition,Sunday,11,0,32.4,289.0,1240456,8,High,8,0,48,12,9,3,1,8.2,13.0,360,0
+58,06-10-2023,Umeed Ki Kiran,Delhi,DL,267,236,31,88.4,27,43,57,Autumn,Excellent condition,Friday,10,0,25.0,123.5,3576362,47,High,8,0,14,0,27,3,2,10.1,12.9,191,1
+69,16-07-2025,Umeed Ki Kiran,Bangalore,KA,207,148,59,71.5,26,46,54,Monsoon,High demand,Wednesday,7,0,23.9,49.4,1448949,10,High,7,0,36,40,28,17,8,12.1,5.4,48,1
+88,17-12-2024,Umeed Ki Kiran,Hyderabad,TS,152,108,44,71.1,32,42,58,Winter,Needs maintenance,Tuesday,12,0,19.2,197.0,1102425,8,Low,5,1,57,41,3,18,3,16.6,13.7,456,0
+94,10-09-2025,Umeed Ki Kiran,Bangalore,KA,148,144,4,97.3,59,53,47,Monsoon,Excellent condition,Wednesday,9,0,27.8,157.0,330833,36,Low,6,1,70,42,21,18,2,12.8,12.6,275,1
+154,13-09-2025,Umeed Ki Kiran,Bangalore,KA,289,230,59,79.6,26,45,55,Monsoon,Needs maintenance,Saturday,9,0,32.0,247.8,1464718,11,Medium,1,0,11,31,11,13,3,14.4,7.3,206,0
+167,12-02-2025,Umeed Ki Kiran,Bangalore,KA,51,48,3,94.1,48,41,59,Winter,New admissions pending,Wednesday,2,0,35.8,190.2,1419391,39,Medium,7,0,69,51,2,18,4,12.3,13.2,397,0
+178,15-12-2023,Umeed Ki Kiran,Surat,GJ,67,60,7,89.6,48,52,48,Winter,Needs maintenance,Friday,12,0,17.7,192.9,3030672,16,Low,9,1,21,16,24,13,5,13.6,1.4,133,1
+198,30-07-2025,Umeed Ki Kiran,Kolkata,WB,85,60,25,70.6,20,59,41,Monsoon,New admissions pending,Wednesday,7,0,39.2,259.4,2302641,21,Low,4,1,35,20,15,14,5,12.4,5.5,431,1
+207,16-02-2025,Umeed Ki Kiran,Ahmedabad,GJ,104,88,16,84.6,66,55,45,Winter,No issues reported,Sunday,2,0,32.1,84.0,4205479,58,Low,2,1,23,21,12,13,4,10.0,14.2,134,0
+211,28-04-2025,Umeed Ki Kiran,Hyderabad,TS,204,140,64,68.6,38,60,40,Summer,Excellent condition,Monday,4,0,25.7,226.2,3816001,41,Low,9,1,9,27,6,7,0,14.7,10.4,38,0
+214,30-01-2024,Umeed Ki Kiran,Delhi,DL,207,152,55,73.4,30,40,60,Winter,High demand,Tuesday,1,0,34.9,288.8,903605,20,Low,6,0,14,35,8,0,4,15.9,13.1,426,0
+215,07-06-2025,Umeed Ki Kiran,Pune,MH,224,157,67,70.1,26,53,47,Monsoon,Excellent condition,Saturday,6,0,32.3,218.0,2422948,18,High,3,0,2,42,11,19,5,8.9,13.0,205,0
+218,25-11-2023,Umeed Ki Kiran,Mumbai,MH,123,74,49,60.2,49,59,41,Autumn,Needs maintenance,Saturday,11,0,32.0,84.5,820692,49,High,1,0,69,16,19,0,9,7.2,6.1,415,0
+236,20-03-2025,Umeed Ki Kiran,Mumbai,MH,71,43,28,60.6,23,51,49,Summer,Normal,Thursday,3,0,24.2,178.0,1899395,33,Medium,1,1,37,16,27,6,6,10.8,12.8,456,0
+237,03-04-2024,Umeed Ki Kiran,Pune,MH,238,182,56,76.5,27,58,42,Summer,Needs maintenance,Wednesday,4,0,36.6,267.7,1039336,24,Low,1,1,41,38,14,4,1,5.1,11.1,301,0
+244,21-08-2025,Umeed Ki Kiran,Hyderabad,TS,166,162,4,97.6,46,52,48,Monsoon,Excellent condition,Thursday,8,0,36.1,298.6,4368420,20,High,8,0,19,6,14,4,4,12.4,10.0,281,1
+252,11-12-2023,Umeed Ki Kiran,Hyderabad,TS,167,127,40,76.0,23,46,54,Winter,New admissions pending,Monday,12,0,27.0,272.9,3941151,27,Medium,8,1,29,22,22,15,7,15.7,2.3,449,0
+263,17-11-2024,Umeed Ki Kiran,Surat,GJ,244,171,73,70.1,20,55,45,Autumn,New admissions pending,Sunday,11,0,22.8,267.8,1612518,40,High,9,1,23,6,22,4,6,14.4,5.6,375,0
+267,17-03-2025,Umeed Ki Kiran,Bangalore,KA,110,83,27,75.5,30,50,50,Summer,No issues reported,Monday,3,0,24.8,177.5,1637819,23,Medium,6,1,25,46,2,3,9,5.6,6.5,389,1
+269,28-12-2024,Umeed Ki Kiran,Pune,MH,165,116,49,70.3,26,41,59,Winter,New admissions pending,Saturday,12,0,30.0,71.2,644557,10,Medium,4,1,79,27,17,1,5,7.8,11.6,300,1
+273,09-12-2023,Umeed Ki Kiran,Bangalore,KA,204,138,66,67.6,44,53,47,Winter,Excellent condition,Saturday,12,0,34.5,146.3,3295705,24,High,8,0,50,18,7,4,9,5.5,4.2,166,1
+274,12-04-2025,Umeed Ki Kiran,Mumbai,MH,286,185,101,64.7,20,53,47,Summer,No issues reported,Saturday,4,1,16.0,195.7,533442,13,Medium,7,0,34,16,0,5,6,3.4,1.3,434,0
+276,22-03-2025,Umeed Ki Kiran,Ahmedabad,GJ,273,137,136,50.2,69,53,47,Summer,Excellent condition,Saturday,3,0,17.6,180.2,1470827,8,Medium,6,0,28,25,13,7,8,17.6,3.0,226,1
+300,12-10-2024,Umeed Ki Kiran,Kolkata,WB,106,80,26,75.5,46,47,53,Autumn,Excellent condition,Saturday,10,0,32.7,101.7,4364380,39,High,6,0,29,25,8,19,0,15.0,3.6,160,1
+320,26-03-2025,Umeed Ki Kiran,Bangalore,KA,188,109,79,58.0,51,58,42,Summer,High demand,Wednesday,3,0,16.5,123.3,4670792,35,Low,2,0,5,4,14,10,5,17.0,5.6,201,1
+326,23-11-2024,Umeed Ki Kiran,Hyderabad,TS,252,194,58,77.0,35,46,54,Autumn,New admissions pending,Saturday,11,0,23.4,286.5,2380344,25,High,1,1,0,50,1,17,9,13.2,4.8,276,0
+328,14-03-2025,Umeed Ki Kiran,Hyderabad,TS,290,224,66,77.2,27,45,55,Summer,Excellent condition,Friday,3,0,34.7,0.5,575005,11,High,8,1,36,3,6,2,2,13.0,9.6,187,1
+342,20-02-2024,Umeed Ki Kiran,Pune,MH,63,54,9,85.7,42,57,43,Winter,Needs maintenance,Tuesday,2,0,26.6,21.3,3251208,57,Low,1,0,3,57,4,5,3,12.4,4.9,340,0
+375,16-04-2025,Umeed Ki Kiran,Chennai,TN,209,165,44,78.9,26,56,44,Summer,No issues reported,Wednesday,4,0,21.2,201.9,3872727,36,Medium,2,1,59,30,26,18,5,7.6,2.0,465,1
+376,08-05-2024,Umeed Ki Kiran,Pune,MH,258,131,127,50.8,19,48,52,Summer,No issues reported,Wednesday,5,0,36.8,82.6,1294360,14,High,6,1,69,20,26,17,1,17.6,2.5,98,0
+389,20-07-2025,Umeed Ki Kiran,Kolkata,WB,164,131,33,79.9,64,52,48,Monsoon,High demand,Sunday,7,0,39.2,211.7,158944,26,Medium,6,0,47,2,21,10,5,3.4,1.7,184,0
+392,24-01-2024,Umeed Ki Kiran,Jaipur,RJ,204,184,20,90.2,43,43,57,Winter,Excellent condition,Wednesday,1,0,16.8,50.1,3765929,47,Medium,3,0,61,53,10,9,8,9.2,7.2,263,1
+394,27-02-2024,Umeed Ki Kiran,Jaipur,RJ,173,155,18,89.6,60,49,51,Winter,High demand,Tuesday,2,0,28.0,42.8,4441401,45,Low,6,1,75,45,17,10,0,10.4,12.7,122,1
+400,09-01-2025,Umeed Ki Kiran,Chennai,TN,117,90,27,76.9,43,43,57,Winter,High demand,Thursday,1,0,32.7,191.1,3952908,6,High,6,0,38,58,18,8,3,5.5,3.3,393,0
+409,14-08-2024,Umeed Ki Kiran,Mumbai,MH,236,228,8,96.6,67,47,53,Monsoon,High demand,Wednesday,8,1,29.6,296.4,2986537,38,Low,7,1,19,54,9,11,3,13.6,13.2,139,1
+411,08-11-2024,Umeed Ki Kiran,Ahmedabad,GJ,228,185,43,81.1,28,40,60,Autumn,No issues reported,Friday,11,0,20.1,206.5,3649537,24,Medium,1,0,33,37,28,11,6,9.5,14.3,57,1
+418,17-09-2024,Umeed Ki Kiran,Bangalore,KA,74,52,22,70.3,54,42,58,Monsoon,Normal,Tuesday,9,0,18.1,11.7,234514,58,Medium,5,1,76,30,19,15,4,4.6,4.8,249,0
+453,05-11-2023,Umeed Ki Kiran,Ahmedabad,GJ,144,120,24,83.3,56,52,48,Autumn,No issues reported,Sunday,11,0,36.7,167.3,324535,37,High,5,1,53,6,13,10,5,17.6,12.4,60,1
+454,18-10-2024,Umeed Ki Kiran,Ahmedabad,GJ,202,169,33,83.7,27,48,52,Autumn,No issues reported,Friday,10,1,29.3,104.2,3298204,49,Low,4,1,24,23,1,15,0,16.0,14.9,163,1
+458,16-09-2024,Umeed Ki Kiran,Surat,GJ,67,56,11,83.6,55,43,57,Monsoon,Normal,Monday,9,0,31.9,187.9,967472,42,Low,9,0,73,29,28,18,1,12.7,10.1,245,0
+483,03-02-2024,Umeed Ki Kiran,Jaipur,RJ,259,231,28,89.2,34,43,57,Winter,No issues reported,Saturday,2,0,28.6,283.2,556453,19,Medium,2,0,10,3,25,0,9,4.2,6.3,382,1
+498,19-12-2024,Umeed Ki Kiran,Chennai,TN,247,225,22,91.1,53,58,42,Winter,No issues reported,Thursday,12,0,26.6,259.7,4211603,19,Medium,5,1,60,17,21,7,6,12.6,14.7,118,0
+500,25-04-2025,Umeed Ki Kiran,Bangalore,KA,235,171,64,72.8,31,49,51,Summer,High demand,Friday,4,1,36.6,122.3,3790030,37,Medium,4,0,77,51,18,0,5,16.6,12.4,424,1
+505,25-03-2025,Umeed Ki Kiran,Pune,MH,156,81,75,51.9,54,52,48,Summer,Normal,Tuesday,3,0,24.5,60.1,2449146,32,High,7,1,69,8,27,16,0,8.2,12.0,133,0
+512,24-08-2024,Umeed Ki Kiran,Jaipur,RJ,137,100,37,73.0,53,47,53,Monsoon,Excellent condition,Saturday,8,0,33.0,265.0,1734449,17,Medium,2,1,70,50,24,18,9,8.9,13.5,327,0
+518,05-07-2024,Umeed Ki Kiran,Jaipur,RJ,143,108,35,75.5,29,50,50,Monsoon,High demand,Friday,7,0,37.5,143.1,2838107,10,Low,2,0,25,33,19,9,9,15.5,1.3,44,1
+521,19-06-2025,Umeed Ki Kiran,Ahmedabad,GJ,182,135,47,74.2,29,45,55,Monsoon,No issues reported,Thursday,6,0,16.5,207.8,1035257,26,Medium,5,0,22,23,14,7,0,9.9,2.4,135,0
+533,26-09-2024,Umeed Ki Kiran,Mumbai,MH,115,106,9,92.2,26,50,50,Monsoon,High demand,Thursday,9,1,32.9,88.4,3417851,36,High,5,0,30,32,19,1,1,8.4,10.6,492,0
+555,15-08-2025,Umeed Ki Kiran,Kolkata,WB,203,144,59,70.9,34,47,53,Monsoon,New admissions pending,Friday,8,0,20.7,21.7,1908997,24,Medium,7,0,16,59,22,19,7,7.8,7.8,174,0
+564,04-03-2024,Umeed Ki Kiran,Kolkata,WB,229,146,83,63.8,59,49,51,Summer,Excellent condition,Monday,3,0,21.9,21.9,538051,9,High,5,1,19,17,3,6,6,7.5,4.8,453,0
+569,29-03-2025,Umeed Ki Kiran,Mumbai,MH,146,73,73,50.0,66,47,53,Summer,High demand,Saturday,3,1,30.6,241.0,1314134,49,High,2,0,30,16,5,8,8,7.8,5.8,66,1
+586,19-04-2024,Umeed Ki Kiran,Ahmedabad,GJ,106,63,43,59.4,23,54,46,Summer,Normal,Friday,4,0,18.4,187.4,4756797,51,Medium,8,1,75,6,19,16,0,11.0,10.6,372,1
+593,21-02-2024,Umeed Ki Kiran,Jaipur,RJ,66,60,6,90.9,67,60,40,Winter,High demand,Wednesday,2,0,18.2,165.8,1517130,56,High,9,0,74,7,10,14,4,4.1,12.7,333,0
+616,29-12-2023,Umeed Ki Kiran,Surat,GJ,278,260,18,93.5,60,42,58,Winter,No issues reported,Friday,12,1,31.7,30.6,3368843,30,High,6,0,57,47,21,13,2,9.5,3.5,384,1
+666,05-10-2023,Umeed Ki Kiran,Bangalore,KA,245,181,64,73.9,66,50,50,Autumn,Needs maintenance,Thursday,10,0,36.3,88.6,1654243,11,High,9,0,45,15,21,11,0,5.9,6.4,446,0
+671,14-10-2024,Umeed Ki Kiran,Bangalore,KA,256,219,37,85.5,46,45,55,Autumn,No issues reported,Monday,10,0,24.5,193.4,4280987,45,Medium,1,1,61,13,28,18,2,6.1,12.0,160,1
+694,16-06-2025,Umeed Ki Kiran,Delhi,DL,165,115,50,69.7,33,45,55,Monsoon,Excellent condition,Monday,6,0,18.7,139.2,561162,50,Medium,7,1,2,40,15,14,0,6.1,5.8,157,0
+696,28-05-2025,Umeed Ki Kiran,Surat,GJ,205,152,53,74.1,38,50,50,Summer,High demand,Wednesday,5,0,16.7,155.7,3461134,56,Medium,7,0,13,34,18,13,2,11.3,14.0,109,0
+698,22-05-2025,Umeed Ki Kiran,Pune,MH,259,135,124,52.1,58,54,46,Summer,No issues reported,Thursday,5,0,18.4,93.6,3250450,49,Medium,1,0,66,56,2,12,4,6.3,11.0,240,0
+703,07-11-2023,Umeed Ki Kiran,Hyderabad,TS,169,128,41,75.7,25,55,45,Autumn,Needs maintenance,Tuesday,11,0,22.8,37.7,1490351,42,High,4,1,26,8,10,15,3,14.3,9.7,95,1
+721,19-09-2023,Umeed Ki Kiran,Bangalore,KA,295,270,25,91.5,66,44,56,Monsoon,No issues reported,Tuesday,9,1,18.6,269.6,2381348,11,Low,8,0,15,38,2,1,0,17.0,9.5,413,1
+725,18-09-2023,Umeed Ki Kiran,Hyderabad,TS,245,210,35,85.7,46,50,50,Monsoon,Excellent condition,Monday,9,0,32.3,119.4,2856284,31,Low,4,0,26,22,3,17,1,11.5,5.2,485,0
+743,26-11-2023,Umeed Ki Kiran,Delhi,DL,137,83,54,60.6,55,50,50,Autumn,Needs maintenance,Sunday,11,0,34.2,58.7,497244,13,Medium,1,1,23,51,24,12,9,12.2,9.6,301,0
+744,02-01-2025,Umeed Ki Kiran,Surat,GJ,191,180,11,94.2,36,59,41,Winter,No issues reported,Thursday,1,0,15.3,42.2,2523188,39,Medium,3,1,35,1,14,18,5,5.8,8.5,29,0
+747,06-02-2025,Umeed Ki Kiran,Bangalore,KA,252,219,33,86.9,21,44,56,Winter,New admissions pending,Thursday,2,0,15.5,173.5,888927,23,Medium,5,1,74,49,10,4,4,17.3,4.3,399,1
+760,22-06-2024,Umeed Ki Kiran,Chennai,TN,227,179,48,78.9,34,48,52,Monsoon,New admissions pending,Saturday,6,0,28.7,18.7,548512,51,High,2,0,61,12,25,5,9,16.2,4.7,478,0
+794,12-08-2025,Umeed Ki Kiran,Jaipur,RJ,297,271,26,91.2,46,45,55,Monsoon,Excellent condition,Tuesday,8,0,32.0,77.9,4450852,12,Medium,9,1,22,9,24,8,1,5.7,2.8,422,0
+807,05-04-2025,Umeed Ki Kiran,Bangalore,KA,75,45,30,60.0,29,41,59,Summer,Needs maintenance,Saturday,4,1,31.5,227.2,631904,16,High,1,0,23,34,15,8,0,14.7,7.1,113,0
+822,23-04-2024,Umeed Ki Kiran,Jaipur,RJ,237,162,75,68.4,42,52,48,Summer,No issues reported,Tuesday,4,0,18.0,68.6,1622138,6,Medium,9,0,62,28,6,11,8,5.7,12.3,56,0
+839,02-04-2025,Umeed Ki Kiran,Bangalore,KA,296,221,75,74.7,51,52,48,Summer,No issues reported,Wednesday,4,0,38.2,228.3,2470872,15,High,9,0,38,35,23,11,3,6.0,4.1,403,0
+842,17-12-2024,Umeed Ki Kiran,Kolkata,WB,154,121,33,78.6,50,50,50,Winter,High demand,Tuesday,12,0,25.8,226.3,400679,8,High,6,0,36,12,24,1,2,7.5,2.8,264,1
+848,24-11-2024,Umeed Ki Kiran,Chennai,TN,88,55,33,62.5,38,53,47,Autumn,Excellent condition,Sunday,11,1,19.9,75.3,4482787,6,High,2,0,75,22,29,8,8,16.8,11.0,352,0
+867,16-04-2025,Umeed Ki Kiran,Bangalore,KA,226,148,78,65.5,34,47,53,Summer,New admissions pending,Wednesday,4,0,16.1,155.0,1384649,49,Medium,8,1,29,59,4,18,3,15.6,6.1,371,0
+871,17-08-2025,Umeed Ki Kiran,Delhi,DL,273,214,59,78.4,57,55,45,Monsoon,No issues reported,Sunday,8,0,35.4,268.2,1033667,27,Low,3,0,8,47,2,9,8,4.3,2.6,276,1
+873,26-03-2024,Umeed Ki Kiran,Bangalore,KA,162,104,58,64.2,69,45,55,Summer,No issues reported,Tuesday,3,0,27.6,267.8,2415885,46,High,7,0,70,36,22,3,1,8.6,1.7,494,1
+878,15-07-2025,Umeed Ki Kiran,Mumbai,MH,145,143,2,98.6,64,41,59,Monsoon,Needs maintenance,Tuesday,7,0,27.7,61.4,2974537,19,Medium,3,1,34,1,17,17,9,4.8,3.7,379,1
+887,31-05-2025,Umeed Ki Kiran,Kolkata,WB,120,83,37,69.2,21,42,58,Summer,Needs maintenance,Saturday,5,0,15.2,152.1,4825275,19,Medium,5,1,51,31,7,16,9,3.8,10.2,320,1
+889,22-08-2025,Umeed Ki Kiran,Kolkata,WB,280,216,64,77.1,25,44,56,Monsoon,No issues reported,Friday,8,0,33.2,243.3,2018067,10,Medium,1,0,63,47,24,11,9,4.9,12.1,355,1
+893,13-09-2024,Umeed Ki Kiran,Chennai,TN,126,99,27,78.6,53,43,57,Monsoon,High demand,Friday,9,0,35.0,231.3,3402214,17,High,2,1,14,37,29,17,0,16.9,14.1,64,0
+894,07-09-2025,Umeed Ki Kiran,Bangalore,KA,108,82,26,75.9,50,52,48,Monsoon,High demand,Sunday,9,0,20.1,196.4,2073615,33,Medium,5,1,5,47,26,1,8,15.8,3.3,217,1
+906,27-11-2023,Umeed Ki Kiran,Surat,GJ,147,128,19,87.1,48,59,41,Autumn,New admissions pending,Monday,11,0,20.1,16.4,4692681,49,Medium,2,0,12,7,8,13,4,15.8,1.2,238,1
+919,26-02-2025,Umeed Ki Kiran,Chennai,TN,105,71,34,67.6,53,53,47,Winter,High demand,Wednesday,2,0,24.8,126.8,842330,11,Low,7,1,43,7,15,6,6,14.9,11.6,314,0
+942,06-10-2024,Umeed Ki Kiran,Mumbai,MH,145,93,52,64.1,55,54,46,Autumn,No issues reported,Sunday,10,0,23.4,180.5,986320,52,High,3,1,37,11,25,0,5,9.7,12.2,81,0
+943,30-01-2024,Umeed Ki Kiran,Kolkata,WB,294,277,17,94.2,51,55,45,Winter,No issues reported,Tuesday,1,0,34.6,89.0,3936912,18,Low,3,0,55,8,9,14,5,11.2,7.0,496,0
+952,04-08-2024,Umeed Ki Kiran,Delhi,DL,203,197,6,97.0,64,47,53,Monsoon,No issues reported,Sunday,8,0,20.5,209.2,284000,29,Low,5,0,30,24,23,14,1,3.8,4.4,124,0
+968,09-02-2025,Umeed Ki Kiran,Hyderabad,TS,78,57,21,73.1,26,40,60,Winter,New admissions pending,Sunday,2,0,24.1,168.6,1625326,32,Medium,2,0,12,49,9,12,8,14.8,10.5,214,0
+969,11-07-2024,Umeed Ki Kiran,Pune,MH,219,206,13,94.1,48,43,57,Monsoon,High demand,Thursday,7,0,23.4,284.1,2418756,37,High,8,0,10,31,8,17,5,12.8,6.8,125,1
+971,17-11-2024,Umeed Ki Kiran,Hyderabad,TS,115,78,37,67.8,62,45,55,Autumn,New admissions pending,Sunday,11,0,15.6,114.2,3976690,50,Medium,2,1,72,54,21,6,3,9.2,11.6,279,0
+976,23-04-2024,Umeed Ki Kiran,Bangalore,KA,139,72,67,51.8,68,52,48,Summer,No issues reported,Tuesday,4,0,38.5,7.6,3654886,12,Medium,9,1,79,22,11,15,7,3.1,14.0,147,0
+983,04-05-2024,Umeed Ki Kiran,Delhi,DL,262,166,96,63.4,47,45,55,Summer,New admissions pending,Saturday,5,0,26.5,211.5,1973217,49,Medium,6,1,59,4,2,16,1,10.4,15.0,430,1
+993,15-06-2025,Umeed Ki Kiran,Bangalore,KA,92,61,31,66.30434782608695,50,50,50,Monsoon,Normal,Sunday,6,0,30.3,165.8,4652606,14,Low,8,1,70,44,25,16,8,9.3,1.3,459,0
+1,29-06-2025,Umeed Ki Kiran,Bangalore,KA,206,149,57,72.3,60,55,45,Monsoon,New admissions pending,Sunday,6,0,19.6,78.5,3606210,21,Medium,9,1,61,0,11,11,0,4.6,3.7,367,0
+5,17-01-2024,Umeed Ki Kiran,Mumbai,MH,121,107,14,88.4,48,53,47,Winter,Normal,Wednesday,1,0,35.2,81.6,4649409,5,High,7,0,53,56,6,8,1,14.2,1.3,41,0
+15,19-04-2025,Umeed Ki Kiran,Kolkata,WB,107,62,45,57.9,22,51,49,Summer,Needs maintenance,Saturday,4,0,32.6,159.7,295300,51,Low,3,1,71,35,26,5,5,9.6,15.0,480,1
+18,03-09-2025,Umeed Ki Kiran,Surat,GJ,57,54,3,94.7,65,40,60,Monsoon,High demand,Wednesday,9,0,29.2,270.0,903392,20,High,6,0,47,25,27,12,8,8.8,4.1,51,0
+21,24-11-2024,Umeed Ki Kiran,Kolkata,WB,97,82,15,84.5,27,57,43,Autumn,Excellent condition,Sunday,11,0,32.4,289.0,1240456,8,High,8,0,48,12,9,3,1,8.2,13.0,360,0
+58,06-10-2023,Umeed Ki Kiran,Delhi,DL,267,236,31,88.4,27,43,57,Autumn,Excellent condition,Friday,10,0,25.0,123.5,3576362,47,High,8,0,14,0,27,3,2,10.1,12.9,191,1
+69,16-07-2025,Umeed Ki Kiran,Bangalore,KA,207,148,59,71.5,26,46,54,Monsoon,High demand,Wednesday,7,0,23.9,49.4,1448949,10,High,7,0,36,40,28,17,8,12.1,5.4,48,1
+88,17-12-2024,Umeed Ki Kiran,Hyderabad,TS,152,108,44,71.1,32,42,58,Winter,Needs maintenance,Tuesday,12,0,19.2,197.0,1102425,8,Low,5,1,57,41,3,18,3,16.6,13.7,456,0
+94,10-09-2025,Umeed Ki Kiran,Bangalore,KA,148,144,4,97.3,59,53,47,Monsoon,Excellent condition,Wednesday,9,0,27.8,157.0,330833,36,Low,6,1,70,42,21,18,2,12.8,12.6,275,1
+154,13-09-2025,Umeed Ki Kiran,Bangalore,KA,289,230,59,79.6,26,45,55,Monsoon,Needs maintenance,Saturday,9,0,32.0,247.8,1464718,11,Medium,1,0,11,31,11,13,3,14.4,7.3,206,0
+167,12-02-2025,Umeed Ki Kiran,Bangalore,KA,51,48,3,94.1,48,41,59,Winter,New admissions pending,Wednesday,2,0,35.8,190.2,1419391,39,Medium,7,0,69,51,2,18,4,12.3,13.2,397,0
+178,15-12-2023,Umeed Ki Kiran,Surat,GJ,67,60,7,89.6,48,52,48,Winter,Needs maintenance,Friday,12,0,17.7,192.9,3030672,16,Low,9,1,21,16,24,13,5,13.6,1.4,133,1
+198,30-07-2025,Umeed Ki Kiran,Kolkata,WB,85,60,25,70.6,20,59,41,Monsoon,New admissions pending,Wednesday,7,0,39.2,259.4,2302641,21,Low,4,1,35,20,15,14,5,12.4,5.5,431,1
+207,16-02-2025,Umeed Ki Kiran,Ahmedabad,GJ,104,88,16,84.6,66,55,45,Winter,No issues reported,Sunday,2,0,32.1,84.0,4205479,58,Low,2,1,23,21,12,13,4,10.0,14.2,134,0
+211,28-04-2025,Umeed Ki Kiran,Hyderabad,TS,204,140,64,68.6,38,60,40,Summer,Excellent condition,Monday,4,0,25.7,226.2,3816001,41,Low,9,1,9,27,6,7,0,14.7,10.4,38,0
+214,30-01-2024,Umeed Ki Kiran,Delhi,DL,207,152,55,73.4,30,40,60,Winter,High demand,Tuesday,1,0,34.9,288.8,903605,20,Low,6,0,14,35,8,0,4,15.9,13.1,426,0
+215,07-06-2025,Umeed Ki Kiran,Pune,MH,224,157,67,70.1,26,53,47,Monsoon,Excellent condition,Saturday,6,0,32.3,218.0,2422948,18,High,3,0,2,42,11,19,5,8.9,13.0,205,0
+218,25-11-2023,Umeed Ki Kiran,Mumbai,MH,123,74,49,60.2,49,59,41,Autumn,Needs maintenance,Saturday,11,0,32.0,84.5,820692,49,High,1,0,69,16,19,0,9,7.2,6.1,415,0
+236,20-03-2025,Umeed Ki Kiran,Mumbai,MH,71,43,28,60.6,23,51,49,Summer,Normal,Thursday,3,0,24.2,178.0,1899395,33,Medium,1,1,37,16,27,6,6,10.8,12.8,456,0
+237,03-04-2024,Umeed Ki Kiran,Pune,MH,238,182,56,76.5,27,58,42,Summer,Needs maintenance,Wednesday,4,0,36.6,267.7,1039336,24,Low,1,1,41,38,14,4,1,5.1,11.1,301,0
+244,21-08-2025,Umeed Ki Kiran,Hyderabad,TS,166,162,4,97.6,46,52,48,Monsoon,Excellent condition,Thursday,8,0,36.1,298.6,4368420,20,High,8,0,19,6,14,4,4,12.4,10.0,281,1
+252,11-12-2023,Umeed Ki Kiran,Hyderabad,TS,167,127,40,76.0,23,46,54,Winter,New admissions pending,Monday,12,0,27.0,272.9,3941151,27,Medium,8,1,29,22,22,15,7,15.7,2.3,449,0
+263,17-11-2024,Umeed Ki Kiran,Surat,GJ,244,171,73,70.1,20,55,45,Autumn,New admissions pending,Sunday,11,0,22.8,267.8,1612518,40,High,9,1,23,6,22,4,6,14.4,5.6,375,0
+267,17-03-2025,Umeed Ki Kiran,Bangalore,KA,110,83,27,75.5,30,50,50,Summer,No issues reported,Monday,3,0,24.8,177.5,1637819,23,Medium,6,1,25,46,2,3,9,5.6,6.5,389,1
+269,28-12-2024,Umeed Ki Kiran,Pune,MH,165,116,49,70.3,26,41,59,Winter,New admissions pending,Saturday,12,0,30.0,71.2,644557,10,Medium,4,1,79,27,17,1,5,7.8,11.6,300,1
+273,09-12-2023,Umeed Ki Kiran,Bangalore,KA,204,138,66,67.6,44,53,47,Winter,Excellent condition,Saturday,12,0,34.5,146.3,3295705,24,High,8,0,50,18,7,4,9,5.5,4.2,166,1
+274,12-04-2025,Umeed Ki Kiran,Mumbai,MH,286,185,101,64.7,20,53,47,Summer,No issues reported,Saturday,4,1,16.0,195.7,533442,13,Medium,7,0,34,16,0,5,6,3.4,1.3,434,0
+276,22-03-2025,Umeed Ki Kiran,Ahmedabad,GJ,273,137,136,50.2,69,53,47,Summer,Excellent condition,Saturday,3,0,17.6,180.2,1470827,8,Medium,6,0,28,25,13,7,8,17.6,3.0,226,1
+300,12-10-2024,Umeed Ki Kiran,Kolkata,WB,106,80,26,75.5,46,47,53,Autumn,Excellent condition,Saturday,10,0,32.7,101.7,4364380,39,High,6,0,29,25,8,19,0,15.0,3.6,160,1
+320,26-03-2025,Umeed Ki Kiran,Bangalore,KA,188,109,79,58.0,51,58,42,Summer,High demand,Wednesday,3,0,16.5,123.3,4670792,35,Low,2,0,5,4,14,10,5,17.0,5.6,201,1
+326,23-11-2024,Umeed Ki Kiran,Hyderabad,TS,252,194,58,77.0,35,46,54,Autumn,New admissions pending,Saturday,11,0,23.4,286.5,2380344,25,High,1,1,0,50,1,17,9,13.2,4.8,276,0
+328,14-03-2025,Umeed Ki Kiran,Hyderabad,TS,290,224,66,77.2,27,45,55,Summer,Excellent condition,Friday,3,0,34.7,0.5,575005,11,High,8,1,36,3,6,2,2,13.0,9.6,187,1
+342,20-02-2024,Umeed Ki Kiran,Pune,MH,63,54,9,85.7,42,57,43,Winter,Needs maintenance,Tuesday,2,0,26.6,21.3,3251208,57,Low,1,0,3,57,4,5,3,12.4,4.9,340,0
+375,16-04-2025,Umeed Ki Kiran,Chennai,TN,209,165,44,78.9,26,56,44,Summer,No issues reported,Wednesday,4,0,21.2,201.9,3872727,36,Medium,2,1,59,30,26,18,5,7.6,2.0,465,1
+376,08-05-2024,Umeed Ki Kiran,Pune,MH,258,131,127,50.8,19,48,52,Summer,No issues reported,Wednesday,5,0,36.8,82.6,1294360,14,High,6,1,69,20,26,17,1,17.6,2.5,98,0
+389,20-07-2025,Umeed Ki Kiran,Kolkata,WB,164,131,33,79.9,64,52,48,Monsoon,High demand,Sunday,7,0,39.2,211.7,158944,26,Medium,6,0,47,2,21,10,5,3.4,1.7,184,0
+392,24-01-2024,Umeed Ki Kiran,Jaipur,RJ,204,184,20,90.2,43,43,57,Winter,Excellent condition,Wednesday,1,0,16.8,50.1,3765929,47,Medium,3,0,61,53,10,9,8,9.2,7.2,263,1
+394,27-02-2024,Umeed Ki Kiran,Jaipur,RJ,173,155,18,89.6,60,49,51,Winter,High demand,Tuesday,2,0,28.0,42.8,4441401,45,Low,6,1,75,45,17,10,0,10.4,12.7,122,1
+400,09-01-2025,Umeed Ki Kiran,Chennai,TN,117,90,27,76.9,43,43,57,Winter,High demand,Thursday,1,0,32.7,191.1,3952908,6,High,6,0,38,58,18,8,3,5.5,3.3,393,0
+409,14-08-2024,Umeed Ki Kiran,Mumbai,MH,236,228,8,96.6,67,47,53,Monsoon,High demand,Wednesday,8,1,29.6,296.4,2986537,38,Low,7,1,19,54,9,11,3,13.6,13.2,139,1
+411,08-11-2024,Umeed Ki Kiran,Ahmedabad,GJ,228,185,43,81.1,28,40,60,Autumn,No issues reported,Friday,11,0,20.1,206.5,3649537,24,Medium,1,0,33,37,28,11,6,9.5,14.3,57,1
+418,17-09-2024,Umeed Ki Kiran,Bangalore,KA,74,52,22,70.3,54,42,58,Monsoon,Normal,Tuesday,9,0,18.1,11.7,234514,58,Medium,5,1,76,30,19,15,4,4.6,4.8,249,0
+453,05-11-2023,Umeed Ki Kiran,Ahmedabad,GJ,144,120,24,83.3,56,52,48,Autumn,No issues reported,Sunday,11,0,36.7,167.3,324535,37,High,5,1,53,6,13,10,5,17.6,12.4,60,1
+454,18-10-2024,Umeed Ki Kiran,Ahmedabad,GJ,202,169,33,83.7,27,48,52,Autumn,No issues reported,Friday,10,1,29.3,104.2,3298204,49,Low,4,1,24,23,1,15,0,16.0,14.9,163,1
+458,16-09-2024,Umeed Ki Kiran,Surat,GJ,67,56,11,83.6,55,43,57,Monsoon,Normal,Monday,9,0,31.9,187.9,967472,42,Low,9,0,73,29,28,18,1,12.7,10.1,245,0
+483,03-02-2024,Umeed Ki Kiran,Jaipur,RJ,259,231,28,89.2,34,43,57,Winter,No issues reported,Saturday,2,0,28.6,283.2,556453,19,Medium,2,0,10,3,25,0,9,4.2,6.3,382,1
+498,19-12-2024,Umeed Ki Kiran,Chennai,TN,247,225,22,91.1,53,58,42,Winter,No issues reported,Thursday,12,0,26.6,259.7,4211603,19,Medium,5,1,60,17,21,7,6,12.6,14.7,118,0
+500,25-04-2025,Umeed Ki Kiran,Bangalore,KA,235,171,64,72.8,31,49,51,Summer,High demand,Friday,4,1,36.6,122.3,3790030,37,Medium,4,0,77,51,18,0,5,16.6,12.4,424,1
+505,25-03-2025,Umeed Ki Kiran,Pune,MH,156,81,75,51.9,54,52,48,Summer,Normal,Tuesday,3,0,24.5,60.1,2449146,32,High,7,1,69,8,27,16,0,8.2,12.0,133,0
+512,24-08-2024,Umeed Ki Kiran,Jaipur,RJ,137,100,37,73.0,53,47,53,Monsoon,Excellent condition,Saturday,8,0,33.0,265.0,1734449,17,Medium,2,1,70,50,24,18,9,8.9,13.5,327,0
+518,05-07-2024,Umeed Ki Kiran,Jaipur,RJ,143,108,35,75.5,29,50,50,Monsoon,High demand,Friday,7,0,37.5,143.1,2838107,10,Low,2,0,25,33,19,9,9,15.5,1.3,44,1
+521,19-06-2025,Umeed Ki Kiran,Ahmedabad,GJ,182,135,47,74.2,29,45,55,Monsoon,No issues reported,Thursday,6,0,16.5,207.8,1035257,26,Medium,5,0,22,23,14,7,0,9.9,2.4,135,0
+533,26-09-2024,Umeed Ki Kiran,Mumbai,MH,115,106,9,92.2,26,50,50,Monsoon,High demand,Thursday,9,1,32.9,88.4,3417851,36,High,5,0,30,32,19,1,1,8.4,10.6,492,0
+555,15-08-2025,Umeed Ki Kiran,Kolkata,WB,203,144,59,70.9,34,47,53,Monsoon,New admissions pending,Friday,8,0,20.7,21.7,1908997,24,Medium,7,0,16,59,22,19,7,7.8,7.8,174,0
+564,04-03-2024,Umeed Ki Kiran,Kolkata,WB,229,146,83,63.8,59,49,51,Summer,Excellent condition,Monday,3,0,21.9,21.9,538051,9,High,5,1,19,17,3,6,6,7.5,4.8,453,0
+569,29-03-2025,Umeed Ki Kiran,Mumbai,MH,146,73,73,50.0,66,47,53,Summer,High demand,Saturday,3,1,30.6,241.0,1314134,49,High,2,0,30,16,5,8,8,7.8,5.8,66,1
+586,19-04-2024,Umeed Ki Kiran,Ahmedabad,GJ,106,63,43,59.4,23,54,46,Summer,Normal,Friday,4,0,18.4,187.4,4756797,51,Medium,8,1,75,6,19,16,0,11.0,10.6,372,1
+593,21-02-2024,Umeed Ki Kiran,Jaipur,RJ,66,60,6,90.9,67,60,40,Winter,High demand,Wednesday,2,0,18.2,165.8,1517130,56,High,9,0,74,7,10,14,4,4.1,12.7,333,0
+616,29-12-2023,Umeed Ki Kiran,Surat,GJ,278,260,18,93.5,60,42,58,Winter,No issues reported,Friday,12,1,31.7,30.6,3368843,30,High,6,0,57,47,21,13,2,9.5,3.5,384,1
+666,05-10-2023,Umeed Ki Kiran,Bangalore,KA,245,181,64,73.9,66,50,50,Autumn,Needs maintenance,Thursday,10,0,36.3,88.6,1654243,11,High,9,0,45,15,21,11,0,5.9,6.4,446,0
+671,14-10-2024,Umeed Ki Kiran,Bangalore,KA,256,219,37,85.5,46,45,55,Autumn,No issues reported,Monday,10,0,24.5,193.4,4280987,45,Medium,1,1,61,13,28,18,2,6.1,12.0,160,1
+694,16-06-2025,Umeed Ki Kiran,Delhi,DL,165,115,50,69.7,33,45,55,Monsoon,Excellent condition,Monday,6,0,18.7,139.2,561162,50,Medium,7,1,2,40,15,14,0,6.1,5.8,157,0
+696,28-05-2025,Umeed Ki Kiran,Surat,GJ,205,152,53,74.1,38,50,50,Summer,High demand,Wednesday,5,0,16.7,155.7,3461134,56,Medium,7,0,13,34,18,13,2,11.3,14.0,109,0
+698,22-05-2025,Umeed Ki Kiran,Pune,MH,259,135,124,52.1,58,54,46,Summer,No issues reported,Thursday,5,0,18.4,93.6,3250450,49,Medium,1,0,66,56,2,12,4,6.3,11.0,240,0
+703,07-11-2023,Umeed Ki Kiran,Hyderabad,TS,169,128,41,75.7,25,55,45,Autumn,Needs maintenance,Tuesday,11,0,22.8,37.7,1490351,42,High,4,1,26,8,10,15,3,14.3,9.7,95,1
+721,19-09-2023,Umeed Ki Kiran,Bangalore,KA,295,270,25,91.5,66,44,56,Monsoon,No issues reported,Tuesday,9,1,18.6,269.6,2381348,11,Low,8,0,15,38,2,1,0,17.0,9.5,413,1
+725,18-09-2023,Umeed Ki Kiran,Hyderabad,TS,245,210,35,85.7,46,50,50,Monsoon,Excellent condition,Monday,9,0,32.3,119.4,2856284,31,Low,4,0,26,22,3,17,1,11.5,5.2,485,0
+743,26-11-2023,Umeed Ki Kiran,Delhi,DL,137,83,54,60.6,55,50,50,Autumn,Needs maintenance,Sunday,11,0,34.2,58.7,497244,13,Medium,1,1,23,51,24,12,9,12.2,9.6,301,0
+744,02-01-2025,Umeed Ki Kiran,Surat,GJ,191,180,11,94.2,36,59,41,Winter,No issues reported,Thursday,1,0,15.3,42.2,2523188,39,Medium,3,1,35,1,14,18,5,5.8,8.5,29,0
+747,06-02-2025,Umeed Ki Kiran,Bangalore,KA,252,219,33,86.9,21,44,56,Winter,New admissions pending,Thursday,2,0,15.5,173.5,888927,23,Medium,5,1,74,49,10,4,4,17.3,4.3,399,1
+760,22-06-2024,Umeed Ki Kiran,Chennai,TN,227,179,48,78.9,34,48,52,Monsoon,New admissions pending,Saturday,6,0,28.7,18.7,548512,51,High,2,0,61,12,25,5,9,16.2,4.7,478,0
+794,12-08-2025,Umeed Ki Kiran,Jaipur,RJ,297,271,26,91.2,46,45,55,Monsoon,Excellent condition,Tuesday,8,0,32.0,77.9,4450852,12,Medium,9,1,22,9,24,8,1,5.7,2.8,422,0
+807,05-04-2025,Umeed Ki Kiran,Bangalore,KA,75,45,30,60.0,29,41,59,Summer,Needs maintenance,Saturday,4,1,31.5,227.2,631904,16,High,1,0,23,34,15,8,0,14.7,7.1,113,0
+822,23-04-2024,Umeed Ki Kiran,Jaipur,RJ,237,162,75,68.4,42,52,48,Summer,No issues reported,Tuesday,4,0,18.0,68.6,1622138,6,Medium,9,0,62,28,6,11,8,5.7,12.3,56,0
+839,02-04-2025,Umeed Ki Kiran,Bangalore,KA,296,221,75,74.7,51,52,48,Summer,No issues reported,Wednesday,4,0,38.2,228.3,2470872,15,High,9,0,38,35,23,11,3,6.0,4.1,403,0
+842,17-12-2024,Umeed Ki Kiran,Kolkata,WB,154,121,33,78.6,50,50,50,Winter,High demand,Tuesday,12,0,25.8,226.3,400679,8,High,6,0,36,12,24,1,2,7.5,2.8,264,1
+848,24-11-2024,Umeed Ki Kiran,Chennai,TN,88,55,33,62.5,38,53,47,Autumn,Excellent condition,Sunday,11,1,19.9,75.3,4482787,6,High,2,0,75,22,29,8,8,16.8,11.0,352,0
+867,16-04-2025,Umeed Ki Kiran,Bangalore,KA,226,148,78,65.5,34,47,53,Summer,New admissions pending,Wednesday,4,0,16.1,155.0,1384649,49,Medium,8,1,29,59,4,18,3,15.6,6.1,371,0
+871,17-08-2025,Umeed Ki Kiran,Delhi,DL,273,214,59,78.4,57,55,45,Monsoon,No issues reported,Sunday,8,0,35.4,268.2,1033667,27,Low,3,0,8,47,2,9,8,4.3,2.6,276,1
+873,26-03-2024,Umeed Ki Kiran,Bangalore,KA,162,104,58,64.2,69,45,55,Summer,No issues reported,Tuesday,3,0,27.6,267.8,2415885,46,High,7,0,70,36,22,3,1,8.6,1.7,494,1
+878,15-07-2025,Umeed Ki Kiran,Mumbai,MH,145,143,2,98.6,64,41,59,Monsoon,Needs maintenance,Tuesday,7,0,27.7,61.4,2974537,19,Medium,3,1,34,1,17,17,9,4.8,3.7,379,1
+887,31-05-2025,Umeed Ki Kiran,Kolkata,WB,120,83,37,69.2,21,42,58,Summer,Needs maintenance,Saturday,5,0,15.2,152.1,4825275,19,Medium,5,1,51,31,7,16,9,3.8,10.2,320,1
+889,22-08-2025,Umeed Ki Kiran,Kolkata,WB,280,216,64,77.1,25,44,56,Monsoon,No issues reported,Friday,8,0,33.2,243.3,2018067,10,Medium,1,0,63,47,24,11,9,4.9,12.1,355,1
+893,13-09-2024,Umeed Ki Kiran,Chennai,TN,126,99,27,78.6,53,43,57,Monsoon,High demand,Friday,9,0,35.0,231.3,3402214,17,High,2,1,14,37,29,17,0,16.9,14.1,64,0
+894,07-09-2025,Umeed Ki Kiran,Bangalore,KA,108,82,26,75.9,50,52,48,Monsoon,High demand,Sunday,9,0,20.1,196.4,2073615,33,Medium,5,1,5,47,26,1,8,15.8,3.3,217,1
+906,27-11-2023,Umeed Ki Kiran,Surat,GJ,147,128,19,87.1,48,59,41,Autumn,New admissions pending,Monday,11,0,20.1,16.4,4692681,49,Medium,2,0,12,7,8,13,4,15.8,1.2,238,1
+919,26-02-2025,Umeed Ki Kiran,Chennai,TN,105,71,34,67.6,53,53,47,Winter,High demand,Wednesday,2,0,24.8,126.8,842330,11,Low,7,1,43,7,15,6,6,14.9,11.6,314,0
+942,06-10-2024,Umeed Ki Kiran,Mumbai,MH,145,93,52,64.1,55,54,46,Autumn,No issues reported,Sunday,10,0,23.4,180.5,986320,52,High,3,1,37,11,25,0,5,9.7,12.2,81,0
+943,30-01-2024,Umeed Ki Kiran,Kolkata,WB,294,277,17,94.2,51,55,45,Winter,No issues reported,Tuesday,1,0,34.6,89.0,3936912,18,Low,3,0,55,8,9,14,5,11.2,7.0,496,0
+952,04-08-2024,Umeed Ki Kiran,Delhi,DL,203,197,6,97.0,64,47,53,Monsoon,No issues reported,Sunday,8,0,20.5,209.2,284000,29,Low,5,0,30,24,23,14,1,3.8,4.4,124,0
+968,09-02-2025,Umeed Ki Kiran,Hyderabad,TS,78,57,21,73.1,26,40,60,Winter,New admissions pending,Sunday,2,0,24.1,168.6,1625326,32,Medium,2,0,12,49,9,12,8,14.8,10.5,214,0
+969,11-07-2024,Umeed Ki Kiran,Pune,MH,219,206,13,94.1,48,43,57,Monsoon,High demand,Thursday,7,0,23.4,284.1,2418756,37,High,8,0,10,31,8,17,5,12.8,6.8,125,1
+971,17-11-2024,Umeed Ki Kiran,Hyderabad,TS,115,78,37,67.8,62,45,55,Autumn,New admissions pending,Sunday,11,0,15.6,114.2,3976690,50,Medium,2,1,72,54,21,6,3,9.2,11.6,279,0
+976,23-04-2024,Umeed Ki Kiran,Bangalore,KA,139,72,67,51.8,68,52,48,Summer,No issues reported,Tuesday,4,0,38.5,7.6,3654886,12,Medium,9,1,79,22,11,15,7,3.1,14.0,147,0
+983,04-05-2024,Umeed Ki Kiran,Delhi,DL,262,166,96,63.4,47,45,55,Summer,New admissions pending,Saturday,5,0,26.5,211.5,1973217,49,Medium,6,1,59,4,2,16,1,10.4,15.0,430,1
+993,15-06-2025,Umeed Ki Kiran,Bangalore,KA,92,61,31,66.30434782608695,50,50,50,Monsoon,Normal,Sunday,6,0,30.3,165.8,4652606,14,Low,8,1,70,44,25,16,8,9.3,1.3,459,0
